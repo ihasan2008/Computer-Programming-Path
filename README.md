@@ -9,7 +9,6 @@
 
 -------------------------------------
 ## > Programming with Problem Solving
--------------------------------------
 
 * [x] i0.1 1.1 1 - Computer Programming {..}
 * [x] i0.1 1.1 1.1 - {1} Basic Computer Foundation
