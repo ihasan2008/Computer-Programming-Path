@@ -7,7 +7,7 @@
 > * {5} Programming Paradigms & Concepts
 > * {6} Programming Tools
 
-## Programming with Problem Solving :
+## Programming with Problem Solving ..
 
 * [x] i0.1 1.1 1 - Computer Programming {..}
 * [x] i0.1 1.1 1.1 - {1} Basic Computer Foundation
