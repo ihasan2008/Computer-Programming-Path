@@ -7,8 +7,8 @@
 > - {5} Programming Paradigms & Concepts
 > - {6} Programming Tools
 
-```
-~ Programming with Problem Solving ..
+Programming with Problem Solving ..
+
 ```
 
 - i0.1 1.1 1 - Computer Programming {..}
@@ -269,6 +269,6 @@
 
 ```
 
-i0.1 1.1 1.7 - @Problem Solving ( .. )
-
-```
+----------------------------------------
+> i0.1 1.1 1.7 - @Problem Solving ( .. )
+----------------------------------------
