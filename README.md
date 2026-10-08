@@ -10,7 +10,6 @@
 ~ PROGRAMMING with PROBLEM SOLVING 
 
 ```
-
 i0.1 1.1 1 - Computer Programming {..}
 i0.1 1.1 1.1 - {1} Basic Computer Foundation
 i0.1 1.1 1.1.1 - Introduction to Computers
@@ -266,7 +265,6 @@ i0.1 1.1 1.4.1.5 Dynamic Programming
 i0.1 1.1 1.4.1.6 Advanced Algorithms
 i0.1 1.1 1.5 - {5} Programming Paradigms & Concepts 
 i0.1 1.1 1.6 - {6} Programming Tools
-
 ```
 
 > i0.1 1.1 1.7 - @Problem Solving ( .. )
