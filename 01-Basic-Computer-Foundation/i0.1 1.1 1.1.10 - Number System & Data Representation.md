@@ -1,0 +1,2081 @@
+# > (1) Decimal Number System
+
+Decimal Number System (Base-10 Number System) হলো বিশ্বের সবচেয়ে বেশি ব্যবহৃত সংখ্যা পদ্ধতি। এই পদ্ধতিতে **১০টি অঙ্ক (Digits)** ব্যবহার করে সব ধরনের সংখ্যা প্রকাশ করা হয়।
+
+সহজ ভাষায়:
+
+আমরা দৈনন্দিন জীবনে যে সংখ্যা ব্যবহার করি, যেমন 5, 18, 250, 2026 — এগুলো সবই **Decimal Number System**-এর সংখ্যা।
+
+## What is the Decimal Number System?
+
+Decimal Number System হলো এমন একটি Number System যার **Base (Radix) = 10**।
+
+এর অর্থ হলো এই পদ্ধতিতে মোট ১০টি Digit ব্যবহার করা হয়।
+
+```text id="dec01"
+Base (Radix) = 10
+```
+
+## Digits Used in Decimal
+
+Decimal Number System-এ ব্যবহৃত Digitগুলো হলো:
+
+```text id="dec02"
+0 1 2 3 4 5 6 7 8 9
+```
+
+এই ১০টি Digit ব্যবহার করেই অসীম সংখ্যক সংখ্যা তৈরি করা যায়।
+
+## Why is it Called Base-10?
+
+Decimal Number System-কে **Base-10** বলা হয় কারণ এখানে প্রতিটি Digit-এর স্থানমান (Place Value) **10-এর ঘাত (Power)** অনুযায়ী নির্ধারিত হয়।
+
+```text id="dec03"
+10⁰ = 1
+10¹ = 10
+10² = 100
+10³ = 1000
+10⁴ = 10000
+```
+
+প্রতিটি বাম দিকের স্থান ডান দিকের স্থানের চেয়ে **১০ গুণ বড়**।
+
+## Place Value
+
+Decimal Number System-এ প্রতিটি Digit-এর মান তার অবস্থানের উপর নির্ভর করে।
+
+উদাহরণ:
+
+```text id="dec04"
+5837
+```
+
+| Digit | Place     |     Place Value |
+| ----- | --------- | --------------: |
+| 5     | Thousands | 5 × 1000 = 5000 |
+| 8     | Hundreds  |   8 × 100 = 800 |
+| 3     | Tens      |     3 × 10 = 30 |
+| 7     | Ones      |       7 × 1 = 7 |
+
+মোট মান:
+
+```text id="dec05"
+5000 + 800 + 30 + 7 = 5837
+```
+
+## Expanded Form
+
+Decimal সংখ্যাকে Place Value অনুযায়ী ভেঙে লেখা যায়।
+
+উদাহরণ:
+
+```text id="dec06"
+4265
+```
+
+Expanded Form:
+
+```text id="dec07"
+4000 + 200 + 60 + 5
+```
+
+অথবা,
+
+```text id="dec08"
+4 × 10³ + 2 × 10² + 6 × 10¹ + 5 × 10⁰
+```
+
+## General Formula
+
+যেকোনো Decimal Number-কে নিচের সূত্র অনুযায়ী প্রকাশ করা যায়।
+
+```text id="dec09"
+Number =
+Digit × 10ⁿ
+```
+
+যেখানে:
+
+* Digit = সংখ্যার অঙ্ক
+* n = Position (ডান দিক থেকে শুরু করে 0, 1, 2...)
+
+## Example 1
+
+```text id="dec10"
+352
+```
+
+Expanded Form:
+
+```text id="dec11"
+3 × 100
++
+5 × 10
++
+2 × 1
+```
+
+```text id="dec12"
+300 + 50 + 2 = 352
+```
+
+## Example 2
+
+```text id="dec13"
+9048
+```
+
+Expanded Form:
+
+```text id="dec14"
+9 × 1000
++
+0 × 100
++
+4 × 10
++
+8 × 1
+```
+
+```text id="dec15"
+9000 + 0 + 40 + 8 = 9048
+```
+
+## Characteristics of Decimal Number System
+
+```text id="dec16"
+Decimal Number System
+|
+├── Base = 10
+├── Uses 10 Digits
+├── Positional Number System
+├── Place Value Based
+└── Most Common Number System
+```
+
+### Base = 10
+
+এই Number System-এর ভিত্তি (Radix) 10।
+
+### Uses 10 Digits
+
+শুধুমাত্র 0 থেকে 9 পর্যন্ত Digit ব্যবহার করা হয়।
+
+### Positional Number System
+
+Digit-এর অবস্থান অনুযায়ী তার মান পরিবর্তিত হয়।
+
+### Easy Arithmetic
+
+Addition, Subtraction, Multiplication এবং Division সহজে করা যায়।
+
+## Decimal Fraction
+
+Decimal Number System-এ দশমিকের পরেও সংখ্যা থাকতে পারে।
+
+উদাহরণ:
+
+```text id="dec17"
+25.75
+```
+
+এখানে:
+
+| Digit | Position   | Value |
+| ----- | ---------- | ----- |
+| 2     | Tens       | 20    |
+| 5     | Ones       | 5     |
+| 7     | Tenths     | 0.7   |
+| 5     | Hundredths | 0.05  |
+
+## Real-Life Uses
+
+Decimal Number System ব্যবহার করা হয়:
+
+* দৈনন্দিন গণনা
+* টাকা-পয়সা হিসাব
+* ব্যাংকিং
+* বিজ্ঞান
+* শিক্ষা
+* ব্যবসা
+* প্রকৌশল
+
+## Decimal vs Binary
+
+| Feature | Decimal | Binary    |
+| ------- | ------- | --------- |
+| Base    | 10      | 2         |
+| Digits  | 0–9     | 0, 1      |
+| Used By | Humans  | Computers |
+
+## Advantages of Decimal Number System
+
+* মানুষের জন্য সহজে বোঝা যায়।
+* দৈনন্দিন জীবনে সবচেয়ে বেশি ব্যবহৃত হয়।
+* গাণিতিক হিসাব সহজ।
+* Place Value System হওয়ায় বড় সংখ্যা সহজে প্রকাশ করা যায়।
+
+## Limitations of Decimal Number System
+
+* Computer সরাসরি Decimal ব্যবহার করে না।
+* Digital Circuit মূলত Binary Number System ব্যবহার করে।
+* Computer-এ কাজ করার আগে Decimal সংখ্যাকে Binary-তে রূপান্তর করা হয়।
+
+## Real-Life Example
+
+ধরো তোমার কাছে **₹ 7,583** টাকা আছে।
+
+```text id="dec18"
+7583
+```
+
+এর মানে:
+
+```text id="dec19"
+7 × 1000
++
+5 × 100
++
+8 × 10
++
+3 × 1
+```
+
+এভাবেই আমরা প্রতিদিন Decimal Number System ব্যবহার করি।
+
+## Importance of Decimal Number System
+
+Decimal Number System:
+
+* মানুষের সবচেয়ে পরিচিত সংখ্যা পদ্ধতি।
+* গণিতের ভিত্তি।
+* বিজ্ঞান ও প্রকৌশলে ব্যবহৃত হয়।
+* অন্যান্য Number System (Binary, Octal, Hexadecimal)-এর সাথে Conversion শেখার ভিত্তি তৈরি করে।
+
+## Summary
+
+Decimal Number System হলো Base-10 ভিত্তিক একটি Positional Number System, যেখানে **0 থেকে 9 পর্যন্ত মোট ১০টি Digit** ব্যবহার করা হয়। প্রতিটি Digit-এর মান তার Position বা Place Value-এর উপর নির্ভর করে। এটি মানুষের দৈনন্দিন জীবনে সবচেয়ে বেশি ব্যবহৃত সংখ্যা পদ্ধতি এবং Computer Science-এ অন্যান্য Number System শেখার ভিত্তি হিসেবে কাজ করে।
+
+
+
+
+
+
+# > (2) Binary Number System
+
+Binary Number System (Base-2 Number System) হলো এমন একটি সংখ্যা পদ্ধতি, যেখানে **মাত্র ২টি Digit (0 এবং 1)** ব্যবহার করে সব ধরনের সংখ্যা প্রকাশ করা হয়। এটি Computer-এর মৌলিক (Fundamental) Number System, কারণ Computer-এর Electronic Circuit দুটি অবস্থা (ON/OFF) বুঝতে পারে।
+
+সহজ ভাষায়:
+
+Binary Number System হলো Computer-এর ভাষা, যেখানে **0** এবং **1** ব্যবহার করে সব ধরনের Data ও নির্দেশ (Instruction) প্রকাশ করা হয়।
+
+## What is the Binary Number System?
+
+Binary Number System হলো একটি Positional Number System যার **Base (Radix) = 2**।
+
+অর্থাৎ, এখানে শুধুমাত্র দুটি Digit ব্যবহার করা হয়।
+
+```text id="bin01"
+Base (Radix) = 2
+```
+
+## Digits Used in Binary
+
+Binary Number System-এ ব্যবহৃত Digit দুটি হলো:
+
+```text id="bin02"
+0 1
+```
+
+* **0** = OFF / False / Low Voltage
+* **1** = ON / True / High Voltage
+
+## Why is it Called Base-2?
+
+Binary Number System-কে **Base-2** বলা হয় কারণ প্রতিটি স্থানমান (Place Value) **2-এর ঘাত (Power)** অনুযায়ী নির্ধারিত হয়।
+
+```text id="bin03"
+2⁰ = 1
+2¹ = 2
+2² = 4
+2³ = 8
+2⁴ = 16
+2⁵ = 32
+2⁶ = 64
+```
+
+প্রতিটি বাম দিকের স্থান ডান দিকের স্থানের চেয়ে **২ গুণ বড়**।
+
+## Place Value
+
+Binary Number System-এ প্রতিটি Digit-এর মান তার অবস্থানের উপর নির্ভর করে।
+
+উদাহরণ:
+
+```text id="bin04"
+101101₂
+```
+
+| Binary Digit | Power of 2 | Value |
+| ------------ | ---------: | ----: |
+| 1            |         2⁵ |    32 |
+| 0            |         2⁴ |     0 |
+| 1            |         2³ |     8 |
+| 1            |         2² |     4 |
+| 0            |         2¹ |     0 |
+| 1            |         2⁰ |     1 |
+
+মোট মান:
+
+```text id="bin05"
+32 + 0 + 8 + 4 + 0 + 1 = 45₁₀
+```
+
+অর্থাৎ,
+
+```text id="bin06"
+101101₂ = 45₁₀
+```
+
+## Expanded Form
+
+Binary সংখ্যাকে Place Value অনুযায়ী ভেঙে লেখা যায়।
+
+উদাহরণ:
+
+```text id="bin07"
+1101₂
+```
+
+Expanded Form:
+
+```text id="bin08"
+1 × 2³
++
+1 × 2²
++
+0 × 2¹
++
+1 × 2⁰
+```
+
+```text id="bin09"
+8 + 4 + 0 + 1 = 13₁₀
+```
+
+## General Formula
+
+যেকোনো Binary Number-কে নিচের সূত্র অনুযায়ী প্রকাশ করা যায়।
+
+```text id="bin10"
+Number =
+Digit × 2ⁿ
+```
+
+যেখানে:
+
+* Digit = 0 অথবা 1
+* n = Position (ডান দিক থেকে শুরু করে 0, 1, 2...)
+
+## Why Do Computers Use Binary?
+
+Computer-এর ভিতরের Electronic Components (যেমন Transistor) সাধারণত দুটি অবস্থায় কাজ করে।
+
+```text id="bin11"
+ON
+OFF
+```
+
+এগুলোকে Binary হিসেবে প্রকাশ করা হয়।
+
+```text id="bin12"
+OFF = 0
+ON  = 1
+```
+
+এ কারণে Computer Binary Number System ব্যবহার করে।
+
+## Binary and Digital Electronics
+
+```text id="bin13"
+Low Voltage  = 0
+High Voltage = 1
+```
+
+Digital Circuit-এর প্রতিটি Signal Binary আকারে প্রকাশ করা হয়।
+
+## Binary Units
+
+Binary Data পরিমাপের জন্য কিছু মৌলিক একক ব্যবহৃত হয়।
+
+```text id="bin14"
+Binary Units
+|
+├── Bit
+├── Nibble
+├── Byte
+├── Kilobyte (KB)
+├── Megabyte (MB)
+├── Gigabyte (GB)
+└── Terabyte (TB)
+```
+
+### Bit
+
+সবচেয়ে ছোট Data Unit।
+
+```text id="bin15"
+0 অথবা 1
+```
+
+### Nibble
+
+```text id="bin16"
+4 Bits
+```
+
+### Byte
+
+```text id="bin17"
+8 Bits
+```
+
+উদাহরণ:
+
+```text id="bin18"
+01000001
+```
+
+## Characteristics of Binary Number System
+
+```text id="bin19"
+Binary Number System
+|
+├── Base = 2
+├── Uses Only 0 and 1
+├── Positional Number System
+├── Used by Computers
+└── Electronic Representation
+```
+
+### Base = 2
+
+মাত্র দুটি Digit ব্যবহার করা হয়।
+
+### Positional Number System
+
+Digit-এর অবস্থান অনুযায়ী মান পরিবর্তিত হয়।
+
+### Machine Friendly
+
+Computer Hardware সহজে Binary বুঝতে পারে।
+
+## Binary vs Decimal
+
+| Feature     | Binary      | Decimal      |
+| ----------- | ----------- | ------------ |
+| Base        | 2           | 10           |
+| Digits      | 0, 1        | 0–9          |
+| Used By     | Computers   | Humans       |
+| Place Value | Powers of 2 | Powers of 10 |
+
+## Real-Life Example
+
+ধরো একটি Light Switch।
+
+```text id="bin20"
+OFF = 0
+ON  = 1
+```
+
+Computer-এর কোটি কোটি Transistor ঠিক এভাবেই কাজ করে।
+
+## Advantages of Binary Number System
+
+* Computer-এর জন্য সবচেয়ে সহজ।
+* Electronic Circuit-এ নির্ভরযোগ্য।
+* Data Processing দ্রুত হয়।
+* Error কম হয়।
+* Digital System-এর ভিত্তি।
+
+## Limitations of Binary Number System
+
+* মানুষের জন্য পড়া কঠিন।
+* বড় সংখ্যা প্রকাশ করতে অনেক Digit লাগে।
+
+উদাহরণ:
+
+```text id="bin21"
+Decimal : 255
+
+Binary : 11111111
+```
+
+## Applications of Binary Number System
+
+Binary ব্যবহৃত হয়:
+
+* Computer Processing
+* Memory Storage
+* CPU Operations
+* Digital Electronics
+* Microcontrollers
+* Networking
+* Programming
+* Embedded Systems
+
+## Importance of Binary Number System
+
+Binary Number System:
+
+* Computer Science-এর ভিত্তি।
+* সব ধরনের Digital Device-এর মূল ভাষা।
+* Operating System, Programming এবং Networking বোঝার জন্য অপরিহার্য।
+* Data Representation-এর প্রধান ভিত্তি।
+
+## Summary
+
+Binary Number System হলো Base-2 ভিত্তিক একটি Positional Number System, যেখানে শুধুমাত্র **0** এবং **1** ব্যবহার করা হয়। Computer-এর সমস্ত Data, Program এবং Instruction শেষ পর্যন্ত Binary আকারে সংরক্ষণ ও Process করা হয়। Electronic Circuit-এর ON/OFF অবস্থা Binary Digit-এর মাধ্যমে প্রকাশ করা হয়, তাই Binary Number System আধুনিক Computer Technology-এর মৌলিক ভিত্তি।
+
+
+
+
+
+
+# > (3) Octal & Hexadecimal
+
+Octal এবং Hexadecimal হলো দুটি গুরুত্বপূর্ণ Number System, যা Computer Science, Digital Electronics, Programming এবং Computer Architecture-এ Binary Number-কে সহজভাবে প্রকাশ করার জন্য ব্যবহৃত হয়।
+
+সহজ ভাষায়:
+
+Octal এবং Hexadecimal হলো Binary Number-এর সংক্ষিপ্ত (Short) ও সহজ রূপ, যা মানুষের জন্য পড়া ও লেখা সহজ করে।
+
+## What are Octal & Hexadecimal?
+
+Octal Number System-এর **Base (Radix) = 8** এবং Hexadecimal Number System-এর **Base (Radix) = 16**।
+
+```text id="oh01"
+Octal Base = 8
+Hexadecimal Base = 16
+```
+
+উভয় Number System-ই Binary Number-এর বিকল্প (Alternative) Representation হিসেবে ব্যবহৃত হয়।
+
+## Why Do We Need Octal & Hexadecimal?
+
+Binary Number অনেক বড় হয়ে যায়।
+
+উদাহরণ:
+
+```text id="oh02"
+Binary
+
+1111111110101010
+```
+
+একই সংখ্যাকে Hexadecimal-এ লেখা যায়:
+
+```text id="oh03"
+FFAA
+```
+
+এটি পড়তে, লিখতে এবং Debug করতে অনেক সহজ।
+
+## Octal Number System
+
+Octal হলো Base-8 Number System।
+
+এখানে মোট ৮টি Digit ব্যবহার করা হয়।
+
+```text id="oh04"
+0 1 2 3 4 5 6 7
+```
+
+৮ বা তার বেশি কোনো Digit Octal-এ ব্যবহার করা যায় না।
+
+## Place Value in Octal
+
+Octal-এর প্রতিটি Position হলো 8-এর ঘাত।
+
+```text id="oh05"
+8⁰ = 1
+8¹ = 8
+8² = 64
+8³ = 512
+8⁴ = 4096
+```
+
+## Example of Octal
+
+ধরো:
+
+```text id="oh06"
+725₈
+```
+
+Expanded Form:
+
+```text id="oh07"
+7 × 8²
++
+2 × 8¹
++
+5 × 8⁰
+```
+
+```text id="oh08"
+448 + 16 + 5 = 469₁₀
+```
+
+অর্থাৎ,
+
+```text id="oh09"
+725₈ = 469₁₀
+```
+
+## Binary to Octal
+
+Binary থেকে Octal-এ রূপান্তরের জন্য ডান দিক থেকে **৩ Bit** করে Group করা হয়।
+
+উদাহরণ:
+
+```text id="oh10"
+Binary
+
+101110011
+```
+
+Group:
+
+```text id="oh11"
+101 110 011
+```
+
+Conversion:
+
+```text id="oh12"
+101 = 5
+110 = 6
+011 = 3
+```
+
+ফলাফল:
+
+```text id="oh13"
+563₈
+```
+
+## Hexadecimal Number System
+
+Hexadecimal হলো Base-16 Number System।
+
+এখানে মোট ১৬টি Symbol ব্যবহার করা হয়।
+
+```text id="oh14"
+0 1 2 3 4 5 6 7 8 9 A B C D E F
+```
+
+এখানে:
+
+| Symbol | Decimal Value |
+| ------ | ------------: |
+| A      |            10 |
+| B      |            11 |
+| C      |            12 |
+| D      |            13 |
+| E      |            14 |
+| F      |            15 |
+
+## Place Value in Hexadecimal
+
+Hexadecimal-এর প্রতিটি Position হলো 16-এর ঘাত।
+
+```text id="oh15"
+16⁰ = 1
+16¹ = 16
+16² = 256
+16³ = 4096
+```
+
+## Example of Hexadecimal
+
+ধরো:
+
+```text id="oh16"
+2AF₁₆
+```
+
+Expanded Form:
+
+```text id="oh17"
+2 × 16²
++
+10 × 16¹
++
+15 × 16⁰
+```
+
+```text id="oh18"
+512 + 160 + 15 = 687₁₀
+```
+
+অর্থাৎ,
+
+```text id="oh19"
+2AF₁₆ = 687₁₀
+```
+
+## Binary to Hexadecimal
+
+Binary থেকে Hexadecimal-এ রূপান্তরের জন্য ডান দিক থেকে **৪ Bit** করে Group করা হয়।
+
+উদাহরণ:
+
+```text id="oh20"
+Binary
+
+110101111001
+```
+
+Group:
+
+```text id="oh21"
+1101 0111 1001
+```
+
+Conversion:
+
+```text id="oh22"
+1101 = D
+0111 = 7
+1001 = 9
+```
+
+ফলাফল:
+
+```text id="oh23"
+D79₁₆
+```
+
+## Binary, Octal and Hexadecimal Relationship
+
+```text id="oh24"
+1 Octal Digit
+=
+3 Binary Bits
+
+1 Hex Digit
+=
+4 Binary Bits
+```
+
+## Conversion Summary
+
+| Conversion     | Rule                        |
+| -------------- | --------------------------- |
+| Binary → Octal | প্রতি 3 Bit = 1 Octal Digit |
+| Octal → Binary | প্রতি 1 Octal Digit = 3 Bit |
+| Binary → Hex   | প্রতি 4 Bit = 1 Hex Digit   |
+| Hex → Binary   | প্রতি 1 Hex Digit = 4 Bit   |
+
+## Characteristics
+
+```text id="oh25"
+Octal
+|
+├── Base = 8
+├── Digits = 0–7
+└── 3 Bits = 1 Digit
+
+Hexadecimal
+|
+├── Base = 16
+├── Digits = 0–9, A–F
+└── 4 Bits = 1 Digit
+```
+
+## Comparison of Number Systems
+
+| Number System | Base | Digits   |
+| ------------- | ---: | -------- |
+| Binary        |    2 | 0, 1     |
+| Octal         |    8 | 0–7      |
+| Decimal       |   10 | 0–9      |
+| Hexadecimal   |   16 | 0–9, A–F |
+
+## Applications of Octal
+
+Octal ব্যবহৃত হয়:
+
+* কিছু Legacy Computer System
+* Digital Electronics
+* Binary Representation সহজ করার জন্য
+
+বর্তমানে Octal-এর ব্যবহার তুলনামূলক কম।
+
+## Applications of Hexadecimal
+
+Hexadecimal ব্যাপকভাবে ব্যবহৃত হয়:
+
+* Memory Address
+* Machine Code
+* Debugging
+* Programming
+* Web Color Code
+
+উদাহরণ:
+
+```text id="oh26"
+#FF0000
+```
+
+এটি লাল (Red) রঙ নির্দেশ করে।
+
+## Advantages of Octal
+
+* Binary থেকে ছোট আকারে লেখা যায়।
+* 3 Bit Group হওয়ায় Conversion সহজ।
+
+## Advantages of Hexadecimal
+
+* Binary থেকে অনেক সংক্ষিপ্ত।
+* Memory Address প্রকাশে সুবিধাজনক।
+* Programming ও Debugging সহজ করে।
+* 4 Bit Group হওয়ায় Binary Conversion দ্রুত হয়।
+
+## Limitations
+
+Octal:
+
+* বর্তমানে তুলনামূলক কম ব্যবহৃত।
+
+Hexadecimal:
+
+* নতুন শিক্ষার্থীদের জন্য A–F Symbol প্রথমে কিছুটা বিভ্রান্তিকর হতে পারে।
+
+## Real-Life Example
+
+ধরো Computer Memory-তে একটি Binary Value আছে।
+
+```text id="oh27"
+Binary
+
+1111111100001010
+```
+
+Hexadecimal-এ এটি হবে:
+
+```text id="oh28"
+FF0A
+```
+
+একই তথ্য অনেক ছোট এবং সহজভাবে প্রকাশ করা যায়।
+
+## Importance of Octal & Hexadecimal
+
+Octal এবং Hexadecimal:
+
+* Binary Number সহজভাবে প্রকাশ করে।
+* Programming সহজ করে।
+* Memory Address বোঝাতে ব্যবহৃত হয়।
+* Computer Architecture শেখার জন্য গুরুত্বপূর্ণ।
+* Digital Electronics ও Embedded Systems-এ ব্যাপকভাবে ব্যবহৃত হয়।
+
+## Summary
+
+Octal হলো Base-8 এবং Hexadecimal হলো Base-16 Number System। Octal-এ **0–7** পর্যন্ত Digit এবং Hexadecimal-এ **0–9 ও A–F** পর্যন্ত Symbol ব্যবহৃত হয়। Binary Number-কে সহজ ও সংক্ষিপ্তভাবে প্রকাশ করার জন্য এই দুটি Number System ব্যবহৃত হয়। Binary-এর প্রতি **3 Bit = 1 Octal Digit** এবং প্রতি **4 Bit = 1 Hexadecimal Digit**। আধুনিক Computer Science-এ বিশেষ করে Hexadecimal অত্যন্ত গুরুত্বপূর্ণ।
+
+
+
+
+
+
+# > (4) Binary <=> Decimal Conversion
+
+Binary ⇔ Decimal Conversion হলো Binary Number (Base-2) এবং Decimal Number (Base-10)-এর মধ্যে সংখ্যা রূপান্তর (Conversion) করার প্রক্রিয়া।
+
+সহজ ভাষায়:
+
+Binary ⇔ Decimal Conversion হলো Computer-এর ভাষা (Binary) এবং মানুষের ভাষা (Decimal)-এর মধ্যে সংখ্যা পরিবর্তনের পদ্ধতি।
+
+## What is Binary ⇔ Decimal Conversion?
+
+Computer Binary Number ব্যবহার করে, কিন্তু মানুষ সাধারণত Decimal Number ব্যবহার করে। তাই Computer Science-এ এই দুই Number System-এর মধ্যে Conversion জানা অত্যন্ত গুরুত্বপূর্ণ।
+
+```text id="bd01"
+Binary
+   ⇅
+Conversion
+   ⇅
+Decimal
+```
+
+## Why is Binary ⇔ Decimal Conversion Important?
+
+Binary ⇔ Decimal Conversion ব্যবহৃত হয়:
+
+* Computer Programming
+* Digital Electronics
+* Networking
+* Operating Systems
+* Computer Architecture
+* Data Representation
+
+## Binary to Decimal Conversion
+
+Binary থেকে Decimal-এ রূপান্তরের জন্য প্রতিটি Binary Digit-কে তার Position অনুযায়ী **2-এর Power** দিয়ে গুণ করে সবগুলো মান যোগ করতে হয়।
+
+### Steps
+
+1. ডান দিক থেকে Position নির্ধারণ করুন (0 থেকে শুরু)।
+2. প্রতিটি Digit-কে 2ⁿ দিয়ে গুণ করুন।
+3. সব মান যোগ করুন।
+
+```text id="bd02"
+Decimal =
+Σ(Binary Digit × 2ⁿ)
+```
+
+## Binary to Decimal Example 1
+
+Binary Number:
+
+```text id="bd03"
+1011₂
+```
+
+| Binary | Power | Value |
+| -----: | ----: | ----: |
+|      1 |    2³ |     8 |
+|      0 |    2² |     0 |
+|      1 |    2¹ |     2 |
+|      1 |    2⁰ |     1 |
+
+```text id="bd04"
+8 + 0 + 2 + 1 = 11
+```
+
+অর্থাৎ,
+
+```text id="bd05"
+1011₂ = 11₁₀
+```
+
+## Binary to Decimal Example 2
+
+```text id="bd06"
+110101₂
+```
+
+| Binary | Power | Value |
+| -----: | ----: | ----: |
+|      1 |    2⁵ |    32 |
+|      1 |    2⁴ |    16 |
+|      0 |    2³ |     0 |
+|      1 |    2² |     4 |
+|      0 |    2¹ |     0 |
+|      1 |    2⁰ |     1 |
+
+```text id="bd07"
+32 + 16 + 0 + 4 + 0 + 1 = 53
+```
+
+অর্থাৎ,
+
+```text id="bd08"
+110101₂ = 53₁₀
+```
+
+## Decimal to Binary Conversion
+
+Decimal থেকে Binary-তে রূপান্তরের জন্য সংখ্যাটিকে বারবার **2 দিয়ে ভাগ (Division)** করতে হয় এবং প্রতিবারের Remainder (ভাগশেষ) লিখে রাখতে হয়।
+
+### Steps
+
+1. সংখ্যাটিকে 2 দিয়ে ভাগ করুন।
+2. ভাগশেষ (0 বা 1) লিখুন।
+3. Quotient-কে আবার 2 দিয়ে ভাগ করুন।
+4. Quotient = 0 হলে থামুন।
+5. নিচ থেকে ওপরের দিকে ভাগশেষ পড়ুন।
+
+## Decimal to Binary Example 1
+
+Decimal Number:
+
+```text id="bd09"
+25₁₀
+```
+
+| Division | Quotient | Remainder |
+| -------- | -------: | --------: |
+| 25 ÷ 2   |       12 |         1 |
+| 12 ÷ 2   |        6 |         0 |
+| 6 ÷ 2    |        3 |         0 |
+| 3 ÷ 2    |        1 |         1 |
+| 1 ÷ 2    |        0 |         1 |
+
+নিচ থেকে ওপরের দিকে পড়লে:
+
+```text id="bd10"
+11001₂
+```
+
+অর্থাৎ,
+
+```text id="bd11"
+25₁₀ = 11001₂
+```
+
+## Decimal to Binary Example 2
+
+Decimal Number:
+
+```text id="bd12"
+45₁₀
+```
+
+| Division | Quotient | Remainder |
+| -------- | -------: | --------: |
+| 45 ÷ 2   |       22 |         1 |
+| 22 ÷ 2   |       11 |         0 |
+| 11 ÷ 2   |        5 |         1 |
+| 5 ÷ 2    |        2 |         1 |
+| 2 ÷ 2    |        1 |         0 |
+| 1 ÷ 2    |        0 |         1 |
+
+নিচ থেকে ওপরের দিকে পড়লে:
+
+```text id="bd13"
+101101₂
+```
+
+অর্থাৎ,
+
+```text id="bd14"
+45₁₀ = 101101₂
+```
+
+## Binary ⇔ Decimal Conversion Flow
+
+```text id="bd15"
+Binary
+   |
+Multiply by 2ⁿ
+   |
+Add Values
+   |
+Decimal
+```
+
+```text id="bd16"
+Decimal
+   |
+Repeated Division by 2
+   |
+Read Remainders (Bottom to Top)
+   |
+Binary
+```
+
+## Shortcut Table
+
+| Binary | Decimal |
+| ------ | ------: |
+| 1      |       1 |
+| 10     |       2 |
+| 11     |       3 |
+| 100    |       4 |
+| 101    |       5 |
+| 110    |       6 |
+| 111    |       7 |
+| 1000   |       8 |
+| 1001   |       9 |
+| 1010   |      10 |
+
+## Common Mistakes
+
+* Binary থেকে Decimal-এ Conversion করার সময় Position ভুল ধরা।
+* 2-এর Power ভুল ব্যবহার করা।
+* Decimal থেকে Binary-তে Conversion-এর সময় ভাগশেষ নিচ থেকে ওপরের দিকে না পড়া।
+* Leading Zero (শুরুর 0) নিয়ে বিভ্রান্ত হওয়া।
+
+## Real-Life Example
+
+Computer-এর Memory-তে একটি সংখ্যা Binary আকারে সংরক্ষিত থাকে।
+
+```text id="bd17"
+Stored Value
+
+00101101
+```
+
+Processor এটিকে Decimal হিসেবে বুঝলে:
+
+```text id="bd18"
+45
+```
+
+এভাবে Computer Binary ব্যবহার করলেও মানুষের জন্য তা Decimal-এ রূপান্তর করা হয়।
+
+## Importance of Binary ⇔ Decimal Conversion
+
+Binary ⇔ Decimal Conversion:
+
+* Computer Science-এর মৌলিক বিষয়।
+* Programming শেখার ভিত্তি।
+* Data Representation বুঝতে সাহায্য করে।
+* Computer Architecture শেখার জন্য অপরিহার্য।
+* অন্যান্য Number System (Octal ও Hexadecimal) শেখার ভিত্তি তৈরি করে।
+
+## Summary
+
+Binary ⇔ Decimal Conversion হলো Base-2 এবং Base-10 Number System-এর মধ্যে সংখ্যা রূপান্তরের প্রক্রিয়া। Binary থেকে Decimal-এ যেতে প্রতিটি Bit-কে তার Position অনুযায়ী **2-এর Power** দিয়ে গুণ করে যোগ করা হয়। আর Decimal থেকে Binary-তে যেতে সংখ্যাটিকে বারবার **2 দিয়ে ভাগ** করে ভাগশেষগুলো নিচ থেকে ওপরের দিকে পড়া হয়। Computer Science, Programming এবং Digital Electronics-এ এই Conversion অত্যন্ত গুরুত্বপূর্ণ।
+
+
+
+
+
+
+# > (5) ASCII & Unicode
+
+ASCII এবং Unicode হলো Character Encoding Standard, যার মাধ্যমে Computer অক্ষর (Letters), সংখ্যা (Numbers), প্রতীক (Symbols) এবং অন্যান্য Character-কে Binary Number হিসেবে সংরক্ষণ, প্রক্রিয়াকরণ (Process) এবং প্রদর্শন (Display) করে।
+
+সহজ ভাষায়:
+
+Computer সরাসরি অক্ষর বুঝতে পারে না। তাই প্রতিটি অক্ষরকে একটি নির্দিষ্ট সংখ্যা (Code) দেওয়া হয়। এই Code নির্ধারণের নিয়মকেই Character Encoding বলা হয়। ASCII এবং Unicode হলো সবচেয়ে গুরুত্বপূর্ণ দুটি Character Encoding Standard।
+
+## What are ASCII & Unicode?
+
+ASCII এবং Unicode এমন দুটি Standard, যা Character-কে Numeric Code-এ রূপান্তর করে।
+
+```text id="au01"
+Character
+     |
+Encoding
+     |
+Numeric Code
+     |
+Binary
+```
+
+Computer শেষ পর্যন্ত এই Binary Code ব্যবহার করে Character সংরক্ষণ ও প্রদর্শন করে।
+
+## Why Do We Need Character Encoding?
+
+Character Encoding প্রয়োজন কারণ:
+
+* Computer শুধুমাত্র Binary (0 এবং 1) বুঝে।
+* Text File সংরক্ষণ করতে হয়।
+* বিভিন্ন ভাষা সমর্থন করতে হয়।
+* বিভিন্ন Device-এর মধ্যে একই Text সঠিকভাবে দেখাতে হয়।
+
+## What is ASCII?
+
+ASCII-এর পূর্ণরূপ:
+
+```text id="au02"
+American Standard Code for Information Interchange
+```
+
+ASCII হলো একটি Character Encoding Standard, যা English Alphabet, Number, Punctuation এবং কিছু Control Character প্রকাশ করার জন্য তৈরি করা হয়।
+
+## ASCII Features
+
+```text id="au03"
+ASCII
+|
+├── Base Characters = 128
+├── Uses 7 Bits
+├── English Characters
+├── Numbers
+├── Symbols
+└── Control Characters
+```
+
+### Total Characters
+
+ASCII-এর Standard Version-এ:
+
+```text id="au04"
+128 Characters
+```
+
+### Bit Size
+
+```text id="au05"
+7 Bits
+```
+
+### Character Range
+
+```text id="au06"
+0 – 127
+```
+
+## ASCII Character Categories
+
+```text id="au07"
+ASCII
+|
+├── Uppercase Letters
+├── Lowercase Letters
+├── Numbers
+├── Symbols
+└── Control Characters
+```
+
+### Examples
+
+| Character | ASCII Code |
+| --------- | ---------: |
+| A         |         65 |
+| B         |         66 |
+| C         |         67 |
+| a         |         97 |
+| b         |         98 |
+| 0         |         48 |
+| 1         |         49 |
+| Space     |         32 |
+
+## Control Characters
+
+ASCII-তে কিছু বিশেষ Control Character রয়েছে।
+
+উদাহরণ:
+
+* Enter (Carriage Return / Line Feed)
+* Tab
+* Backspace
+* Escape
+
+এগুলো সাধারণত Screen-এ দৃশ্যমান হয় না, বরং বিশেষ কাজ সম্পন্ন করে।
+
+## Limitations of ASCII
+
+ASCII-এর সীমাবদ্ধতা:
+
+* শুধুমাত্র English Character সমর্থন করে।
+* বাংলা, আরবি, চীনা, জাপানি ইত্যাদি ভাষা সমর্থন করে না।
+* মাত্র 128টি Character সংরক্ষণ করতে পারে।
+
+এই সীমাবদ্ধতার কারণেই Unicode তৈরি করা হয়।
+
+## What is Unicode?
+
+Unicode হলো একটি Universal Character Encoding Standard, যা বিশ্বের প্রায় সব ভাষার Character-কে একটি Unique Code Point প্রদান করে।
+
+```text id="au08"
+Unicode
+|
+├── English
+├── Bangla
+├── Arabic
+├── Chinese
+├── Japanese
+├── Korean
+└── Thousands of Symbols
+```
+
+## Unicode Features
+
+```text id="au09"
+Unicode
+|
+├── Universal Standard
+├── Multi-Language Support
+├── Millions of Code Points
+├── Emoji Support
+└── Global Compatibility
+```
+
+Unicode-এর মাধ্যমে বাংলা, ইংরেজি, Emoji এবং বিভিন্ন ভাষা একই Document-এ ব্যবহার করা যায়।
+
+## Unicode Code Point
+
+Unicode প্রতিটি Character-কে একটি Unique Code Point দেয়।
+
+উদাহরণ:
+
+| Character | Unicode |
+| --------- | ------- |
+| A         | U+0041  |
+| a         | U+0061  |
+| ১         | U+09E7  |
+| অ         | U+0985  |
+| 😊        | U+1F60A |
+
+## Unicode Encoding Formats
+
+Unicode বিভিন্ন Encoding Format ব্যবহার করে।
+
+```text id="au10"
+Unicode
+|
+├── UTF-8
+├── UTF-16
+└── UTF-32
+```
+
+### UTF-8
+
+* সবচেয়ে জনপ্রিয় Encoding।
+* 1–4 Byte ব্যবহার করে।
+* ASCII-এর সাথে Compatible।
+
+### UTF-16
+
+* 2 অথবা 4 Byte ব্যবহার করে।
+* Windows এবং Java-তে ব্যাপকভাবে ব্যবহৃত।
+
+### UTF-32
+
+* প্রতিটি Character-এর জন্য 4 Byte ব্যবহার করে।
+* Memory বেশি ব্যবহার করে।
+
+## ASCII vs Unicode
+
+| Feature          | ASCII                                              | Unicode                               |
+| ---------------- | -------------------------------------------------- | ------------------------------------- |
+| Full Form        | American Standard Code for Information Interchange | Universal Character Encoding Standard |
+| Characters       | 128                                                | লক্ষাধিক Code Point                   |
+| Bit Size         | 7 Bits                                             | UTF-8, UTF-16, UTF-32                 |
+| Language Support | English                                            | বিশ্বের প্রায় সব ভাষা                |
+| Emoji Support    | ✘                                                  | ✔                                     |
+| Modern Use       | সীমিত                                              | ব্যাপক                                |
+
+## Relationship Between ASCII and Unicode
+
+ASCII হলো Unicode-এর একটি অংশ।
+
+```text id="au11"
+Unicode
+|
+├── ASCII (0–127)
+└── Other Languages
+```
+
+অর্থাৎ, ASCII-এর প্রথম 128টি Character Unicode-এ একই Code Point ব্যবহার করে।
+
+## Real-Life Example
+
+ধরো একটি Text File-এ লেখা আছে:
+
+```text id="au12"
+Hello
+```
+
+Computer এটিকে ASCII বা Unicode Code-এ সংরক্ষণ করে।
+
+আর যদি লেখা থাকে:
+
+```text id="au13"
+হ্যালো 😊
+```
+
+তাহলে এটি শুধুমাত্র Unicode ব্যবহার করে সঠিকভাবে সংরক্ষণ ও প্রদর্শন করা সম্ভব।
+
+## Applications of ASCII
+
+ASCII ব্যবহৃত হয়:
+
+* পুরনো Computer System
+* Network Protocol
+* Text File
+* Programming Language
+* Command Line Interface
+
+## Applications of Unicode
+
+Unicode ব্যবহৃত হয়:
+
+* Website
+* Mobile Application
+* Operating System
+* Database
+* Programming
+* Social Media
+* Email
+* Document Processing
+
+## Importance of ASCII & Unicode
+
+ASCII এবং Unicode:
+
+* Character Encoding-এর ভিত্তি।
+* Text Data সঠিকভাবে সংরক্ষণ করে।
+* বিভিন্ন ভাষার মধ্যে তথ্য আদান-প্রদান সহজ করে।
+* আন্তর্জাতিক সফটওয়্যার তৈরি করতে সহায়তা করে।
+* আধুনিক Internet এবং Software Development-এর অপরিহার্য অংশ।
+
+## Summary
+
+ASCII হলো 7-Bit ভিত্তিক একটি Character Encoding Standard, যা মূলত English Character-এর জন্য তৈরি। এর সীমাবদ্ধতার কারণে Unicode তৈরি হয়, যা বিশ্বের প্রায় সব ভাষা, Symbol এবং Emoji সমর্থন করে। Unicode-এর UTF-8, UTF-16 এবং UTF-32 Encoding Format আধুনিক Software, Website এবং Operating System-এ ব্যাপকভাবে ব্যবহৃত হয়। বর্তমানে Unicode-ই আন্তর্জাতিকভাবে সর্বাধিক ব্যবহৃত Character Encoding Standard।
+
+
+
+
+
+
+# > (6) Bit, Byte, KB, MB, GB
+
+Bit, Byte, KB, MB, GB হলো Computer-এ Data পরিমাপের (Data Measurement) মৌলিক একক (Units)। Computer-এর সমস্ত Data, যেমন Text, Image, Audio, Video এবং Program—সবকিছুর আকার (Size) এই এককগুলোর মাধ্যমে প্রকাশ করা হয়।
+
+সহজ ভাষায়:
+
+যেভাবে দৈর্ঘ্য মাপতে Meter এবং ওজন মাপতে Kilogram ব্যবহার করা হয়, ঠিক তেমনি Computer-এ Data-এর আকার মাপতে Bit, Byte, KB, MB, GB ইত্যাদি ব্যবহার করা হয়।
+
+## What are Data Units?
+
+Data Unit হলো এমন একটি Measurement Unit, যা Digital Data-এর পরিমাণ (Amount of Data) প্রকাশ করে।
+
+```text id="db01"
+Data
+  |
+Measurement
+  |
+Data Units
+```
+
+## Data Unit Hierarchy
+
+```text id="db02"
+Bit
+ │
+ ▼
+Byte
+ │
+ ▼
+Kilobyte (KB)
+ │
+ ▼
+Megabyte (MB)
+ │
+ ▼
+Gigabyte (GB)
+ │
+ ▼
+Terabyte (TB)
+ │
+ ▼
+Petabyte (PB)
+ │
+ ▼
+Exabyte (EB)
+```
+
+## 1. Bit (Binary Digit)
+
+Bit হলো Computer-এর সবচেয়ে ছোট Data Unit।
+
+একটি Bit-এর মান হতে পারে:
+
+```text id="db03"
+0
+
+অথবা
+
+1
+```
+
+Bit মূলত Binary Number System-এর একটি Digit।
+
+### Example
+
+```text id="db04"
+1 Bit
+
+0
+
+বা
+
+1
+```
+
+## 2. Byte
+
+Byte হলো **8 Bit-এর সমষ্টি**।
+
+```text id="db05"
+1 Byte
+=
+8 Bits
+```
+
+একটি Byte সাধারণত একটি Character সংরক্ষণ করতে পারে (যেমন ASCII Character)।
+
+### Example
+
+```text id="db06"
+01000001
+```
+
+উপরের Binary Data একটি Byte।
+
+ASCII অনুযায়ী এটি Character:
+
+```text id="db07"
+A
+```
+
+## 3. Kilobyte (KB)
+
+Kilobyte হলো 1024 Byte-এর সমান।
+
+```text id="db08"
+1 KB
+=
+1024 Bytes
+```
+
+সাধারণত:
+
+* ছোট Text File
+* Configuration File
+
+KB এককে প্রকাশ করা হয়।
+
+## 4. Megabyte (MB)
+
+Megabyte হলো 1024 KB-এর সমান।
+
+```text id="db09"
+1 MB
+=
+1024 KB
+```
+
+সাধারণত:
+
+* Image
+* Song
+* PDF
+* Small Software
+
+MB এককে প্রকাশ করা হয়।
+
+## 5. Gigabyte (GB)
+
+Gigabyte হলো 1024 MB-এর সমান।
+
+```text id="db10"
+1 GB
+=
+1024 MB
+```
+
+সাধারণত:
+
+* Movie
+* Large Software
+* Games
+* Mobile Storage
+* RAM
+
+GB এককে প্রকাশ করা হয়।
+
+## Larger Data Units
+
+```text id="db11"
+1 TB = 1024 GB
+
+1 PB = 1024 TB
+
+1 EB = 1024 PB
+```
+
+আধুনিক Data Center এবং Cloud Storage-এ এই বড় Unit-গুলো ব্যবহৃত হয়।
+
+## Complete Data Unit Table
+
+| Unit | Full Form    | Equals     |
+| ---- | ------------ | ---------- |
+| Bit  | Binary Digit | 0 অথবা 1   |
+| Byte | Byte         | 8 Bits     |
+| KB   | Kilobyte     | 1024 Bytes |
+| MB   | Megabyte     | 1024 KB    |
+| GB   | Gigabyte     | 1024 MB    |
+| TB   | Terabyte     | 1024 GB    |
+| PB   | Petabyte     | 1024 TB    |
+| EB   | Exabyte      | 1024 PB    |
+
+## Relationship Between Units
+
+```text id="db12"
+8 Bits
+   │
+   ▼
+1 Byte
+   │
+1024
+   ▼
+1 KB
+   │
+1024
+   ▼
+1 MB
+   │
+1024
+   ▼
+1 GB
+   │
+1024
+   ▼
+1 TB
+```
+
+## Memory vs Storage
+
+| Component   | Common Unit |
+| ----------- | ----------- |
+| RAM         | GB          |
+| SSD         | GB / TB     |
+| HDD         | GB / TB     |
+| Pen Drive   | GB          |
+| Memory Card | GB / TB     |
+
+## Real-Life Examples
+
+### Text File
+
+```text id="db13"
+README.md
+
+≈ কয়েক KB
+```
+
+### Image
+
+```text id="db14"
+Photo
+
+≈ 2–10 MB
+```
+
+### Song
+
+```text id="db15"
+MP3
+
+≈ 3–10 MB
+```
+
+### Movie
+
+```text id="db16"
+Movie
+
+≈ 1–5 GB
+```
+
+### Game
+
+```text id="db17"
+AAA Game
+
+≈ 50–150 GB
+```
+
+## Bit vs Byte
+
+| Feature       | Bit          | Byte   |
+| ------------- | ------------ | ------ |
+| Full Form     | Binary Digit | Byte   |
+| Smallest Unit | ✔            | ✘      |
+| Values        | 0 বা 1       | 8 Bits |
+| Symbol        | b            | B      |
+
+### Important Note
+
+ছোট হাতের **b** এবং বড় হাতের **B** এক জিনিস নয়।
+
+```text id="db18"
+b = Bit
+
+B = Byte
+```
+
+উদাহরণ:
+
+```text id="db19"
+100 Mbps
+
+≠
+
+100 MBps
+```
+
+* **Mbps** = Megabits per second (Internet Speed)
+* **MBps** = Megabytes per second (Data Transfer Speed)
+
+## Applications of Data Units
+
+Data Unit ব্যবহৃত হয়:
+
+* RAM Capacity
+* Hard Disk
+* SSD
+* Pen Drive
+* Cloud Storage
+* Internet Speed
+* File Size
+* Database
+* Mobile Storage
+
+## Importance of Data Units
+
+Data Unit:
+
+* File Size বুঝতে সাহায্য করে।
+* Storage Capacity নির্ধারণ করে।
+* Internet Speed বোঝাতে ব্যবহৃত হয়।
+* Computer Memory বোঝার ভিত্তি।
+* Software ও Hardware ব্যবস্থাপনায় গুরুত্বপূর্ণ ভূমিকা পালন করে।
+
+## Summary
+
+Bit হলো Computer-এর সবচেয়ে ছোট Data Unit এবং এর মান 0 অথবা 1। **8 Bit = 1 Byte**। এরপর **1024 Byte = 1 KB**, **1024 KB = 1 MB**, **1024 MB = 1 GB** এবং **1024 GB = 1 TB**। এই Data Unit-গুলো Computer-এর Memory, Storage, File Size এবং Data Transfer পরিমাপের জন্য ব্যবহৃত হয় এবং Computer Science-এর মৌলিক ধারণাগুলোর একটি।
+
+
+
+
+
+
+# > (7) Logic Gates
+
+Logic Gate হলো Digital Electronics-এর মৌলিক Building Block, যা এক বা একাধিক Binary Input (0 এবং 1) গ্রহণ করে একটি নির্দিষ্ট নিয়ম অনুযায়ী Binary Output প্রদান করে।
+
+সহজ ভাষায়:
+
+Logic Gate হলো একটি Electronic Circuit, যা Binary Data (0 এবং 1)-এর উপর Logical Decision নিয়ে ফলাফল (Output) তৈরি করে।
+
+Computer-এর CPU, Memory, Microprocessor এবং Digital Circuit-এর ভিতরে কোটি কোটি Logic Gate একসাথে কাজ করে।
+
+## What is a Logic Gate?
+
+Logic Gate হলো এমন একটি Digital Circuit, যা Boolean Logic-এর নিয়ম অনুসারে Input Process করে Output তৈরি করে।
+
+```text id="lg01"
+Binary Input
+      |
+ Logic Gate
+      |
+Binary Output
+```
+
+Logic Gate শুধুমাত্র দুটি মান নিয়ে কাজ করে।
+
+```text id="lg02"
+0 = False
+1 = True
+```
+
+## Why are Logic Gates Important?
+
+Logic Gate ব্যবহৃত হয়:
+
+* CPU তৈরিতে
+* Memory Circuit-এ
+* ALU (Arithmetic Logic Unit)-এ
+* Digital Electronics-এ
+* Microprocessor-এ
+* Embedded System-এ
+* Robotics-এ
+
+Computer-এর প্রতিটি সিদ্ধান্ত (Decision Making) শেষ পর্যন্ত Logic Gate-এর মাধ্যমে সম্পন্ন হয়।
+
+## Types of Logic Gates
+
+```text id="lg03"
+Logic Gates
+|
+├── AND
+├── OR
+├── NOT
+├── NAND
+├── NOR
+├── XOR
+└── XNOR
+```
+
+---
+
+## 1. AND Gate
+
+AND Gate-এর Output **1** হবে শুধুমাত্র তখনই, যখন **সব Input = 1** হবে।
+
+### Boolean Expression
+
+```text id="lg04"
+Y = A · B
+```
+
+### Truth Table
+
+| A | B | Output |
+| - | - | ------ |
+| 0 | 0 | 0      |
+| 0 | 1 | 0      |
+| 1 | 0 | 0      |
+| 1 | 1 | 1      |
+
+### সহজ উদাহরণ
+
+দুটি Switch-ই ON হলে তবেই Light জ্বলবে।
+
+```text id="lg05"
+Switch A
+     \
+      AND ----> Light
+     /
+Switch B
+```
+
+---
+
+## 2. OR Gate
+
+OR Gate-এর Output **1** হবে যদি **যেকোনো একটি Input = 1** হয়।
+
+### Boolean Expression
+
+```text id="lg06"
+Y = A + B
+```
+
+### Truth Table
+
+| A | B | Output |
+| - | - | ------ |
+| 0 | 0 | 0      |
+| 0 | 1 | 1      |
+| 1 | 0 | 1      |
+| 1 | 1 | 1      |
+
+### সহজ উদাহরণ
+
+যেকোনো একটি Switch ON করলেই Light জ্বলবে।
+
+---
+
+## 3. NOT Gate
+
+NOT Gate একটি Input গ্রহণ করে এবং তার বিপরীত Output দেয়।
+
+```text id="lg07"
+0 → 1
+
+1 → 0
+```
+
+### Boolean Expression
+
+```text id="lg08"
+Y = Ā
+```
+
+### Truth Table
+
+| A | Output |
+| - | ------ |
+| 0 | 1      |
+| 1 | 0      |
+
+এটিকে **Inverter**-ও বলা হয়।
+
+---
+
+## 4. NAND Gate
+
+NAND = NOT + AND
+
+AND Gate-এর Output-কে উল্টে দিলে NAND Gate পাওয়া যায়।
+
+### Boolean Expression
+
+```text id="lg09"
+Y = (A · B)'
+```
+
+### Truth Table
+
+| A | B | Output |
+| - | - | ------ |
+| 0 | 0 | 1      |
+| 0 | 1 | 1      |
+| 1 | 0 | 1      |
+| 1 | 1 | 0      |
+
+NAND Gate-কে **Universal Gate** বলা হয়।
+
+---
+
+## 5. NOR Gate
+
+NOR = NOT + OR
+
+OR Gate-এর Output-কে উল্টে দিলে NOR Gate পাওয়া যায়।
+
+### Boolean Expression
+
+```text id="lg10"
+Y = (A + B)'
+```
+
+### Truth Table
+
+| A | B | Output |
+| - | - | ------ |
+| 0 | 0 | 1      |
+| 0 | 1 | 0      |
+| 1 | 0 | 0      |
+| 1 | 1 | 0      |
+
+NOR Gate-ও একটি **Universal Gate**।
+
+---
+
+## 6. XOR Gate (Exclusive OR)
+
+XOR Gate-এর Output **1** হবে যখন Input দুটি ভিন্ন হবে।
+
+### Boolean Expression
+
+```text id="lg11"
+Y = A ⊕ B
+```
+
+### Truth Table
+
+| A | B | Output |
+| - | - | ------ |
+| 0 | 0 | 0      |
+| 0 | 1 | 1      |
+| 1 | 0 | 1      |
+| 1 | 1 | 0      |
+
+XOR মূলত Difference Detect করতে ব্যবহৃত হয়।
+
+---
+
+## 7. XNOR Gate
+
+XNOR = NOT + XOR
+
+XOR-এর বিপরীত হলো XNOR।
+
+### Boolean Expression
+
+```text id="lg12"
+Y = (A ⊕ B)'
+```
+
+### Truth Table
+
+| A | B | Output |
+| - | - | ------ |
+| 0 | 0 | 1      |
+| 0 | 1 | 0      |
+| 1 | 0 | 0      |
+| 1 | 1 | 1      |
+
+XNOR Gate-এর Output **1** হবে যখন Input দুটি সমান হবে।
+
+---
+
+## Universal Gates
+
+Universal Gate ব্যবহার করে অন্য সব Logic Gate তৈরি করা যায়।
+
+```text id="lg13"
+Universal Gates
+|
+├── NAND
+└── NOR
+```
+
+---
+
+## Complete Truth Table
+
+| A | B | AND | OR | NAND | NOR | XOR | XNOR |
+| - | - | --- | -- | ---- | --- | --- | ---- |
+| 0 | 0 | 0   | 0  | 1    | 1   | 0   | 1    |
+| 0 | 1 | 0   | 1  | 1    | 0   | 1   | 0    |
+| 1 | 0 | 0   | 1  | 1    | 0   | 1   | 0    |
+| 1 | 1 | 1   | 1  | 0    | 0   | 0   | 1    |
+
+---
+
+## Logic Gate Classification
+
+```text id="lg14"
+Logic Gates
+|
+├── Basic Gates
+│   ├── AND
+│   ├── OR
+│   └── NOT
+|
+├── Universal Gates
+│   ├── NAND
+│   └── NOR
+|
+└── Exclusive Gates
+    ├── XOR
+    └── XNOR
+```
+
+---
+
+## Real-Life Example
+
+ধরো একটি Room-এর Door Lock System।
+
+```text id="lg15"
+Door Unlock
+|
+├── Password Correct
+├── Fingerprint Correct
+└── Face ID Correct
+```
+
+* **AND Gate:** Password এবং Fingerprint—দুটিই সঠিক হলে Door খুলবে।
+* **OR Gate:** Password অথবা Fingerprint—যেকোনো একটি সঠিক হলেই Door খুলবে।
+* **NOT Gate:** Door Locked হলে Unlock Signal হবে এবং Unlock হলে Lock Signal হবে।
+* **XOR Gate:** দুটি Signal ভিন্ন হলে Alarm Trigger হতে পারে।
+* **XNOR Gate:** দুটি Signal একই হলে System অনুমোদন দিতে পারে।
+
+---
+
+## Applications of Logic Gates
+
+Logic Gate ব্যবহৃত হয়:
+
+* CPU
+* ALU (Arithmetic Logic Unit)
+* Memory Circuit
+* Digital Clock
+* Calculator
+* Computer
+* Smartphone
+* Embedded System
+* Robotics
+* Automation System
+
+---
+
+## Importance of Logic Gates
+
+Logic Gates:
+
+* Digital Electronics-এর ভিত্তি।
+* Computer Hardware তৈরির মূল উপাদান।
+* Binary Data Process করে।
+* Boolean Logic বাস্তবায়ন করে।
+* Processor-এর Decision Making সম্পন্ন করে।
+
+---
+
+## Summary
+
+Logic Gate হলো Digital Electronics-এর মৌলিক Circuit, যা Binary Input (0 এবং 1) গ্রহণ করে Logical Operation-এর মাধ্যমে Output তৈরি করে। প্রধান Logic Gate হলো **AND, OR, NOT, NAND, NOR, XOR এবং XNOR**। এর মধ্যে **NAND** এবং **NOR** Universal Gate, কারণ এগুলো ব্যবহার করে অন্য সব Logic Gate তৈরি করা যায়। আধুনিক Computer, CPU, Memory, Mobile Device এবং Digital System-এর প্রতিটি অংশে Logic Gate গুরুত্বপূর্ণ ভূমিকা পালন করে।

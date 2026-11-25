@@ -1,0 +1,1259 @@
+# > (1) MS Word & Google Docs
+
+MS Word এবং Google Docs হলো জনপ্রিয় Word Processing Software, যা Document তৈরি, সম্পাদনা (Edit), Format, সংরক্ষণ (Save), Print এবং Share করার জন্য ব্যবহৃত হয়।
+
+সহজ ভাষায়:
+
+MS Word এবং Google Docs এমন দুটি Software, যার মাধ্যমে Letter, Report, Resume, Assignment, Book, Notice, Documentation এবং অন্যান্য Text Document সহজে তৈরি ও সম্পাদনা করা যায়।
+
+## What are MS Word & Google Docs?
+
+Word Processing Software হলো এমন Application, যা Text Document তৈরি ও পরিচালনা করার জন্য ব্যবহৃত হয়।
+
+```text id="wd01"
+User
+   |
+Word Processor
+   |
+Create & Edit Document
+```
+
+MS Word এবং Google Docs বর্তমানে বিশ্বের সবচেয়ে জনপ্রিয় Word Processor।
+
+## Microsoft Word (MS Word)
+
+MS Word হলো Microsoft-এর তৈরি একটি Word Processing Software।
+
+এটি Microsoft Office / Microsoft 365 Suite-এর অংশ।
+
+এর মাধ্যমে Professional Document তৈরি করা যায়।
+
+### Features of MS Word
+
+```text id="wd02"
+MS Word
+|
+├── Document Creation
+├── Text Formatting
+├── Tables
+├── Images
+├── Shapes
+├── Charts
+├── Spell Check
+├── Templates
+├── Printing
+└── PDF Export
+```
+
+## Google Docs
+
+Google Docs হলো Google-এর Cloud-based Word Processing Application।
+
+এটি Browser-এর মাধ্যমে অথবা Mobile App ব্যবহার করে চালানো যায়।
+
+Document স্বয়ংক্রিয়ভাবে Google Drive-এ সংরক্ষিত হয়।
+
+### Features of Google Docs
+
+```text id="wd03"
+Google Docs
+|
+├── Cloud Storage
+├── Auto Save
+├── Real-time Collaboration
+├── Sharing
+├── Comments
+├── Version History
+├── Offline Mode
+└── Google Drive Integration
+```
+
+## MS Word vs Google Docs
+
+| Feature             | MS Word                | Google Docs                                        |
+| ------------------- | ---------------------- | -------------------------------------------------- |
+| Developer           | Microsoft              | Google                                             |
+| Internet Required   | না (Offline কাজ করে)   | সাধারণত Internet প্রয়োজন, তবে Offline Mode রয়েছে |
+| Storage             | Local Computer         | Google Drive (Cloud)                               |
+| Auto Save           | নতুন সংস্করণে রয়েছে   | সবসময় Auto Save                                   |
+| Collaboration       | সীমিত                  | Real-Time Collaboration                            |
+| Advanced Formatting | বেশি                   | তুলনামূলক কম                                       |
+| Best For            | Professional Documents | Team Collaboration                                 |
+
+## Common Uses
+
+MS Word এবং Google Docs ব্যবহার করা হয়:
+
+* Letter লেখা
+* Resume তৈরি
+* Assignment লেখা
+* Report তৈরি
+* Project Documentation
+* Book Writing
+* Meeting Notes
+* Office Documents
+
+## Main Interface
+
+উভয় Software-এর Interface প্রায় একই ধরনের।
+
+```text id="wd04"
+Window
+|
+├── Title Bar
+├── Menu
+├── Toolbar / Ribbon
+├── Document Area
+├── Scroll Bar
+├── Status Bar
+└── Zoom Control
+```
+
+## Important Components
+
+### 1. Title Bar
+
+বর্তমান Document-এর নাম দেখায়।
+
+### 2. Ribbon / Toolbar
+
+Formatting এবং Editing Tools থাকে।
+
+### 3. Document Area
+
+এখানেই লেখা ও সম্পাদনা করা হয়।
+
+### 4. Status Bar
+
+Page Number, Word Count এবং অন্যান্য তথ্য দেখায়।
+
+## Common Formatting Tools
+
+```text id="wd05"
+Formatting
+|
+├── Font
+├── Font Size
+├── Bold
+├── Italic
+├── Underline
+├── Text Color
+├── Alignment
+├── Line Spacing
+├── Bullets
+└── Numbering
+```
+
+### Font
+
+লেখার Style পরিবর্তন করে।
+
+### Font Size
+
+লেখার আকার পরিবর্তন করে।
+
+### Bold
+
+লেখাকে মোটা (Bold) করে।
+
+### Italic
+
+লেখাকে বাঁকা (Italic) করে।
+
+### Underline
+
+লেখার নিচে দাগ দেয়।
+
+### Alignment
+
+* Left
+* Center
+* Right
+* Justify
+
+## Insert Features
+
+উভয় Software-এ Insert করা যায়:
+
+```text id="wd06"
+Insert
+|
+├── Table
+├── Picture
+├── Shape
+├── Chart
+├── Hyperlink
+├── Header
+├── Footer
+├── Page Number
+└── Symbol
+```
+
+## Editing Tools
+
+```text id="wd07"
+Editing
+|
+├── Copy
+├── Cut
+├── Paste
+├── Undo
+├── Redo
+├── Find
+├── Replace
+└── Select All
+```
+
+## Spell Check & Grammar
+
+উভয় Software বানান (Spelling) এবং ব্যাকরণ (Grammar) পরীক্ষা করতে সাহায্য করে।
+
+ভুল শব্দ সাধারণত রঙিন দাগ দিয়ে চিহ্নিত হয়।
+
+## Saving Documents
+
+### MS Word
+
+```text id="wd08"
+File
+   |
+Save
+```
+
+সাধারণ File Format:
+
+* .docx
+* .pdf
+
+### Google Docs
+
+```text id="wd09"
+Auto Save
+      |
+Google Drive
+```
+
+সাধারণত আলাদা করে Save করতে হয় না।
+
+## Collaboration
+
+Google Docs-এর অন্যতম শক্তিশালী Feature হলো Real-Time Collaboration।
+
+```text id="wd10"
+Multiple Users
+        |
+Google Docs
+        |
+Same Document
+```
+
+একাধিক ব্যক্তি একই সময়ে একই Document Edit করতে পারে।
+
+## Keyboard Shortcuts
+
+| Shortcut | Function     |
+| -------- | ------------ |
+| Ctrl + N | New Document |
+| Ctrl + O | Open         |
+| Ctrl + S | Save         |
+| Ctrl + P | Print        |
+| Ctrl + C | Copy         |
+| Ctrl + X | Cut          |
+| Ctrl + V | Paste        |
+| Ctrl + Z | Undo         |
+| Ctrl + Y | Redo         |
+| Ctrl + A | Select All   |
+| Ctrl + F | Find         |
+| Ctrl + H | Replace      |
+| Ctrl + B | Bold         |
+| Ctrl + I | Italic       |
+| Ctrl + U | Underline    |
+
+## Real-Life Example
+
+ধরো তুমি একটি Resume তৈরি করতে চাও।
+
+তুমি:
+
+* MS Word ব্যবহার করে Professional Resume তৈরি করতে পারো।
+* Google Docs ব্যবহার করে Resume তৈরি করে Link-এর মাধ্যমে অন্যদের সাথে Share করতে পারো।
+* Interview-এর আগে যেকোনো Device থেকে Document খুলে Edit করতে পারো।
+
+## Advantages of MS Word
+
+* Professional Formatting
+* Advanced Layout Tools
+* Offline কাজ করা যায়
+* বড় Document পরিচালনা সহজ
+* Print-এর জন্য উপযোগী
+
+## Advantages of Google Docs
+
+* সম্পূর্ণ Cloud-based
+* Auto Save
+* যেকোনো Device থেকে Access
+* সহজ Sharing
+* Real-Time Team Collaboration
+* Version History
+
+## Applications
+
+MS Word এবং Google Docs ব্যবহৃত হয়:
+
+* শিক্ষা প্রতিষ্ঠান
+* অফিস
+* ব্যবসা
+* গবেষণা
+* Software Documentation
+* Resume Writing
+* Project Report
+* Book Writing
+* Meeting Notes
+
+## Importance of MS Word & Google Docs
+
+MS Word এবং Google Docs:
+
+* Professional Document তৈরি করতে সাহায্য করে।
+* Team Collaboration সহজ করে।
+* অফিসের দৈনন্দিন কাজের অন্যতম প্রধান Tool।
+* আধুনিক Office Productivity-এর ভিত্তি।
+* Student, Teacher, Programmer, Researcher এবং Business Professional—সবার জন্য গুরুত্বপূর্ণ।
+
+## Summary
+
+MS Word এবং Google Docs হলো জনপ্রিয় Word Processing Software, যা Document তৈরি, সম্পাদনা, Formatting, Printing এবং Sharing-এর জন্য ব্যবহৃত হয়। MS Word উন্নত Professional Document তৈরির জন্য বিখ্যাত, আর Google Docs Cloud Storage, Auto Save এবং Real-Time Collaboration-এর জন্য পরিচিত। আধুনিক শিক্ষা, অফিস এবং ব্যবসায়িক কাজে এই দুটি Tool অত্যন্ত গুরুত্বপূর্ণ।
+
+
+
+
+
+
+# > (2) MS Excel & Google Sheets
+
+MS Excel এবং Google Sheets হলো জনপ্রিয় Spreadsheet Software, যা Data সংরক্ষণ (Store), হিসাব (Calculate), বিশ্লেষণ (Analyze), চার্ট (Chart) তৈরি এবং রিপোর্ট (Report) প্রস্তুত করার জন্য ব্যবহৃত হয়।
+
+সহজ ভাষায়:
+
+MS Excel এবং Google Sheets এমন দুটি Spreadsheet Application, যার মাধ্যমে Table তৈরি, হিসাব করা, Formula ব্যবহার, Chart তৈরি এবং Data বিশ্লেষণ করা যায়।
+
+## What are MS Excel & Google Sheets?
+
+Spreadsheet Software হলো এমন Application, যা Row, Column এবং Cell ব্যবহার করে Data সংরক্ষণ, সম্পাদনা এবং বিশ্লেষণ করতে সাহায্য করে।
+
+```text id="es01"
+User
+   |
+Spreadsheet Software
+   |
+Store & Analyze Data
+```
+
+MS Excel এবং Google Sheets বর্তমানে বিশ্বের সবচেয়ে জনপ্রিয় Spreadsheet Software।
+
+## Microsoft Excel (MS Excel)
+
+MS Excel হলো Microsoft-এর তৈরি একটি Spreadsheet Software।
+
+এটি Microsoft Office / Microsoft 365 Suite-এর অংশ এবং Data Analysis-এর জন্য অন্যতম শক্তিশালী Tool।
+
+### Features of MS Excel
+
+```text id="es02"
+MS Excel
+|
+├── Worksheets
+├── Formulas
+├── Functions
+├── Charts
+├── Tables
+├── Pivot Tables
+├── Conditional Formatting
+├── Data Validation
+├── Macros
+└── PDF Export
+```
+
+## Google Sheets
+
+Google Sheets হলো Google-এর Cloud-based Spreadsheet Application।
+
+এটি Browser বা Mobile App-এর মাধ্যমে ব্যবহার করা যায় এবং Data স্বয়ংক্রিয়ভাবে Google Drive-এ সংরক্ষিত হয়।
+
+### Features of Google Sheets
+
+```text id="es03"
+Google Sheets
+|
+├── Cloud Storage
+├── Auto Save
+├── Real-time Collaboration
+├── Sharing
+├── Comments
+├── Version History
+├── Charts
+└── Google Drive Integration
+```
+
+## MS Excel vs Google Sheets
+
+| Feature                | MS Excel             | Google Sheets                                      |
+| ---------------------- | -------------------- | -------------------------------------------------- |
+| Developer              | Microsoft            | Google                                             |
+| Internet Required      | না (Offline কাজ করে) | সাধারণত Internet প্রয়োজন, তবে Offline Mode রয়েছে |
+| Storage                | Local Computer       | Google Drive                                       |
+| Auto Save              | নতুন সংস্করণে রয়েছে | সবসময় Auto Save                                   |
+| Collaboration          | সীমিত                | Real-Time Collaboration                            |
+| Advanced Data Analysis | বেশি                 | তুলনামূলক কম                                       |
+| Best For               | Large & Complex Data | Team Collaboration                                 |
+
+## Spreadsheet Structure
+
+একটি Spreadsheet তিনটি প্রধান অংশ নিয়ে গঠিত।
+
+```text id="es04"
+Spreadsheet
+|
+├── Rows
+├── Columns
+└── Cells
+```
+
+### Row
+
+Row হলো অনুভূমিক (Horizontal) সারি।
+
+```text id="es05"
+1
+2
+3
+4
+```
+
+### Column
+
+Column হলো উল্লম্ব (Vertical) সারি।
+
+```text id="es06"
+A B C D E
+```
+
+### Cell
+
+Row এবং Column যেখানে মিলিত হয় তাকে Cell বলা হয়।
+
+উদাহরণ:
+
+```text id="es07"
+A1
+B3
+C5
+D10
+```
+
+## Workbook and Worksheet
+
+### Workbook
+
+Workbook হলো সম্পূর্ণ Excel বা Google Sheets File।
+
+### Worksheet
+
+Workbook-এর ভেতরের প্রতিটি আলাদা Sheet-কে Worksheet বলা হয়।
+
+```text id="es08"
+Workbook
+|
+├── Sheet1
+├── Sheet2
+└── Sheet3
+```
+
+## Data Types
+
+Spreadsheet-এ বিভিন্ন ধরনের Data রাখা যায়।
+
+```text id="es09"
+Data Types
+|
+├── Number
+├── Text
+├── Date
+├── Time
+├── Currency
+└── Formula
+```
+
+## Formula
+
+Formula ব্যবহার করে বিভিন্ন হিসাব করা হয়।
+
+Formula সবসময় **= (Equal Sign)** দিয়ে শুরু হয়।
+
+উদাহরণ:
+
+```text id="es10"
+=A1+B1
+```
+
+```text id="es11"
+=A2*B2
+```
+
+## Functions
+
+Function হলো পূর্বনির্ধারিত (Predefined) Formula।
+
+কিছু জনপ্রিয় Function:
+
+| Function  | কাজ           |
+| --------- | ------------- |
+| SUM()     | যোগফল         |
+| AVERAGE() | গড়           |
+| MAX()     | সর্বোচ্চ মান  |
+| MIN()     | সর্বনিম্ন মান |
+| COUNT()   | সংখ্যা গণনা   |
+
+উদাহরণ:
+
+```text id="es12"
+=SUM(A1:A10)
+```
+
+```text id="es13"
+=AVERAGE(B1:B5)
+```
+
+## Cell Reference
+
+Cell Reference-এর মাধ্যমে Formula-তে Cell ব্যবহার করা হয়।
+
+উদাহরণ:
+
+```text id="es14"
+A1
+B5
+C10
+```
+
+## Charts
+
+Data-কে Graph আকারে দেখানোর জন্য Chart ব্যবহার করা হয়।
+
+```text id="es15"
+Charts
+|
+├── Column Chart
+├── Bar Chart
+├── Line Chart
+├── Pie Chart
+└── Area Chart
+```
+
+## Sorting and Filtering
+
+### Sorting
+
+Data-কে Ascending বা Descending Order-এ সাজানো।
+
+### Filtering
+
+শুধুমাত্র প্রয়োজনীয় Data দেখানো।
+
+## Conditional Formatting
+
+নির্দিষ্ট শর্ত অনুযায়ী Cell-এর রঙ বা Format পরিবর্তন করা।
+
+উদাহরণ:
+
+* 80-এর বেশি হলে সবুজ
+* 40-এর কম হলে লাল
+
+## Data Validation
+
+Data Validation ভুল Data প্রবেশ (Input) প্রতিরোধ করে।
+
+উদাহরণ:
+
+* শুধুমাত্র Number গ্রহণ
+* নির্দিষ্ট Date গ্রহণ
+* Drop-down List ব্যবহার
+
+## Keyboard Shortcuts
+
+| Shortcut | Function     |
+| -------- | ------------ |
+| Ctrl + N | New Workbook |
+| Ctrl + O | Open         |
+| Ctrl + S | Save         |
+| Ctrl + P | Print        |
+| Ctrl + C | Copy         |
+| Ctrl + X | Cut          |
+| Ctrl + V | Paste        |
+| Ctrl + Z | Undo         |
+| Ctrl + Y | Redo         |
+| F2       | Edit Cell    |
+| Ctrl + F | Find         |
+
+## Real-Life Example
+
+ধরো একটি দোকানে প্রতিদিনের বিক্রির হিসাব রাখা হচ্ছে।
+
+| Product  | Price | Quantity |  Total |
+| -------- | ----: | -------: | -----: |
+| Keyboard |  1200 |        2 | =B2*C2 |
+| Mouse    |   700 |        3 | =B3*C3 |
+
+Spreadsheet নিজেই Total হিসাব করে দেবে।
+
+## Advantages of MS Excel
+
+* শক্তিশালী Data Analysis
+* উন্নত Formula ও Function
+* Pivot Table
+* Macro Automation
+* Large Dataset পরিচালনা
+
+## Advantages of Google Sheets
+
+* Cloud-based
+* Auto Save
+* সহজ Sharing
+* Real-Time Collaboration
+* যেকোনো Device থেকে Access
+
+## Applications
+
+MS Excel এবং Google Sheets ব্যবহৃত হয়:
+
+* হিসাবরক্ষণ (Accounting)
+* ব্যবসা
+* শিক্ষা
+* Inventory Management
+* Payroll
+* Budget Planning
+* Sales Report
+* Data Analysis
+* Research
+* Project Management
+
+## Importance of MS Excel & Google Sheets
+
+MS Excel এবং Google Sheets:
+
+* Data সংগঠিত করতে সাহায্য করে।
+* দ্রুত হিসাব সম্পন্ন করে।
+* Data Analysis সহজ করে।
+* Report এবং Chart তৈরি করতে সহায়তা করে।
+* Office Productivity-এর অন্যতম গুরুত্বপূর্ণ Tool।
+
+## Summary
+
+MS Excel এবং Google Sheets হলো শক্তিশালী Spreadsheet Software, যা Data সংরক্ষণ, হিসাব, বিশ্লেষণ এবং উপস্থাপনার জন্য ব্যবহৃত হয়। MS Excel উন্নত Data Analysis, Formula, Function এবং Automation-এর জন্য বিখ্যাত, আর Google Sheets Cloud Storage, Auto Save এবং Real-Time Collaboration-এর জন্য পরিচিত। শিক্ষা, ব্যবসা, অফিস এবং গবেষণায় এই দুটি Tool অত্যন্ত গুরুত্বপূর্ণ।
+
+
+
+
+
+
+# > (3) MS PowerPoint & Google Slides
+
+MS PowerPoint এবং Google Slides হলো জনপ্রিয় Presentation Software, যা Slide-এর মাধ্যমে তথ্য (Information), ধারণা (Ideas), রিপোর্ট (Reports), শিক্ষা (Education) এবং ব্যবসায়িক উপস্থাপনা (Business Presentation) তৈরি ও প্রদর্শনের জন্য ব্যবহৃত হয়।
+
+সহজ ভাষায়:
+
+MS PowerPoint এবং Google Slides এমন দুটি Presentation Application, যার মাধ্যমে সুন্দর Slide তৈরি করে Text, Image, Chart, Video এবং Animation ব্যবহার করে তথ্য সহজ ও আকর্ষণীয়ভাবে উপস্থাপন করা যায়।
+
+## What are MS PowerPoint & Google Slides?
+
+Presentation Software হলো এমন Application, যা একাধিক Slide ব্যবহার করে তথ্য উপস্থাপন করতে সাহায্য করে।
+
+```text id="ps01"
+User
+   |
+Presentation Software
+   |
+Create & Present Slides
+```
+
+MS PowerPoint এবং Google Slides বর্তমানে বিশ্বের সবচেয়ে জনপ্রিয় Presentation Software।
+
+## Microsoft PowerPoint (MS PowerPoint)
+
+MS PowerPoint হলো Microsoft-এর তৈরি একটি Presentation Software।
+
+এটি Microsoft Office / Microsoft 365 Suite-এর অংশ এবং Professional Presentation তৈরির জন্য ব্যাপকভাবে ব্যবহৃত হয়।
+
+### Features of MS PowerPoint
+
+```text id="ps02"
+MS PowerPoint
+|
+├── Slides
+├── Themes
+├── Templates
+├── Animations
+├── Transitions
+├── Charts
+├── SmartArt
+├── Audio & Video
+├── Presenter View
+└── PDF & Video Export
+```
+
+## Google Slides
+
+Google Slides হলো Google-এর Cloud-based Presentation Application।
+
+এটি Browser বা Mobile App-এর মাধ্যমে ব্যবহার করা যায় এবং Presentation স্বয়ংক্রিয়ভাবে Google Drive-এ সংরক্ষিত হয়।
+
+### Features of Google Slides
+
+```text id="ps03"
+Google Slides
+|
+├── Cloud Storage
+├── Auto Save
+├── Real-time Collaboration
+├── Sharing
+├── Comments
+├── Version History
+├── Themes
+└── Google Drive Integration
+```
+
+## MS PowerPoint vs Google Slides
+
+| Feature            | MS PowerPoint             | Google Slides                                      |
+| ------------------ | ------------------------- | -------------------------------------------------- |
+| Developer          | Microsoft                 | Google                                             |
+| Internet Required  | না (Offline কাজ করে)      | সাধারণত Internet প্রয়োজন, তবে Offline Mode রয়েছে |
+| Storage            | Local Computer            | Google Drive                                       |
+| Auto Save          | নতুন সংস্করণে রয়েছে      | সবসময় Auto Save                                   |
+| Collaboration      | সীমিত                     | Real-Time Collaboration                            |
+| Advanced Animation | বেশি                      | তুলনামূলক কম                                       |
+| Best For           | Professional Presentation | Team Collaboration                                 |
+
+## Presentation Structure
+
+একটি Presentation সাধারণত একাধিক Slide নিয়ে গঠিত।
+
+```text id="ps04"
+Presentation
+|
+├── Title Slide
+├── Content Slides
+├── Charts
+├── Images
+└── Summary Slide
+```
+
+## Main Interface
+
+উভয় Software-এর Interface প্রায় একই ধরনের।
+
+```text id="ps05"
+Presentation Window
+|
+├── Title Bar
+├── Ribbon / Toolbar
+├── Slide Pane
+├── Slide Workspace
+├── Notes Pane
+├── Status Bar
+└── Zoom Control
+```
+
+## Important Components
+
+### 1. Slide
+
+Presentation-এর প্রতিটি আলাদা Page-কে Slide বলা হয়।
+
+### 2. Slide Pane
+
+সব Slide-এর তালিকা দেখায়।
+
+### 3. Workspace
+
+বর্তমান Slide সম্পাদনার স্থান।
+
+### 4. Notes Pane
+
+Presenter-এর জন্য অতিরিক্ত নোট লেখার স্থান।
+
+## Common Slide Elements
+
+```text id="ps06"
+Slide
+|
+├── Title
+├── Text
+├── Images
+├── Shapes
+├── Icons
+├── Charts
+├── Tables
+├── Audio
+└── Video
+```
+
+## Themes and Templates
+
+### Theme
+
+Presentation-এর Color, Font এবং Design একসাথে পরিবর্তন করে।
+
+### Template
+
+আগে থেকে তৈরি করা সম্পূর্ণ Presentation Design।
+
+## Insert Features
+
+Presentation-এ Insert করা যায়:
+
+```text id="ps07"
+Insert
+|
+├── Text Box
+├── Picture
+├── Table
+├── Chart
+├── SmartArt
+├── Shape
+├── Icon
+├── Audio
+├── Video
+└── Hyperlink
+```
+
+## Animations
+
+Animation Slide-এর কোনো Object-এ Movement বা Effect যোগ করে।
+
+উদাহরণ:
+
+* Fade
+* Fly In
+* Zoom
+* Spin
+
+## Transitions
+
+Transition একটি Slide থেকে অন্য Slide-এ যাওয়ার সময় Effect যোগ করে।
+
+উদাহরণ:
+
+* Fade
+* Push
+* Wipe
+* Morph (PowerPoint)
+
+## Presenter View
+
+Presenter View-এর মাধ্যমে বক্তা Presentation চলাকালীন:
+
+* Current Slide
+* Next Slide
+* Notes
+* Timer
+
+একসাথে দেখতে পারেন।
+
+## Collaboration
+
+Google Slides-এর অন্যতম শক্তিশালী Feature হলো Real-Time Collaboration।
+
+```text id="ps08"
+Multiple Users
+        |
+Google Slides
+        |
+Same Presentation
+```
+
+একাধিক ব্যক্তি একই সময়ে একই Presentation সম্পাদনা করতে পারে।
+
+## Keyboard Shortcuts
+
+| Shortcut | Function         |
+| -------- | ---------------- |
+| Ctrl + N | New Presentation |
+| Ctrl + O | Open             |
+| Ctrl + S | Save             |
+| Ctrl + P | Print            |
+| Ctrl + M | New Slide        |
+| Ctrl + D | Duplicate Slide  |
+| Ctrl + C | Copy             |
+| Ctrl + X | Cut              |
+| Ctrl + V | Paste            |
+| Ctrl + Z | Undo             |
+| F5       | Start Slide Show |
+| Esc      | End Slide Show   |
+
+## Real-Life Example
+
+ধরো তুমি "Computer Basics" বিষয়ে একটি ক্লাস নিচ্ছ।
+
+Presentation-এর Structure হতে পারে:
+
+```text id="ps09"
+Slide 1
+Title
+
+Slide 2
+Introduction
+
+Slide 3
+Computer Components
+
+Slide 4
+Examples
+
+Slide 5
+Summary
+```
+
+এর মাধ্যমে শিক্ষার্থীরা বিষয়টি সহজে বুঝতে পারে।
+
+## Advantages of MS PowerPoint
+
+* Professional Presentation
+* Advanced Animation
+* উন্নত Design Tools
+* Offline ব্যবহার করা যায়
+* Video Export সুবিধা
+
+## Advantages of Google Slides
+
+* Cloud-based
+* Auto Save
+* সহজ Sharing
+* Real-Time Collaboration
+* যেকোনো Device থেকে Access
+
+## Applications
+
+MS PowerPoint এবং Google Slides ব্যবহৃত হয়:
+
+* শিক্ষা
+* ব্যবসা
+* অফিস Meeting
+* Project Presentation
+* Research
+* Seminar
+* Training
+* Marketing
+* Product Demo
+* Conference
+
+## Importance of MS PowerPoint & Google Slides
+
+MS PowerPoint এবং Google Slides:
+
+* তথ্যকে আকর্ষণীয়ভাবে উপস্থাপন করতে সাহায্য করে।
+* Visual Learning সহজ করে।
+* Team Collaboration উন্নত করে।
+* Professional Communication-এর গুরুত্বপূর্ণ অংশ।
+* শিক্ষা ও ব্যবসায় ব্যাপকভাবে ব্যবহৃত হয়।
+
+## Summary
+
+MS PowerPoint এবং Google Slides হলো আধুনিক Presentation Software, যা Slide-এর মাধ্যমে তথ্য উপস্থাপনের জন্য ব্যবহৃত হয়। MS PowerPoint উন্নত Animation, Design এবং Professional Presentation তৈরির জন্য পরিচিত, আর Google Slides Cloud Storage, Auto Save এবং Real-Time Collaboration-এর জন্য জনপ্রিয়। শিক্ষা, ব্যবসা, গবেষণা এবং অফিসের Presentation তৈরিতে এই দুটি Tool অত্যন্ত গুরুত্বপূর্ণ।
+
+
+
+
+
+
+# > (4) PDF Readers & Editors
+
+PDF Readers & Editors হলো এমন Software বা Application, যার মাধ্যমে PDF (Portable Document Format) File খোলা (Open), পড়া (Read), সম্পাদনা (Edit), মন্তব্য (Comment), স্বাক্ষর (Sign), রূপান্তর (Convert), সংরক্ষণ (Save) এবং শেয়ার (Share) করা যায়।
+
+সহজ ভাষায়:
+
+PDF Reader দিয়ে PDF File দেখা ও পড়া যায়, আর PDF Editor দিয়ে PDF File পরিবর্তন, লেখা যোগ, ছবি সংযুক্ত, Form পূরণ এবং অন্যান্য সম্পাদনার কাজ করা যায়।
+
+## What is a PDF?
+
+PDF-এর পূর্ণরূপ:
+
+```text id="pdf01"
+Portable Document Format
+```
+
+PDF হলো একটি File Format, যা Document-এর Layout, Font, Image এবং Formatting অপরিবর্তিত রেখে যেকোনো Device-এ একইভাবে প্রদর্শন করে।
+
+```text id="pdf02"
+Document
+     |
+Save as PDF
+     |
+Same Layout Everywhere
+```
+
+## Why is PDF Important?
+
+PDF ব্যবহারের প্রধান কারণ:
+
+* Layout পরিবর্তন হয় না।
+* সব Device-এ একইভাবে দেখা যায়।
+* সহজে Print করা যায়।
+* Share করা সুবিধাজনক।
+* Password দিয়ে সুরক্ষিত করা যায়।
+
+## What is a PDF Reader?
+
+PDF Reader হলো এমন Software, যার মাধ্যমে PDF File খোলা, পড়া এবং Print করা যায়।
+
+### Features of PDF Reader
+
+```text id="pdf03"
+PDF Reader
+|
+├── Open PDF
+├── Read Document
+├── Zoom
+├── Search Text
+├── Print
+├── Bookmark
+└── Rotate Pages
+```
+
+## What is a PDF Editor?
+
+PDF Editor হলো এমন Software, যার মাধ্যমে PDF File সম্পাদনা করা যায়।
+
+### Features of PDF Editor
+
+```text id="pdf04"
+PDF Editor
+|
+├── Edit Text
+├── Add Images
+├── Insert Pages
+├── Delete Pages
+├── Merge PDF
+├── Split PDF
+├── Fill Forms
+├── Digital Signature
+├── Password Protection
+└── Convert Files
+```
+
+## Reader vs Editor
+
+| Feature           | PDF Reader | PDF Editor |
+| ----------------- | ---------- | ---------- |
+| Open PDF          | ✔          | ✔          |
+| Read Document     | ✔          | ✔          |
+| Print             | ✔          | ✔          |
+| Search Text       | ✔          | ✔          |
+| Edit Text         | ✘          | ✔          |
+| Add Images        | ✘          | ✔          |
+| Merge Files       | ✘          | ✔          |
+| Convert PDF       | ✘          | ✔          |
+| Digital Signature | সীমিত      | ✔          |
+
+## Common PDF Reader Features
+
+### Open PDF
+
+PDF File খুলে দেখা।
+
+### Zoom
+
+লেখা বড় বা ছোট করে দেখা।
+
+### Search
+
+Document-এর মধ্যে নির্দিষ্ট শব্দ খোঁজা।
+
+### Bookmark
+
+গুরুত্বপূর্ণ Page দ্রুত খুঁজে পাওয়া।
+
+### Print
+
+PDF সরাসরি Print করা।
+
+## Common PDF Editor Features
+
+### Edit Text
+
+Document-এর লেখা পরিবর্তন করা।
+
+### Add Images
+
+নতুন ছবি যুক্ত করা।
+
+### Add Comments
+
+মন্তব্য (Comment) যোগ করা।
+
+### Highlight Text
+
+গুরুত্বপূর্ণ অংশ Highlight করা।
+
+### Fill Forms
+
+PDF Form পূরণ করা।
+
+### Digital Signature
+
+Electronic Signature যোগ করা।
+
+### Merge PDF
+
+একাধিক PDF File একত্র করা।
+
+```text id="pdf05"
+PDF 1
+ +
+PDF 2
+ +
+PDF 3
+   |
+Merge
+   |
+Single PDF
+```
+
+### Split PDF
+
+একটি PDF-কে একাধিক PDF-তে ভাগ করা।
+
+```text id="pdf06"
+One PDF
+   |
+Split
+   |
+Multiple PDFs
+```
+
+### Convert PDF
+
+PDF থেকে:
+
+* Word
+* Excel
+* PowerPoint
+* Image
+
+এবং উল্টোভাবে এসব File থেকে PDF তৈরি করা যায়।
+
+## Security Features
+
+অনেক PDF Editor নিরাপত্তার জন্য বিভিন্ন Feature দেয়।
+
+```text id="pdf07"
+Security
+|
+├── Password
+├── Encryption
+├── Digital Signature
+└── Permission Control
+```
+
+## Common PDF File Extensions
+
+```text id="pdf08"
+.pdf
+```
+
+এটাই PDF-এর Standard File Extension।
+
+## Typical Workflow
+
+```text id="pdf09"
+Create Document
+      |
+Export as PDF
+      |
+Read
+      |
+Edit (If Needed)
+      |
+Share
+      |
+Print
+```
+
+## Keyboard Shortcuts
+
+| Shortcut | Function           |
+| -------- | ------------------ |
+| Ctrl + O | Open PDF           |
+| Ctrl + S | Save               |
+| Ctrl + P | Print              |
+| Ctrl + F | Find               |
+| Ctrl + + | Zoom In            |
+| Ctrl + - | Zoom Out           |
+| Ctrl + 0 | Default Zoom       |
+| Ctrl + C | Copy Selected Text |
+
+> **দ্রষ্টব্য:** কিছু Shortcut ব্যবহৃত Software অনুযায়ী ভিন্ন হতে পারে।
+
+## Real-Life Example
+
+ধরো তুমি একটি Resume তৈরি করলে।
+
+প্রক্রিয়াটি হতে পারে:
+
+```text id="pdf10"
+Create Resume
+      |
+Save as PDF
+      |
+Open in PDF Reader
+      |
+Share via Email
+      |
+Print
+```
+
+যদি পরে Resume-এ পরিবর্তন করতে হয়, তাহলে PDF Editor ব্যবহার করে Text বা অন্য তথ্য সংশোধন করা যায়।
+
+## Advantages of PDF Readers
+
+* দ্রুত PDF খোলা যায়।
+* Layout অপরিবর্তিত থাকে।
+* কম Memory ব্যবহার করে।
+* Print করা সহজ।
+
+## Advantages of PDF Editors
+
+* Document সম্পাদনা করা যায়।
+* Page যোগ বা বাদ দেওয়া যায়।
+* Form পূরণ করা যায়।
+* PDF Merge ও Split করা যায়।
+* Digital Signature যোগ করা যায়।
+
+## Applications
+
+PDF Readers & Editors ব্যবহৃত হয়:
+
+* শিক্ষা
+* অফিস
+* ব্যবসা
+* সরকারি নথি
+* গবেষণা
+* Resume ও CV
+* E-book
+* Invoice
+* Report
+* User Manual
+
+## Importance of PDF Readers & Editors
+
+PDF Readers & Editors:
+
+* Document নিরাপদভাবে শেয়ার করতে সাহায্য করে।
+* বিভিন্ন Device-এ একই Layout নিশ্চিত করে।
+* Professional Document ব্যবস্থাপনা সহজ করে।
+* Paperless Office ব্যবস্থায় গুরুত্বপূর্ণ ভূমিকা রাখে।
+* শিক্ষা ও ব্যবসায় ব্যাপকভাবে ব্যবহৃত হয়।
+
+## Summary
+
+PDF হলো একটি জনপ্রিয় Document File Format, যা Layout অপরিবর্তিত রেখে যেকোনো Device-এ একইভাবে প্রদর্শিত হয়। PDF Reader ব্যবহার করে PDF File খোলা, পড়া এবং Print করা যায়, আর PDF Editor ব্যবহার করে PDF সম্পাদনা, Merge, Split, Convert, Form পূরণ এবং Digital Signature যোগ করা যায়। আধুনিক শিক্ষা, অফিস ও ব্যবসায় PDF Readers এবং PDF Editors অত্যন্ত গুরুত্বপূর্ণ Tool।

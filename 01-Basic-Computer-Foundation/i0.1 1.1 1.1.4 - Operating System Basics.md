@@ -1,0 +1,2336 @@
+# > (1) What is Operating System?
+
+Operating System (OS) হলো Computer-এর সবচেয়ে গুরুত্বপূর্ণ System Software, যা Computer Hardware এবং User-এর মধ্যে মধ্যস্থতাকারী (Interface) হিসেবে কাজ করে।
+
+সহজ ভাষায়:
+
+Operating System হলো এমন একটি Software, যা Computer-এর সমস্ত Hardware এবং Software Resources পরিচালনা করে এবং ব্যবহারকারীকে Computer ব্যবহার করার সুযোগ দেয়।
+
+Operating System ছাড়া Computer কার্যত ব্যবহার করা যায় না।
+
+## Definition of Operating System
+
+Operating System হলো এমন একটি System Software, যা Computer-এর Hardware নিয়ন্ত্রণ করে, System Resources পরিচালনা করে এবং Application Software চালানোর জন্য প্রয়োজনীয় পরিবেশ প্রদান করে।
+
+## Why is an Operating System Needed?
+
+ধরো, Computer-এ CPU, RAM, Storage, Keyboard এবং Monitor আছে, কিন্তু কোনো Operating System নেই।
+
+তাহলে:
+
+* Program চালানো যাবে না
+* File ব্যবহার করা যাবে না
+* Hardware নিয়ন্ত্রণ করা যাবে না
+* User Computer-এর সাথে কাজ করতে পারবে না
+
+অর্থাৎ, Operating System Computer-কে ব্যবহারযোগ্য করে তোলে।
+
+## Operating System as an Interface
+
+Operating System User এবং Hardware-এর মধ্যে সেতুবন্ধন (Bridge) হিসেবে কাজ করে।
+
+```text id="os01"
+User
+  |
+  v
+Application Software
+  |
+  v
+Operating System
+  |
+  v
+Hardware
+```
+
+উদাহরণ:
+
+তুমি Keyboard-এ "A" চাপলে:
+
+1. Keyboard Signal পাঠায়।
+2. Operating System Signal গ্রহণ করে।
+3. Application Software-এ পাঠায়।
+4. Monitor-এ "A" প্রদর্শিত হয়।
+
+## Main Functions of Operating System
+
+### 1. Process Management
+
+Computer-এ চলমান Program এবং Process পরিচালনা করে।
+
+কাজ:
+
+* Program চালানো
+* Process Scheduling
+* Multitasking
+
+উদাহরণ:
+
+একই সময়ে Browser, Music Player এবং Word Processor চালানো।
+
+### 2. Memory Management
+
+RAM ব্যবস্থাপনা করে।
+
+কাজ:
+
+* Memory Allocation
+* Memory Deallocation
+* Memory Protection
+
+উদাহরণ:
+
+কোন Program কত RAM ব্যবহার করবে তা নির্ধারণ করা।
+
+### 3. File Management
+
+File এবং Folder পরিচালনা করে।
+
+কাজ:
+
+* Create File
+* Delete File
+* Copy File
+* Rename File
+
+উদাহরণ:
+
+Documents Folder-এ File সংরক্ষণ করা।
+
+### 4. Device Management
+
+Hardware Devices নিয়ন্ত্রণ করে।
+
+উদাহরণ:
+
+* Keyboard
+* Mouse
+* Printer
+* Scanner
+
+Operating System Driver-এর মাধ্যমে Device পরিচালনা করে।
+
+### 5. Security Management
+
+System Security নিশ্চিত করে।
+
+কাজ:
+
+* User Authentication
+* Password Protection
+* Access Control
+
+### 6. User Interface
+
+User-এর সাথে যোগাযোগের ব্যবস্থা প্রদান করে।
+
+উদাহরণ:
+
+* Desktop
+* Icons
+* Menus
+* Command Line
+
+## Characteristics of Operating System
+
+### Resource Manager
+
+CPU, RAM এবং Storage পরিচালনা করে।
+
+### Multitasking
+
+একাধিক Program একসাথে চালাতে পারে।
+
+### User Friendly
+
+Computer ব্যবহার সহজ করে।
+
+### Hardware Control
+
+Hardware-এর উপর নিয়ন্ত্রণ রাখে।
+
+### Application Support
+
+Application Software চালানোর পরিবেশ দেয়।
+
+## Types of Operating System
+
+```text id="os02"
+Operating System
+|
+├── Single User OS
+├── Multi User OS
+├── Multitasking OS
+├── Real-Time OS
+├── Distributed OS
+└── Mobile OS
+```
+
+### Single User Operating System
+
+একজন User-এর জন্য ডিজাইন করা।
+
+### Multi User Operating System
+
+একাধিক User একই System ব্যবহার করতে পারে।
+
+### Multitasking Operating System
+
+একাধিক Program একই সময়ে চালাতে পারে।
+
+### Real-Time Operating System (RTOS)
+
+তাৎক্ষণিক Response প্রদান করে।
+
+### Distributed Operating System
+
+একাধিক Computer-কে একসাথে পরিচালনা করে।
+
+### Mobile Operating System
+
+Smartphone এবং Tablet-এর জন্য ব্যবহৃত হয়।
+
+## Examples of Operating Systems
+
+### Desktop Operating Systems
+
+* Microsoft Windows
+* Ubuntu
+* macOS
+
+### Mobile Operating Systems
+
+* Android
+* iOS
+
+## Operating System Working Process
+
+Computer চালু হলে:
+
+### Step 1
+
+Power On করা হয়।
+
+### Step 2
+
+BIOS/UEFI Hardware পরীক্ষা করে।
+
+### Step 3
+
+Operating System Memory-তে Load হয়।
+
+### Step 4
+
+Drivers Load হয়।
+
+### Step 5
+
+User Interface প্রদর্শিত হয়।
+
+Flow:
+
+```text id="os03"
+Power On
+   |
+   v
+BIOS / UEFI
+   |
+   v
+Operating System
+   |
+   v
+Drivers
+   |
+   v
+Desktop / Interface
+```
+
+## Advantages of Operating System
+
+### Easy Computer Usage
+
+Computer ব্যবহার সহজ করে।
+
+### Efficient Resource Management
+
+System Resources সঠিকভাবে ব্যবহার করে।
+
+### Multitasking Support
+
+একাধিক কাজ একসাথে করা যায়।
+
+### Security
+
+System নিরাপদ রাখে।
+
+### Hardware Management
+
+Hardware পরিচালনা সহজ করে।
+
+## Operating System Examples in Daily Life
+
+| Device      | Operating System  |
+| ----------- | ----------------- |
+| Desktop PC  | Windows, Linux    |
+| Laptop      | Windows, macOS    |
+| Smartphone  | Android, iOS      |
+| ATM Machine | Embedded OS       |
+| Smart TV    | Android TV, WebOS |
+
+## Summary
+
+Operating System (OS) হলো Computer-এর সবচেয়ে গুরুত্বপূর্ণ System Software, যা User, Application Software এবং Hardware-এর মধ্যে Interface হিসেবে কাজ করে। এটি Process Management, Memory Management, File Management, Device Management এবং Security Management-এর কাজ সম্পাদন করে। Operating System Computer-কে ব্যবহারযোগ্য করে তোলে এবং Application Software চালানোর জন্য প্রয়োজনীয় পরিবেশ প্রদান করে।
+
+
+
+
+
+
+# > (2) Functions of OS
+
+Operating System (OS)-এর প্রধান কাজ হলো Computer System-এর Hardware এবং Software Resources পরিচালনা করা এবং User-কে Computer ব্যবহারের সুবিধা প্রদান করা।
+
+সহজ ভাষায়:
+
+Operating System হলো Computer-এর Manager, যা Computer-এর সকল কাজ নিয়ন্ত্রণ ও সমন্বয় করে।
+
+## What are the Functions of an Operating System?
+
+Operating System বিভিন্ন ধরনের কাজ সম্পাদন করে যাতে Computer দক্ষ, নিরাপদ এবং ব্যবহারযোগ্য থাকে।
+
+Basic Concept:
+
+```text id="osf01"
+User
+  |
+  v
+Operating System
+  |
+  v
+Hardware Resources
+```
+
+## Main Functions of Operating System
+
+```text id="osf02"
+Functions of OS
+|
+├── Process Management
+├── Memory Management
+├── File Management
+├── Device Management
+├── Storage Management
+├── Security Management
+├── User Interface Management
+├── Resource Allocation
+├── Error Handling
+└── Networking Management
+```
+
+## 1. Process Management
+
+Process হলো চলমান (Running) Program।
+
+Operating System বিভিন্ন Process পরিচালনা করে।
+
+কাজ:
+
+* Process তৈরি করা
+* Process বন্ধ করা
+* CPU Time বণ্টন করা
+* Multitasking পরিচালনা করা
+
+উদাহরণ:
+
+একই সময়ে Browser, Music Player এবং Text Editor চালানো।
+
+```text id="osf03"
+CPU
+ |
+ +--> Browser
+ |
+ +--> Music Player
+ |
+ +--> Text Editor
+```
+
+## 2. Memory Management
+
+Operating System RAM-এর ব্যবহার নিয়ন্ত্রণ করে।
+
+কাজ:
+
+* Memory Allocation
+* Memory Deallocation
+* Memory Protection
+* Virtual Memory Management
+
+উদাহরণ:
+
+একটি Program কত RAM ব্যবহার করবে তা নির্ধারণ করা।
+
+```text id="osf04"
+RAM
+ |
+ +--> Program A
+ |
+ +--> Program B
+ |
+ +--> Program C
+```
+
+## 3. File Management
+
+File এবং Folder পরিচালনা করা Operating System-এর অন্যতম কাজ।
+
+কাজ:
+
+* File Create
+* File Delete
+* File Rename
+* File Copy
+* File Move
+
+উদাহরণ:
+
+Documents Folder-এ নতুন File তৈরি করা।
+
+## 4. Device Management
+
+Computer-এর Hardware Devices পরিচালনা করা।
+
+উদাহরণ:
+
+* Keyboard
+* Mouse
+* Monitor
+* Printer
+* Scanner
+
+Operating System Device Driver ব্যবহার করে Hardware নিয়ন্ত্রণ করে।
+
+```text id="osf05"
+Operating System
+       |
+       v
+Device Driver
+       |
+       v
+Hardware Device
+```
+
+## 5. Storage Management
+
+Storage Devices পরিচালনা করা।
+
+কাজ:
+
+* Disk Space Allocation
+* Free Space Tracking
+* Disk Organization
+
+উদাহরণ:
+
+SSD বা HDD-তে Data সংরক্ষণ করা।
+
+## 6. Security Management
+
+Computer এবং Data সুরক্ষিত রাখা।
+
+কাজ:
+
+* User Authentication
+* Password Protection
+* Access Control
+* Permission Management
+
+উদাহরণ:
+
+User Login System।
+
+```text id="osf06"
+Username
+   +
+Password
+   |
+   v
+Access Granted
+```
+
+## 7. User Interface Management
+
+User-এর সাথে যোগাযোগের ব্যবস্থা তৈরি করা।
+
+### Graphical User Interface (GUI)
+
+উদাহরণ:
+
+* Desktop
+* Windows
+* Icons
+* Menus
+
+### Command Line Interface (CLI)
+
+উদাহরণ:
+
+* Terminal
+* Command Prompt
+
+```text id="osf07"
+User
+  |
+  v
+GUI / CLI
+  |
+  v
+Operating System
+```
+
+## 8. Resource Allocation
+
+System Resources সঠিকভাবে বণ্টন করা।
+
+Resources:
+
+* CPU
+* RAM
+* Storage
+* Network
+
+Operating System সিদ্ধান্ত নেয় কোন Program কত Resource পাবে।
+
+## 9. Error Handling
+
+System Error শনাক্ত এবং সমাধান করার চেষ্টা করা।
+
+কাজ:
+
+* Error Detection
+* Error Reporting
+* Error Recovery
+
+উদাহরণ:
+
+* Disk Error
+* Memory Error
+* Device Error
+
+## 10. Networking Management
+
+Network Communication পরিচালনা করা।
+
+কাজ:
+
+* Internet Connection
+* Data Communication
+* Network Resource Sharing
+
+উদাহরণ:
+
+* Wi-Fi Connection
+* Ethernet Connection
+
+```text id="osf08"
+Computer
+    |
+    v
+Operating System
+    |
+    v
+Network
+```
+
+## Additional Functions of Operating System
+
+### Job Scheduling
+
+কোন কাজ আগে হবে তা নির্ধারণ করে।
+
+### Performance Monitoring
+
+System Performance পর্যবেক্ষণ করে।
+
+### Backup Support
+
+Data Backup-এর সুবিধা প্রদান করে।
+
+### System Logging
+
+System Events রেকর্ড করে।
+
+## Real-Life Example
+
+ধরো তুমি Computer-এ:
+
+* Browser খুলেছ
+* Music শুনছ
+* File Download করছ
+* Document লিখছ
+
+Operating System:
+
+* CPU Time ভাগ করছে
+* RAM বণ্টন করছে
+* Network পরিচালনা করছে
+* Storage ব্যবহার করছে
+
+এবং সব কাজ একসাথে পরিচালনা করছে।
+
+## Importance of OS Functions
+
+Operating System-এর এই কাজগুলো ছাড়া:
+
+* Program চলবে না
+* Hardware কাজ করবে না
+* File ব্যবহার করা যাবে না
+* Security থাকবে না
+* Multitasking সম্ভব হবে না
+
+অর্থাৎ Computer ব্যবহারযোগ্য থাকবে না।
+
+## Summary Table
+
+| Function                  | Purpose                |
+| ------------------------- | ---------------------- |
+| Process Management        | Program পরিচালনা       |
+| Memory Management         | RAM পরিচালনা           |
+| File Management           | File ও Folder পরিচালনা |
+| Device Management         | Hardware নিয়ন্ত্রণ    |
+| Storage Management        | Disk পরিচালনা          |
+| Security Management       | নিরাপত্তা নিশ্চিত      |
+| User Interface Management | User Interaction       |
+| Resource Allocation       | Resource বণ্টন         |
+| Error Handling            | সমস্যা শনাক্ত ও সমাধান |
+| Networking Management     | Network পরিচালনা       |
+
+## Summary
+
+Operating System-এর প্রধান কাজ হলো Computer System-এর সকল Resources পরিচালনা করা। এটি Process Management, Memory Management, File Management, Device Management, Storage Management, Security Management, User Interface Management, Resource Allocation, Error Handling এবং Networking Management-এর মাধ্যমে Computer-কে দক্ষ ও ব্যবহারযোগ্য রাখে। Operating System না থাকলে Computer-এর Hardware এবং Software সঠিকভাবে কাজ করতে পারত না।
+
+
+
+
+
+
+# > (3) User Interfaces
+
+User Interface (UI) হলো এমন একটি মাধ্যম, যার মাধ্যমে User Computer, Mobile Device বা অন্য কোনো Electronic System-এর সাথে যোগাযোগ (Interaction) করে।
+
+সহজ ভাষায়:
+
+User Interface হলো Computer এবং User-এর মধ্যে যোগাযোগের সেতু, যার মাধ্যমে User Command দেয় এবং System ফলাফল প্রদর্শন করে।
+
+## What is a User Interface?
+
+User Interface (UI) হলো সেই অংশ, যা User দেখতে এবং ব্যবহার করতে পারে।
+
+User Interface-এর মাধ্যমে:
+
+* Command দেওয়া যায়
+* তথ্য দেখা যায়
+* Program ব্যবহার করা যায়
+* System নিয়ন্ত্রণ করা যায়
+
+Basic Relationship:
+
+```text id="ui01"
+User
+  |
+  v
+User Interface
+  |
+  v
+Operating System
+  |
+  v
+Hardware
+```
+
+## Why is User Interface Important?
+
+User Interface ছাড়া:
+
+* Computer ব্যবহার করা কঠিন হতো
+* Command দেওয়া যেত না
+* Program চালানো যেত না
+
+User Interface Computer-কে User-Friendly করে।
+
+## Types of User Interfaces
+
+```text id="ui02"
+User Interfaces
+|
+├── Command Line Interface (CLI)
+├── Graphical User Interface (GUI)
+├── Menu-Driven Interface
+├── Form-Based Interface
+├── Touch Interface
+└── Voice User Interface (VUI)
+```
+
+## 1. Command Line Interface (CLI)
+
+CLI (Command Line Interface)-এ User Text Command লিখে Computer পরিচালনা করে।
+
+কাজের পদ্ধতি:
+
+```text id="ui03"
+User
+  |
+Type Command
+  |
+  v
+Command Line
+  |
+  v
+Output
+```
+
+উদাহরণ:
+
+```bash
+dir
+```
+
+```bash
+cd Documents
+```
+
+### Advantages
+
+* দ্রুত কাজ করা যায়
+* কম Resource ব্যবহার করে
+* Automation সহজ
+
+### Disadvantages
+
+* Command মুখস্থ রাখতে হয়
+* নতুন User-এর জন্য কঠিন
+
+### Examples
+
+* Command Prompt
+* Terminal
+* PowerShell
+
+## 2. Graphical User Interface (GUI)
+
+GUI (Graphical User Interface)-এ User Graphics-এর মাধ্যমে Computer ব্যবহার করে।
+
+উপাদান:
+
+* Windows
+* Icons
+* Menus
+* Pointer
+
+এটিকে WIMP Interface-ও বলা হয়।
+
+```text id="ui04"
+W = Windows
+I = Icons
+M = Menus
+P = Pointer
+```
+
+### Examples
+
+* Windows Desktop
+* Linux Desktop
+* macOS Desktop
+
+### Advantages
+
+* ব্যবহার সহজ
+* Visual Interface
+* নতুন User-এর জন্য উপযোগী
+
+### Disadvantages
+
+* বেশি RAM এবং CPU ব্যবহার করে
+
+## 3. Menu-Driven Interface
+
+এখানে User Menu থেকে Option নির্বাচন করে।
+
+উদাহরণ:
+
+```text id="ui05"
+Main Menu
+|
+├── File
+├── Edit
+├── View
+└── Help
+```
+
+### Examples
+
+* ATM Machine
+* BIOS Setup Menu
+* DVD Player Menu
+
+### Advantages
+
+* সহজ ব্যবহার
+* কম Training প্রয়োজন
+
+### Disadvantages
+
+* সীমিত Flexibility
+
+## 4. Form-Based Interface
+
+Form-Based Interface-এ User বিভিন্ন Form পূরণ করে তথ্য প্রদান করে।
+
+উদাহরণ:
+
+```text id="ui06"
+Name: __________
+
+Email: __________
+
+Phone: __________
+
+[Submit]
+```
+
+### Examples
+
+* Registration Form
+* Login Form
+* Online Application Form
+
+### Advantages
+
+* Structured Data Input
+* সহজ তথ্য সংগ্রহ
+
+## 5. Touch Interface
+
+Touch Interface-এ User Screen স্পর্শ করে Command প্রদান করে।
+
+### Examples
+
+* Smartphone
+* Tablet
+* Touchscreen Kiosk
+
+কাজের পদ্ধতি:
+
+```text id="ui07"
+Finger Touch
+      |
+      v
+Touch Screen
+      |
+      v
+System Action
+```
+
+### Advantages
+
+* দ্রুত ব্যবহার
+* Natural Interaction
+
+### Disadvantages
+
+* Screen Smudge হতে পারে
+* Precision কম হতে পারে
+
+## 6. Voice User Interface (VUI)
+
+Voice User Interface-এ User কণ্ঠস্বর ব্যবহার করে Command দেয়।
+
+### Examples
+
+* Voice Assistant
+* Smart Speaker
+* Voice Control System
+
+কাজের পদ্ধতি:
+
+```text id="ui08"
+Voice Command
+      |
+      v
+Speech Recognition
+      |
+      v
+System Response
+```
+
+### Advantages
+
+* Hands-Free Operation
+* দ্রুত Command প্রদান
+
+### Disadvantages
+
+* Noise-এর কারণে সমস্যা হতে পারে
+
+## Comparison of User Interfaces
+
+| Interface   | Input Method      | Ease of Use |
+| ----------- | ----------------- | ----------- |
+| CLI         | Keyboard Commands | Medium      |
+| GUI         | Mouse + Keyboard  | Easy        |
+| Menu-Driven | Menu Selection    | Easy        |
+| Form-Based  | Form Filling      | Easy        |
+| Touch       | Touch Screen      | Very Easy   |
+| Voice       | Speech            | Very Easy   |
+
+## Evolution of User Interfaces
+
+```text id="ui09"
+CLI
+ |
+ v
+Menu Interface
+ |
+ v
+GUI
+ |
+ v
+Touch Interface
+ |
+ v
+Voice Interface
+```
+
+সময়ের সাথে User Interface আরও সহজ এবং User-Friendly হয়েছে।
+
+## Real-Life Examples
+
+| Device               | User Interface  |
+| -------------------- | --------------- |
+| Computer             | GUI, CLI        |
+| Smartphone           | GUI, Touch      |
+| ATM                  | Menu-Driven     |
+| Website Registration | Form-Based      |
+| Smart Speaker        | Voice Interface |
+
+## Importance of User Interfaces
+
+User Interface:
+
+* Computer ব্যবহার সহজ করে
+* User Experience উন্নত করে
+* দ্রুত Interaction নিশ্চিত করে
+* Productivity বৃদ্ধি করে
+
+একটি ভালো User Interface System ব্যবহারের অভিজ্ঞতা অনেক উন্নত করে।
+
+## Summary
+
+User Interface (UI) হলো User এবং Computer System-এর মধ্যে যোগাযোগের মাধ্যম। CLI, GUI, Menu-Driven Interface, Form-Based Interface, Touch Interface এবং Voice User Interface হলো প্রধান ধরনের User Interface। আধুনিক Computer এবং Mobile Device-এ GUI, Touch Interface এবং Voice Interface সবচেয়ে বেশি ব্যবহৃত হয়।
+
+
+
+
+
+
+# > (4) File Systems
+
+File System হলো এমন একটি পদ্ধতি (Method) ও কাঠামো (Structure), যার মাধ্যমে Operating System Storage Device-এ Data এবং Files সংরক্ষণ, সংগঠিত, খুঁজে বের এবং পরিচালনা করে।
+
+সহজ ভাষায়:
+
+File System হলো Storage Device-এর "ফাইল ব্যবস্থাপনা ব্যবস্থা", যা নির্ধারণ করে File কোথায় সংরক্ষণ হবে, কীভাবে খুঁজে পাওয়া যাবে এবং কীভাবে পরিচালনা করা হবে।
+
+## What is a File System?
+
+File System হলো Operating System-এর একটি অংশ, যা Storage Device-এর Data সংগঠিত ও পরিচালনা করে।
+
+যদি File System না থাকত, তাহলে Storage Device-এ Data এলোমেলো অবস্থায় থাকত এবং নির্দিষ্ট File খুঁজে পাওয়া অত্যন্ত কঠিন হতো।
+
+Basic Concept:
+
+```text id="fs01"
+Storage Device
+      |
+      v
+File System
+      |
+      v
+Files & Folders
+```
+
+## Why is a File System Needed?
+
+File System-এর প্রধান উদ্দেশ্য:
+
+* File সংরক্ষণ করা
+* Folder সংগঠিত করা
+* File খুঁজে বের করা
+* File-এর নাম সংরক্ষণ করা
+* Storage Space পরিচালনা করা
+* Data Security নিশ্চিত করা
+
+## How a File System Works
+
+যখন User একটি File Save করে:
+
+1. Operating System File গ্রহণ করে।
+2. File System Storage Location নির্ধারণ করে।
+3. Data Storage Device-এ সংরক্ষণ করে।
+4. File Name এবং Location-এর তথ্য সংরক্ষণ করে।
+
+Flow:
+
+```text id="fs02"
+User
+  |
+Save File
+  |
+  v
+Operating System
+  |
+  v
+File System
+  |
+  v
+Storage Device
+```
+
+## Main Components of a File System
+
+```text id="fs03"
+File System
+|
+├── Files
+├── Folders (Directories)
+├── Metadata
+├── File Paths
+└── Permissions
+```
+
+## 1. Files
+
+File হলো Data সংরক্ষণের মৌলিক একক।
+
+উদাহরণ:
+
+* Document
+* Image
+* Video
+* Audio
+* Program
+
+উদাহরণ:
+
+```text id="fs04"
+report.docx
+photo.jpg
+video.mp4
+music.mp3
+```
+
+## 2. Folders (Directories)
+
+Folder বা Directory File-গুলোকে সংগঠিত রাখে।
+
+উদাহরণ:
+
+```text id="fs05"
+Documents
+|
+├── Report.docx
+├── Notes.txt
+└── Project.pdf
+```
+
+## 3. Metadata
+
+Metadata হলো File সম্পর্কে অতিরিক্ত তথ্য।
+
+উদাহরণ:
+
+* File Name
+* File Size
+* Creation Date
+* Modification Date
+* File Type
+
+উদাহরণ:
+
+```text id="fs06"
+File Name: photo.jpg
+Size: 2 MB
+Type: JPG Image
+```
+
+## 4. File Path
+
+File-এর অবস্থান (Location) নির্দেশ করে।
+
+উদাহরণ:
+
+```text id="fs07"
+C:\Users\Hasan\Documents\report.docx
+```
+
+এটি File-এর সম্পূর্ণ পথ (Full Path)।
+
+## 5. Permissions
+
+Permissions নির্ধারণ করে কে File ব্যবহার করতে পারবে।
+
+উদাহরণ:
+
+* Read
+* Write
+* Execute
+
+```text id="fs08"
+Read
+Write
+Execute
+```
+
+## Types of File Systems
+
+```text id="fs09"
+File Systems
+|
+├── FAT32
+├── exFAT
+├── NTFS
+├── ext4
+├── APFS
+└── Others
+```
+
+## 1. FAT32
+
+FAT = File Allocation Table
+
+এটি পুরনো এবং বহুল ব্যবহৃত File System।
+
+বৈশিষ্ট্য:
+
+* বিভিন্ন Operating System সমর্থন করে
+* সহজ কাঠামো
+
+সীমাবদ্ধতা:
+
+* 4 GB-এর বেশি Single File সমর্থন করে না
+
+## 2. exFAT
+
+exFAT = Extended File Allocation Table
+
+বৈশিষ্ট্য:
+
+* বড় File সমর্থন করে
+* USB Drive এবং Memory Card-এ জনপ্রিয়
+
+## 3. NTFS
+
+NTFS = New Technology File System
+
+বৈশিষ্ট্য:
+
+* Security Support
+* Large File Support
+* File Permissions
+* Journaling
+
+সাধারণত Windows-এ ব্যবহৃত হয়।
+
+## 4. ext4
+
+ext4 = Fourth Extended File System
+
+বৈশিষ্ট্য:
+
+* Stable
+* Fast
+* Reliable
+
+সাধারণত Linux System-এ ব্যবহৃত হয়।
+
+## 5. APFS
+
+APFS = Apple File System
+
+বৈশিষ্ট্য:
+
+* Modern Design
+* Encryption Support
+* SSD Optimized
+
+সাধারণত Apple Device-এ ব্যবহৃত হয়।
+
+## File Organization Structure
+
+File System সাধারণত Tree Structure ব্যবহার করে।
+
+উদাহরণ:
+
+```text id="fs10"
+Root
+|
+├── Documents
+│   ├── Report.docx
+│   └── Notes.txt
+|
+├── Pictures
+│   ├── Photo1.jpg
+│   └── Photo2.jpg
+|
+└── Videos
+    └── Movie.mp4
+```
+
+## Common File Operations
+
+### Create
+
+নতুন File তৈরি করা।
+
+### Open
+
+File খোলা।
+
+### Read
+
+File-এর Data পড়া।
+
+### Write
+
+File-এ Data লেখা।
+
+### Rename
+
+File-এর নাম পরিবর্তন করা।
+
+### Copy
+
+File-এর অনুলিপি তৈরি করা।
+
+### Move
+
+File অন্য স্থানে স্থানান্তর করা।
+
+### Delete
+
+File মুছে ফেলা।
+
+## Advantages of File Systems
+
+### Organized Storage
+
+Data সুশৃঙ্খলভাবে সংরক্ষণ করে।
+
+### Fast Access
+
+File দ্রুত খুঁজে পাওয়া যায়।
+
+### Security
+
+Access Control প্রদান করে।
+
+### Reliability
+
+Data Management সহজ করে।
+
+## File System vs Storage Device
+
+| Feature | File System        | Storage Device  |
+| ------- | ------------------ | --------------- |
+| Nature  | Software Structure | Hardware Device |
+| Purpose | Data Organization  | Data Storage    |
+| Example | NTFS, ext4         | HDD, SSD        |
+
+## Real-Life Analogy
+
+ধরো একটি বড় লাইব্রেরি আছে।
+
+* Library Building = Storage Device
+* Book Shelves = Folders
+* Books = Files
+* Library Catalog = File System
+
+যেভাবে Library Catalog বই খুঁজে পেতে সাহায্য করে, ঠিক তেমনি File System File খুঁজে পেতে সাহায্য করে।
+
+## Summary
+
+File System হলো Operating System-এর এমন একটি ব্যবস্থা, যা Storage Device-এর Data, Files এবং Folders সংগঠিত ও পরিচালনা করে। FAT32, exFAT, NTFS, ext4 এবং APFS হলো জনপ্রিয় File System। File System File Storage, Retrieval, Security এবং Organization নিশ্চিত করে, ফলে User সহজে Data সংরক্ষণ ও ব্যবহার করতে পারে।
+
+
+
+
+
+
+# > (5) Basic OS Commands
+
+Operating System Commands হলো এমন নির্দেশনা (Instructions), যা User Command Line Interface (CLI) ব্যবহার করে Operating System-কে নির্দিষ্ট কাজ করতে দেয়।
+
+সহজ ভাষায়:
+
+OS Command হলো Operating System-কে দেওয়া Text-Based নির্দেশ, যার মাধ্যমে File, Folder, System Information এবং অন্যান্য কাজ পরিচালনা করা যায়।
+
+## What are OS Commands?
+
+OS Commands হলো Command Line Interface (CLI)-এ লেখা বিশেষ নির্দেশনা, যা Operating System বুঝতে পারে এবং সেই অনুযায়ী কাজ সম্পন্ন করে।
+
+Basic Flow:
+
+```text id="cmd01"
+User
+  |
+Type Command
+  |
+  v
+Operating System
+  |
+  v
+Result
+```
+
+উদাহরণ:
+
+```bash id="cmd02"
+dir
+```
+
+এই Command বর্তমান Folder-এর File এবং Folder-এর তালিকা দেখায়।
+
+## Why Learn OS Commands?
+
+OS Commands শেখার সুবিধা:
+
+* দ্রুত কাজ করা যায়
+* System Control বৃদ্ধি পায়
+* Automation সহজ হয়
+* Troubleshooting করা সহজ হয়
+* Programming এবং Cybersecurity-তে গুরুত্বপূর্ণ
+
+## Categories of Basic OS Commands
+
+```text id="cmd03"
+Basic OS Commands
+|
+├── Navigation Commands
+├── File Commands
+├── Directory Commands
+├── System Information Commands
+├── Network Commands
+└── Process Commands
+```
+
+## 1. Navigation Commands
+
+Folder-এর মধ্যে চলাচল করার জন্য ব্যবহৃত হয়।
+
+### pwd
+
+বর্তমান Directory দেখায়।
+
+Linux / macOS:
+
+```bash id="cmd04"
+pwd
+```
+
+Output:
+
+```text id="cmd05"
+/home/user/Documents
+```
+
+### cd
+
+Directory পরিবর্তন করার জন্য।
+
+```bash id="cmd06"
+cd Documents
+```
+
+Parent Directory-তে যাওয়ার জন্য:
+
+```bash id="cmd07"
+cd ..
+```
+
+## 2. File Commands
+
+File নিয়ে কাজ করার জন্য ব্যবহৃত হয়।
+
+### ls
+
+বর্তমান Directory-এর File এবং Folder দেখায়।
+
+Linux / macOS:
+
+```bash id="cmd08"
+ls
+```
+
+### dir
+
+Windows-এ File এবং Folder তালিকা দেখায়।
+
+```cmd id="cmd09"
+dir
+```
+
+### touch
+
+নতুন File তৈরি করে।
+
+Linux:
+
+```bash id="cmd10"
+touch notes.txt
+```
+
+### type
+
+Windows-এ File-এর Content দেখায়।
+
+```cmd id="cmd11"
+type notes.txt
+```
+
+### cat
+
+Linux-এ File-এর Content দেখায়।
+
+```bash id="cmd12"
+cat notes.txt
+```
+
+## 3. Directory Commands
+
+Folder পরিচালনার জন্য ব্যবহৃত হয়।
+
+### mkdir
+
+নতুন Directory তৈরি করে।
+
+```bash id="cmd13"
+mkdir Projects
+```
+
+### rmdir
+
+খালি Directory মুছে ফেলে।
+
+```bash id="cmd14"
+rmdir Projects
+```
+
+## 4. File Management Commands
+
+### copy
+
+Windows-এ File Copy করে।
+
+```cmd id="cmd15"
+copy file1.txt backup.txt
+```
+
+### cp
+
+Linux-এ File Copy করে।
+
+```bash id="cmd16"
+cp file1.txt backup.txt
+```
+
+### move
+
+Windows-এ File Move করে।
+
+```cmd id="cmd17"
+move file.txt Documents
+```
+
+### mv
+
+Linux-এ File Move বা Rename করে।
+
+```bash id="cmd18"
+mv file.txt Documents
+```
+
+### del
+
+Windows-এ File Delete করে।
+
+```cmd id="cmd19"
+del file.txt
+```
+
+### rm
+
+Linux-এ File Delete করে।
+
+```bash id="cmd20"
+rm file.txt
+```
+
+## 5. System Information Commands
+
+System সম্পর্কিত তথ্য দেখায়।
+
+### date
+
+বর্তমান Date দেখায়।
+
+```bash id="cmd21"
+date
+```
+
+### time
+
+বর্তমান Time দেখায়।
+
+Windows:
+
+```cmd id="cmd22"
+time
+```
+
+### hostname
+
+Computer-এর Host Name দেখায়।
+
+```bash id="cmd23"
+hostname
+```
+
+### whoami
+
+বর্তমান User দেখায়।
+
+```bash id="cmd24"
+whoami
+```
+
+## 6. Process Commands
+
+Running Programs বা Processes পরিচালনা করে।
+
+### tasklist
+
+Windows-এ চলমান Process দেখায়।
+
+```cmd id="cmd25"
+tasklist
+```
+
+### taskkill
+
+Windows-এ Process বন্ধ করে।
+
+```cmd id="cmd26"
+taskkill /PID 1234
+```
+
+### ps
+
+Linux-এ চলমান Process দেখায়।
+
+```bash id="cmd27"
+ps
+```
+
+### kill
+
+Linux-এ Process বন্ধ করে।
+
+```bash id="cmd28"
+kill 1234
+```
+
+## 7. Network Commands
+
+Network Information এবং Connectivity পরীক্ষা করে।
+
+### ping
+
+Network Connection পরীক্ষা করে।
+
+```bash id="cmd29"
+ping google.com
+```
+
+### ipconfig
+
+Windows-এ IP Address দেখায়।
+
+```cmd id="cmd30"
+ipconfig
+```
+
+### ifconfig
+
+Linux-এর পুরনো Network Command।
+
+```bash id="cmd31"
+ifconfig
+```
+
+### ip addr
+
+আধুনিক Linux Network Information Command।
+
+```bash id="cmd32"
+ip addr
+```
+
+## 8. Screen Commands
+
+### cls
+
+Windows Terminal পরিষ্কার করে।
+
+```cmd id="cmd33"
+cls
+```
+
+### clear
+
+Linux Terminal পরিষ্কার করে।
+
+```bash id="cmd34"
+clear
+```
+
+## Basic Command Examples
+
+### Example 1
+
+Directory List দেখা:
+
+```bash id="cmd35"
+ls
+```
+
+অথবা
+
+```cmd id="cmd36"
+dir
+```
+
+### Example 2
+
+Folder তৈরি:
+
+```bash id="cmd37"
+mkdir MyProject
+```
+
+### Example 3
+
+Folder-এ প্রবেশ:
+
+```bash id="cmd38"
+cd MyProject
+```
+
+### Example 4
+
+File তৈরি:
+
+```bash id="cmd39"
+touch index.html
+```
+
+## Common Commands Summary
+
+| Command     | Purpose              |
+| ----------- | -------------------- |
+| pwd         | Current Directory    |
+| cd          | Change Directory     |
+| ls          | List Files           |
+| dir         | List Files (Windows) |
+| mkdir       | Create Directory     |
+| rmdir       | Remove Directory     |
+| touch       | Create File          |
+| copy / cp   | Copy File            |
+| move / mv   | Move File            |
+| del / rm    | Delete File          |
+| ping        | Check Network        |
+| whoami      | Show Current User    |
+| hostname    | Show Computer Name   |
+| clear / cls | Clear Screen         |
+
+## Command Line vs GUI
+
+| Feature        | CLI      | GUI              |
+| -------------- | -------- | ---------------- |
+| Input          | Commands | Mouse & Keyboard |
+| Speed          | Fast     | Moderate         |
+| Learning Curve | Higher   | Lower            |
+| Automation     | Easy     | Limited          |
+
+## Importance of Basic OS Commands
+
+OS Commands:
+
+* Computer পরিচালনা সহজ করে
+* Automation সম্ভব করে
+* Troubleshooting সহজ করে
+* Programming এবং Cybersecurity-তে সাহায্য করে
+* System Administration-এর ভিত্তি তৈরি করে
+
+## Summary
+
+Basic OS Commands হলো Operating System পরিচালনার জন্য ব্যবহৃত Text-Based নির্দেশনা। Navigation Commands, File Commands, Directory Commands, System Information Commands, Network Commands এবং Process Commands OS Command-এর প্রধান বিভাগ। CLI ব্যবহার করে User দ্রুত এবং কার্যকরভাবে Computer System পরিচালনা করতে পারে।
+
+
+
+
+
+
+# > (6) Process & Task
+
+Operating System-এ Process এবং Task হলো Computer-এর চলমান কাজ (Running Work) বোঝানোর জন্য ব্যবহৃত দুটি গুরুত্বপূর্ণ ধারণা।
+
+সহজ ভাষায়:
+
+যখন কোনো Program চালু করা হয়, তখন সেটি Memory-তে Load হয়ে Process হিসেবে কাজ শুরু করে। Operating System সেই Process বা Task-গুলোকে পরিচালনা করে।
+
+## What is a Process?
+
+Process হলো কোনো Program-এর Running Instance।
+
+অর্থাৎ, একটি Program যখন Execute হয়, তখন সেটি Process-এ পরিণত হয়।
+
+Definition:
+
+একটি Process হলো Memory-তে চলমান Program, যার নিজস্ব Data, Instructions এবং System Resources থাকে।
+
+উদাহরণ:
+
+ধরো তুমি Browser খুলেছ।
+
+Program:
+
+```text id="pt01"
+Google Chrome
+```
+
+চালু করার পর:
+
+```text id="pt02"
+Chrome Process
+```
+
+হয়ে যায়।
+
+অর্থাৎ:
+
+```text id="pt03"
+Program + Execution = Process
+```
+
+## Characteristics of a Process
+
+প্রতিটি Process-এর থাকে:
+
+* Process ID (PID)
+* Program Code
+* Data
+* Memory Space
+* Execution State
+* System Resources
+
+## Process Structure
+
+```text id="pt04"
+Process
+|
+├── Process ID (PID)
+├── Program Code
+├── Data
+├── Stack
+├── Heap
+└── Registers
+```
+
+## Process States
+
+Process সবসময় একই অবস্থায় থাকে না।
+
+একটি Process বিভিন্ন State-এর মধ্যে পরিবর্তিত হয়।
+
+```text id="pt05"
+New
+ |
+ v
+Ready
+ |
+ v
+Running
+ |
+ v
+Waiting
+ |
+ v
+Terminated
+```
+
+### 1. New
+
+নতুন Process তৈরি হয়েছে।
+
+### 2. Ready
+
+CPU পাওয়ার জন্য অপেক্ষা করছে।
+
+### 3. Running
+
+CPU ব্যবহার করে কাজ করছে।
+
+### 4. Waiting
+
+কোনো Event বা Input-এর জন্য অপেক্ষা করছে।
+
+### 5. Terminated
+
+Process শেষ হয়েছে।
+
+## Example of a Process
+
+ধরো তুমি:
+
+* Browser খুলেছ
+* Music Player চালু করেছ
+* Text Editor খুলেছ
+
+তাহলে:
+
+```text id="pt06"
+Running Processes
+|
+├── Browser
+├── Music Player
+└── Text Editor
+```
+
+প্রতিটি আলাদা Process।
+
+## What is a Task?
+
+Task হলো Operating System-এর দৃষ্টিতে সম্পাদনাধীন একটি কাজ (Work Unit)।
+
+অনেক ক্ষেত্রে Task এবং Process একই অর্থে ব্যবহার করা হয়।
+
+সহজ ভাষায়:
+
+Task হলো Computer-এর চলমান কোনো কাজ।
+
+উদাহরণ:
+
+* Video Play করা
+* File Download করা
+* Music চালানো
+* Document লেখা
+
+এসবই Task হিসেবে বিবেচিত হতে পারে।
+
+## Process vs Task
+
+অনেক Operating System-এ এই দুটি শব্দ প্রায় একই অর্থে ব্যবহৃত হয়।
+
+তবে ধারণাগতভাবে:
+
+* Process = Running Program
+* Task = সম্পাদনাধীন কাজ
+
+উদাহরণ:
+
+```text id="pt07"
+Chrome Process
+|
+├── Open Website Task
+├── Download Task
+└── Video Playback Task
+```
+
+এখানে একটি Process-এর ভেতরে একাধিক Task থাকতে পারে।
+
+## Multitasking
+
+Operating System-এর একটি গুরুত্বপূর্ণ বৈশিষ্ট্য হলো Multitasking।
+
+Multitasking মানে:
+
+একই সময়ে একাধিক Task বা Process পরিচালনা করা।
+
+উদাহরণ:
+
+```text id="pt08"
+Browser
+   |
+Music Player
+   |
+Text Editor
+   |
+Video Player
+```
+
+সব একসাথে চলছে বলে মনে হয়।
+
+## How Multitasking Works?
+
+বাস্তবে CPU খুব দ্রুত Process পরিবর্তন করে।
+
+```text id="pt09"
+CPU
+ |
+ +--> Process A
+ |
+ +--> Process B
+ |
+ +--> Process C
+```
+
+এটিকে Context Switching বলা হয়।
+
+## Process Scheduling
+
+Operating System সিদ্ধান্ত নেয়:
+
+* কোন Process আগে চলবে
+* কতক্ষণ CPU পাবে
+* কখন CPU ছেড়ে দেবে
+
+এই প্রক্রিয়াকে Process Scheduling বলে।
+
+```text id="pt10"
+Ready Queue
+     |
+     v
+Scheduler
+     |
+     v
+CPU
+```
+
+## Foreground and Background Processes
+
+### Foreground Process
+
+User সরাসরি দেখতে এবং ব্যবহার করতে পারে।
+
+উদাহরণ:
+
+* Browser
+* Text Editor
+
+### Background Process
+
+User সরাসরি দেখে না।
+
+উদাহরণ:
+
+* Antivirus
+* System Update
+* Driver Services
+
+```text id="pt11"
+Processes
+|
+├── Foreground
+└── Background
+```
+
+## Threads and Processes
+
+একটি Process-এর ভেতরে এক বা একাধিক Thread থাকতে পারে।
+
+```text id="pt12"
+Process
+|
+├── Thread 1
+├── Thread 2
+└── Thread 3
+```
+
+Thread হলো Process-এর ক্ষুদ্রতম Execution Unit।
+
+উদাহরণ:
+
+Browser-এর একটি Tab Video চালাচ্ছে, অন্য Tab Download করছে।
+
+## Process Management
+
+Operating System Process Management-এর মাধ্যমে:
+
+* Process Create করে
+* Process Schedule করে
+* Process Monitor করে
+* Process Terminate করে
+
+## Task Manager
+
+Windows-এ Process এবং Task দেখার জন্য Task Manager ব্যবহার করা হয়।
+
+উদাহরণ:
+
+* Running Apps
+* Background Processes
+* CPU Usage
+* RAM Usage
+
+Linux-এ:
+
+```bash id="pt13"
+ps
+```
+
+অথবা
+
+```bash id="pt14"
+top
+```
+
+Command ব্যবহার করা হয়।
+
+## Real-Life Example
+
+একজন অফিস ম্যানেজার কল্পনা করো।
+
+তার ডেস্কে:
+
+* Email Reply
+* Meeting
+* Phone Call
+* Report Writing
+
+সব কাজ একসাথে চলছে।
+
+ঠিক তেমনি Operating System একাধিক Process এবং Task পরিচালনা করে।
+
+## Process vs Program
+
+| Feature  | Program        | Process        |
+| -------- | -------------- | -------------- |
+| Nature   | Static         | Dynamic        |
+| Location | Storage Device | RAM            |
+| State    | Not Running    | Running        |
+| Example  | Chrome.exe     | Running Chrome |
+
+## Process vs Task
+
+| Feature        | Process         | Task                      |
+| -------------- | --------------- | ------------------------- |
+| Meaning        | Running Program | Running Work              |
+| Scope          | Program-Based   | Work-Based                |
+| Resource Usage | Own Resources   | May Use Process Resources |
+
+## Importance of Process & Task
+
+Process এবং Task:
+
+* Multitasking সম্ভব করে
+* CPU ব্যবহারে দক্ষতা আনে
+* System Performance উন্নত করে
+* Resource Management সহজ করে
+
+Operating System-এর অন্যতম প্রধান দায়িত্ব হলো Process এবং Task পরিচালনা করা।
+
+## Summary
+
+Process হলো কোনো Program-এর Running Instance এবং Task হলো সম্পাদনাধীন কাজ। Operating System Process Management-এর মাধ্যমে Process তৈরি, Scheduling, Monitoring এবং Termination পরিচালনা করে। Multitasking, Context Switching এবং Process Scheduling-এর মাধ্যমে একাধিক Process ও Task একসাথে পরিচালিত হয়, ফলে Computer দক্ষভাবে কাজ করতে পারে।
+
+
+
+
+
+
+# > (7) User vs Administrator
+
+Operating System-এ User এবং Administrator হলো দুটি ভিন্ন ধরনের Account বা Role, যাদের অনুমতি (Permissions) এবং দায়িত্ব (Responsibilities) আলাদা।
+
+সহজ ভাষায়:
+
+* User সাধারণ কাজ করার জন্য Computer ব্যবহার করে।
+* Administrator পুরো System নিয়ন্ত্রণ ও পরিচালনা করতে পারে।
+
+## What is a User?
+
+User হলো এমন ব্যক্তি বা Account, যা Computer-এর সাধারণ কাজগুলো করার জন্য ব্যবহৃত হয়।
+
+User সাধারণত:
+
+* Program চালাতে পারে
+* File ব্যবহার করতে পারে
+* Document তৈরি করতে পারে
+* Internet ব্যবহার করতে পারে
+
+কিন্তু System-এর গুরুত্বপূর্ণ Settings পরিবর্তন করার পূর্ণ অনুমতি থাকে না।
+
+## Characteristics of a User
+
+### Limited Permissions
+
+System-এর সবকিছু পরিবর্তন করতে পারে না।
+
+### Safe Environment
+
+ভুল করে System ক্ষতি করার সম্ভাবনা কম।
+
+### Daily Usage
+
+দৈনন্দিন কাজের জন্য ব্যবহৃত হয়।
+
+উদাহরণ:
+
+* Student
+* Office Employee
+* Home User
+
+## What is an Administrator?
+
+Administrator (Admin) হলো এমন Account, যার System-এর উপর সর্বোচ্চ নিয়ন্ত্রণ (Full Control) থাকে।
+
+Administrator:
+
+* Software Install করতে পারে
+* Software Remove করতে পারে
+* User Account তৈরি করতে পারে
+* System Settings পরিবর্তন করতে পারে
+* Security Policies নিয়ন্ত্রণ করতে পারে
+
+## Characteristics of an Administrator
+
+### Full Permissions
+
+System-এর প্রায় সব অংশে প্রবেশাধিকার থাকে।
+
+### System Management
+
+Computer পরিচালনা এবং রক্ষণাবেক্ষণ করে।
+
+### User Control
+
+অন্যান্য User Account নিয়ন্ত্রণ করতে পারে।
+
+### Security Control
+
+Security Settings পরিবর্তন করতে পারে।
+
+## User vs Administrator Concept
+
+```text id="ua01"
+Operating System
+|
+├── Administrator
+|      |
+|      ├── Full Control
+|      ├── Manage Users
+|      └── Change Settings
+|
+└── User
+       |
+       ├── Use Programs
+       ├── Create Files
+       └── Limited Access
+```
+
+## Permissions Comparison
+
+### User Permissions
+
+সাধারণত করতে পারে:
+
+* File Create
+* File Edit
+* Applications Use
+* Internet Browse
+
+সাধারণত করতে পারে না:
+
+* System File Modify
+* Security Settings Change
+* User Management
+* Driver Installation
+
+### Administrator Permissions
+
+করতে পারে:
+
+* Software Install
+* Software Uninstall
+* Driver Install
+* User Create/Delete
+* System Configuration
+* Security Management
+
+## Real-Life Example
+
+একটি অফিস কল্পনা করো।
+
+### User
+
+সাধারণ কর্মচারী।
+
+কাজ:
+
+* Document তৈরি
+* Email পাঠানো
+* অফিসের Software ব্যবহার
+
+### Administrator
+
+অফিস ম্যানেজার।
+
+কাজ:
+
+* নতুন কর্মচারী যোগ করা
+* নিয়ম পরিবর্তন করা
+* অফিস পরিচালনা করা
+
+```text id="ua02"
+Office
+|
+├── Manager
+|      = Administrator
+|
+└── Employee
+       = User
+```
+
+## User Account Types
+
+```text id="ua03"
+Accounts
+|
+├── Administrator
+├── Standard User
+├── Guest User
+└── Service Account
+```
+
+### Standard User
+
+সাধারণ User Account।
+
+### Guest User
+
+অস্থায়ী ব্যবহারকারীর জন্য।
+
+### Service Account
+
+System Services চালানোর জন্য ব্যবহৃত হয়।
+
+## Administrator Tasks
+
+Administrator-এর সাধারণ কাজ:
+
+### Software Management
+
+* Install
+* Update
+* Remove
+
+### User Management
+
+* Create User
+* Delete User
+* Change Password
+
+### Security Management
+
+* Firewall Configuration
+* Access Control
+* Permission Management
+
+### System Maintenance
+
+* Backup
+* Updates
+* Troubleshooting
+
+## Security Importance
+
+সবসময় Administrator Account ব্যবহার করা নিরাপদ নয়।
+
+কারণ:
+
+* Malware বেশি ক্ষতি করতে পারে
+* ভুল Configuration হতে পারে
+* Security Risk বাড়ে
+
+সাধারণ কাজের জন্য Standard User Account ব্যবহার করা উত্তম।
+
+## Windows Example
+
+Windows-এ:
+
+```text id="ua04"
+Administrator
+|
+├── Install Software
+├── Change Settings
+└── Manage Users
+```
+
+```text id="ua05"
+Standard User
+|
+├── Run Applications
+├── Create Files
+└── Use Resources
+```
+
+## Linux Example
+
+Linux-এ Administrator Account-কে Root User বলা হয়।
+
+```text id="ua06"
+Root User
+   |
+   v
+Full System Control
+```
+
+সাধারণ User সীমিত অনুমতি পায়।
+
+## User vs Administrator Table
+
+| Feature                | User       | Administrator |
+| ---------------------- | ---------- | ------------- |
+| Permission Level       | Limited    | Full          |
+| Install Software       | Usually No | Yes           |
+| Change System Settings | No         | Yes           |
+| Manage Users           | No         | Yes           |
+| Security Configuration | No         | Yes           |
+| Risk Level             | Lower      | Higher        |
+
+## Advantages of User Accounts
+
+### Better Security
+
+সাধারণ User ভুল করে System ক্ষতি করতে পারে না।
+
+### Controlled Access
+
+নির্দিষ্ট কাজের জন্য নির্দিষ্ট অনুমতি।
+
+### Multi-User Environment
+
+একাধিক ব্যক্তি একই Computer ব্যবহার করতে পারে।
+
+## Importance of Administrator Accounts
+
+Administrator Account:
+
+* System পরিচালনা করে
+* Software Install করে
+* Security নিয়ন্ত্রণ করে
+* Troubleshooting করে
+
+Administrator ছাড়া Computer-এর পূর্ণ নিয়ন্ত্রণ সম্ভব নয়।
+
+## Summary
+
+User এবং Administrator হলো Operating System-এর দুটি ভিন্ন Account Role। User Account সাধারণ কাজের জন্য ব্যবহৃত হয় এবং সীমিত Permission পায়। Administrator Account পুরো System-এর উপর পূর্ণ নিয়ন্ত্রণ রাখে এবং Software Installation, User Management, Security Configuration ও System Maintenance পরিচালনা করে। নিরাপত্তার জন্য দৈনন্দিন কাজের ক্ষেত্রে User Account ব্যবহার করা এবং প্রয়োজন হলে Administrator Permission ব্যবহার করা উত্তম।

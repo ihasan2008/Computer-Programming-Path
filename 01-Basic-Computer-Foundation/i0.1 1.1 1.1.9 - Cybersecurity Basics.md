@@ -1,0 +1,1266 @@
+# > (1) What is Cybersecurity?
+
+Cybersecurity হলো Computer, Network, Software, System, Server, Mobile Device এবং Data-কে Cyber Attack, Unauthorized Access, Malware, Data Theft এবং অন্যান্য Digital Threat থেকে সুরক্ষিত রাখার প্রক্রিয়া, নীতি (Policy), প্রযুক্তি (Technology) এবং অনুশীলনের (Practice) সমষ্টি।
+
+সহজ ভাষায়:
+
+Cybersecurity হলো Digital জগতের নিরাপত্তা ব্যবস্থা, যার মাধ্যমে Computer, Network এবং তথ্যকে Hacker ও বিভিন্ন Cyber Threat থেকে রক্ষা করা হয়।
+
+## What is Cybersecurity?
+
+Cybersecurity হলো Information Technology (IT)-এর এমন একটি শাখা, যা Digital Assets-এর নিরাপত্তা নিশ্চিত করে।
+
+Basic Concept:
+
+```text id="cy01"
+User
+   |
+Computer / Network
+   |
+Cybersecurity
+   |
+Protected Data
+```
+
+Cybersecurity-এর প্রধান লক্ষ্য হলো তথ্য এবং System-কে নিরাপদ রাখা।
+
+## Meaning of Cybersecurity
+
+Cybersecurity শব্দটি দুটি অংশ নিয়ে গঠিত।
+
+```text id="cy02"
+Cyber
+   +
+Security
+```
+
+* **Cyber** = Computer, Network, Internet এবং Digital World
+* **Security** = সুরক্ষা বা নিরাপত্তা
+
+অর্থাৎ, **Cybersecurity** মানে Digital জগতের নিরাপত্তা।
+
+## Why is Cybersecurity Important?
+
+বর্তমানে আমাদের প্রায় সব গুরুত্বপূর্ণ তথ্য Digital আকারে সংরক্ষিত থাকে।
+
+যেমন:
+
+* ব্যক্তিগত তথ্য
+* ব্যাংকিং তথ্য
+* ব্যবসায়িক তথ্য
+* সরকারি তথ্য
+* স্বাস্থ্যসেবা সম্পর্কিত তথ্য
+
+Cybersecurity ছাড়া এসব তথ্য চুরি, নষ্ট বা পরিবর্তন হয়ে যেতে পারে।
+
+## Objectives of Cybersecurity
+
+Cybersecurity-এর প্রধান উদ্দেশ্য:
+
+```text id="cy03"
+Cybersecurity
+|
+├── Protect Data
+├── Protect Systems
+├── Protect Networks
+├── Prevent Attacks
+└── Ensure Safe Communication
+```
+
+## What Does Cybersecurity Protect?
+
+Cybersecurity বিভিন্ন Digital Asset রক্ষা করে।
+
+```text id="cy04"
+Protected Assets
+|
+├── Computers
+├── Servers
+├── Networks
+├── Websites
+├── Mobile Devices
+├── Cloud Systems
+├── Applications
+└── Data
+```
+
+## The CIA Triad
+
+Cybersecurity-এর মূল ভিত্তি হলো CIA Triad।
+
+```text id="cy05"
+CIA Triad
+|
+├── Confidentiality
+├── Integrity
+└── Availability
+```
+
+### Confidentiality
+
+তথ্য শুধুমাত্র অনুমোদিত ব্যক্তি দেখতে পারবে।
+
+উদাহরণ:
+
+* Password
+* Encryption
+* Access Control
+
+### Integrity
+
+তথ্য যেন অনুমতি ছাড়া পরিবর্তন না হয়।
+
+উদাহরণ:
+
+* Hashing
+* Digital Signature
+
+### Availability
+
+প্রয়োজনের সময় তথ্য ও System ব্যবহারযোগ্য থাকতে হবে।
+
+উদাহরণ:
+
+* Backup
+* Redundant Systems
+* Disaster Recovery
+
+## Common Cyber Threats
+
+```text id="cy06"
+Cyber Threats
+|
+├── Malware
+├── Virus
+├── Worm
+├── Trojan
+├── Ransomware
+├── Phishing
+├── Hacking
+├── Spyware
+├── DDoS Attack
+└── Data Theft
+```
+
+এসব Threat থেকে সুরক্ষা দেওয়াই Cybersecurity-এর কাজ।
+
+## Main Areas of Cybersecurity
+
+```text id="cy07"
+Cybersecurity
+|
+├── Network Security
+├── Information Security
+├── Application Security
+├── Cloud Security
+├── Endpoint Security
+├── Mobile Security
+└── Operational Security
+```
+
+### Network Security
+
+Network-কে আক্রমণ থেকে রক্ষা করে।
+
+### Information Security
+
+Data-এর নিরাপত্তা নিশ্চিত করে।
+
+### Application Security
+
+Software ও Web Application নিরাপদ রাখে।
+
+### Cloud Security
+
+Cloud Service-এর নিরাপত্তা নিশ্চিত করে।
+
+### Endpoint Security
+
+Computer, Laptop ও Mobile Device সুরক্ষিত রাখে।
+
+## Common Security Tools
+
+```text id="cy08"
+Security Tools
+|
+├── Firewall
+├── Antivirus
+├── IDS
+├── IPS
+├── VPN
+├── Encryption
+└── Multi-Factor Authentication
+```
+
+এই Tools Cyber Attack প্রতিরোধে সাহায্য করে।
+
+## How Cybersecurity Works
+
+```text id="cy09"
+Threat
+   |
+Detection
+   |
+Protection
+   |
+Monitoring
+   |
+Response
+```
+
+Cybersecurity শুধু Attack ঠেকায় না, Attack শনাক্ত (Detect), পর্যবেক্ষণ (Monitor) এবং প্রতিক্রিয়া (Respond) করতেও সাহায্য করে।
+
+## Basic Cybersecurity Practices
+
+নিরাপদ থাকার জন্য:
+
+* Strong Password ব্যবহার করা।
+* Multi-Factor Authentication (MFA) চালু রাখা।
+* Software নিয়মিত Update করা।
+* Antivirus ব্যবহার করা।
+* সন্দেহজনক Link-এ ক্লিক না করা।
+* অজানা Email Attachment না খোলা।
+* গুরুত্বপূর্ণ Data Backup রাখা।
+
+```text id="cy10"
+Good Practices
+|
+├── Strong Password
+├── MFA
+├── Updates
+├── Antivirus
+├── Backup
+└── Safe Browsing
+```
+
+## Real-Life Example
+
+ধরো একটি বাড়ি।
+
+```text id="cy11"
+House
+|
+├── Door Lock
+├── CCTV
+├── Security Guard
+└── Alarm
+```
+
+এখানে:
+
+* House = Computer System
+* Door Lock = Password
+* CCTV = Monitoring
+* Security Guard = Firewall
+* Alarm = Intrusion Detection
+
+যেভাবে একটি বাড়িকে নিরাপদ রাখতে বিভিন্ন নিরাপত্তা ব্যবস্থা ব্যবহার করা হয়, ঠিক তেমনি Cybersecurity বিভিন্ন প্রযুক্তি ব্যবহার করে Digital System-কে সুরক্ষিত রাখে।
+
+## Advantages of Cybersecurity
+
+### Data Protection
+
+গুরুত্বপূর্ণ তথ্য নিরাপদ থাকে।
+
+### Privacy Protection
+
+ব্যক্তিগত তথ্য সুরক্ষিত থাকে।
+
+### Business Continuity
+
+Cyber Attack হলেও কাজ চালিয়ে যাওয়া সহজ হয়।
+
+### Secure Communication
+
+নিরাপদ তথ্য আদান-প্রদান নিশ্চিত হয়।
+
+### Trust
+
+User এবং প্রতিষ্ঠানের মধ্যে আস্থা বৃদ্ধি পায়।
+
+## Importance of Cybersecurity
+
+Cybersecurity:
+
+* ব্যক্তিগত তথ্য সুরক্ষিত রাখে।
+* ব্যবসায়িক তথ্য রক্ষা করে।
+* সরকারি ও আর্থিক প্রতিষ্ঠানের নিরাপত্তা নিশ্চিত করে।
+* Cyber Crime কমাতে সাহায্য করে।
+* Digital Economy এবং Online Service নিরাপদ রাখে।
+
+বর্তমান প্রযুক্তিনির্ভর বিশ্বে Cybersecurity ছাড়া নিরাপদ Digital জীবন কল্পনা করা যায় না।
+
+## Summary
+
+Cybersecurity হলো Computer, Network, Software, Server এবং Data-কে বিভিন্ন Cyber Threat থেকে সুরক্ষিত রাখার প্রযুক্তি, নীতি এবং প্রক্রিয়ার সমষ্টি। এর মূল লক্ষ্য হলো Confidentiality, Integrity এবং Availability নিশ্চিত করা। Firewall, Antivirus, Encryption, VPN, Multi-Factor Authentication এবং নিরাপদ ব্যবহারকারীর অভ্যাস Cybersecurity-এর গুরুত্বপূর্ণ অংশ। আধুনিক Digital World-এ ব্যক্তি, প্রতিষ্ঠান এবং সরকারের জন্য Cybersecurity অত্যন্ত গুরুত্বপূর্ণ।
+
+
+
+
+
+
+# > (2) Types of Threats
+
+Cyber Threats হলো এমন সব ক্ষতিকর কার্যকলাপ, আক্রমণ (Attack) বা ঝুঁকি (Risk), যা Computer, Network, Software, Server, Mobile Device অথবা Data-এর ক্ষতি করতে পারে, চুরি করতে পারে বা স্বাভাবিক কার্যক্রম ব্যাহত করতে পারে।
+
+সহজ ভাষায়:
+
+Cyber Threats হলো Digital জগতের বিভিন্ন ধরনের বিপদ, যা Hacker, Malware অথবা অন্যান্য আক্রমণের মাধ্যমে Computer System এবং তথ্যের ক্ষতি করার চেষ্টা করে।
+
+## What is a Cyber Threat?
+
+Cyber Threat হলো এমন কোনো সম্ভাব্য ঘটনা বা আক্রমণ, যা কোনো System-এর Confidentiality, Integrity অথবা Availability-এর ক্ষতি করতে পারে।
+
+Basic Concept:
+
+```text id="ct01"
+Cyber Threat
+      |
+      v
+Computer / Network
+      |
+      v
+Damage or Data Loss
+```
+
+## Why Should We Know About Cyber Threats?
+
+Cyber Threat সম্পর্কে জানা গুরুত্বপূর্ণ কারণ:
+
+* নিজের Data নিরাপদ রাখা যায়।
+* Cyber Attack শনাক্ত করা সহজ হয়।
+* ক্ষতির সম্ভাবনা কমানো যায়।
+* নিরাপদ Internet ব্যবহার করা যায়।
+
+## Main Types of Cyber Threats
+
+```text id="ct02"
+Cyber Threats
+|
+├── Malware
+├── Virus
+├── Worm
+├── Trojan Horse
+├── Ransomware
+├── Spyware
+├── Adware
+├── Phishing
+├── Social Engineering
+├── Password Attack
+├── Denial of Service (DoS)
+├── Distributed DoS (DDoS)
+├── Man-in-the-Middle (MitM)
+├── Insider Threat
+├── Zero-Day Attack
+├── SQL Injection
+├── Cross-Site Scripting (XSS)
+└── Botnet
+```
+
+## 1. Malware
+
+Malware (Malicious Software) হলো এমন Software, যা ইচ্ছাকৃতভাবে Computer-এর ক্ষতি করার জন্য তৈরি করা হয়।
+
+```text id="ct03"
+Malware
+|
+├── Virus
+├── Worm
+├── Trojan
+├── Spyware
+├── Adware
+└── Ransomware
+```
+
+Malware হলো অন্যান্য অনেক Threat-এর মূল শ্রেণি।
+
+## 2. Virus
+
+Virus এমন একটি Malware, যা অন্য File বা Program-এর সাথে যুক্ত হয়ে ছড়ায়।
+
+বৈশিষ্ট্য:
+
+* User-এর মাধ্যমে চালু হয়।
+* File নষ্ট করতে পারে।
+* দ্রুত ছড়িয়ে পড়তে পারে।
+
+```text id="ct04"
+Infected File
+      |
+User Opens File
+      |
+Virus Spreads
+```
+
+## 3. Worm
+
+Worm এমন Malware, যা নিজে থেকেই Network-এর মাধ্যমে ছড়িয়ে পড়তে পারে।
+
+বৈশিষ্ট্য:
+
+* User-এর সাহায্য লাগে না।
+* দ্রুত Network আক্রান্ত করতে পারে।
+
+```text id="ct05"
+Computer A
+    |
+Network
+    |
+Computer B
+    |
+Computer C
+```
+
+## 4. Trojan Horse
+
+Trojan এমন Malware, যা নিজেকে নিরাপদ Software হিসেবে দেখায়।
+
+উদাহরণ:
+
+```text id="ct06"
+Fake Software
+      |
+Installed
+      |
+Hidden Malware
+```
+
+Trojan User-কে প্রতারণা করে System-এ প্রবেশ করে।
+
+## 5. Ransomware
+
+Ransomware Data Encrypt করে এবং মুক্তিপণ (Ransom) দাবি করে।
+
+```text id="ct07"
+Files
+  |
+Encrypted
+  |
+Pay Money
+```
+
+ফাইল ব্যবহার করতে চাইলে আক্রমণকারী অর্থ দাবি করে।
+
+## 6. Spyware
+
+Spyware গোপনে User-এর তথ্য সংগ্রহ করে।
+
+উদাহরণ:
+
+* Password
+* Browsing History
+* Keyboard Input
+
+```text id="ct08"
+User Activity
+      |
+Spyware
+      |
+Attacker
+```
+
+## 7. Adware
+
+Adware অতিরিক্ত Advertisement দেখায়।
+
+কখনও User-এর তথ্যও সংগ্রহ করতে পারে।
+
+## 8. Phishing
+
+Phishing হলো ভুয়া Email, Website বা Message-এর মাধ্যমে Password, OTP বা Banking Information চুরি করার কৌশল।
+
+```text id="ct09"
+Fake Email
+     |
+User Clicks
+     |
+Data Stolen
+```
+
+## 9. Social Engineering
+
+মানুষকে প্রতারণা করে গোপন তথ্য আদায় করার কৌশল।
+
+উদাহরণ:
+
+* Fake Call
+* Fake Support
+* Fake Identity
+
+এটি মানুষের মনস্তত্ত্বকে কাজে লাগায়।
+
+## 10. Password Attack
+
+Password ভেঙে Account-এ প্রবেশের চেষ্টা।
+
+উদাহরণ:
+
+* Brute Force Attack
+* Dictionary Attack
+* Credential Stuffing
+
+## 11. Denial of Service (DoS)
+
+একটি Server-এ অতিরিক্ত Request পাঠিয়ে সেটিকে অকার্যকর করে দেওয়া।
+
+```text id="ct10"
+Attacker
+    |
+Thousands of Requests
+    |
+Server Down
+```
+
+## 12. Distributed Denial of Service (DDoS)
+
+অনেকগুলো আক্রান্ত Device ব্যবহার করে একই সময়ে Attack করা।
+
+```text id="ct11"
+Bot 1
+   \
+Bot 2 -----> Server
+   /
+Bot 3
+```
+
+এটি DoS-এর তুলনায় আরও শক্তিশালী।
+
+## 13. Man-in-the-Middle (MitM)
+
+দুই পক্ষের যোগাযোগের মাঝখানে ঢুকে তথ্য চুরি বা পরিবর্তন করা।
+
+```text id="ct12"
+User
+  |
+Attacker
+  |
+Server
+```
+
+## 14. Insider Threat
+
+প্রতিষ্ঠানের ভেতরের কোনো ব্যক্তি ইচ্ছাকৃত বা অনিচ্ছাকৃতভাবে নিরাপত্তার ক্ষতি করলে তাকে Insider Threat বলা হয়।
+
+উদাহরণ:
+
+* অসন্তুষ্ট কর্মচারী
+* অসাবধানী User
+
+## 15. Zero-Day Attack
+
+Software-এর অজানা Vulnerability কাজে লাগিয়ে Attack করা।
+
+Attack হওয়ার সময় অনেক ক্ষেত্রে এখনও Security Patch প্রকাশিত হয়নি।
+
+## 16. SQL Injection
+
+Database-ভিত্তিক Website-এর Input Field ব্যবহার করে ক্ষতিকর SQL Query চালানো।
+
+উদাহরণ:
+
+```text id="ct13"
+User Input
+     |
+SQL Injection
+     |
+Database Access
+```
+
+## 17. Cross-Site Scripting (XSS)
+
+Website-এ ক্ষতিকর JavaScript Code Inject করে User-এর Browser-এ চালানো।
+
+এর মাধ্যমে Session Cookie বা অন্যান্য তথ্য চুরি হতে পারে।
+
+## 18. Botnet
+
+অনেক আক্রান্ত Computer বা Device-এর সমন্বয়ে তৈরি Network।
+
+```text id="ct14"
+Botnet
+|
+├── PC 1
+├── PC 2
+├── PC 3
+└── PC 4
+```
+
+Botnet ব্যবহার করে DDoS Attack, Spam এবং অন্যান্য Cyber Attack চালানো হতে পারে।
+
+## Cyber Threat Classification
+
+```text id="ct15"
+Cyber Threats
+|
+├── Malware-Based
+├── Network-Based
+├── Web-Based
+├── Human-Based
+└── Insider-Based
+```
+
+## Threat vs Vulnerability vs Risk
+
+| Term          | Meaning                                                |
+| ------------- | ------------------------------------------------------ |
+| Threat        | সম্ভাব্য আক্রমণ বা ক্ষতির উৎস                          |
+| Vulnerability | System-এর দুর্বলতা                                     |
+| Risk          | Threat সেই দুর্বলতাকে কাজে লাগিয়ে ক্ষতি করার সম্ভাবনা |
+
+## How to Protect Against Cyber Threats
+
+নিজেকে নিরাপদ রাখতে:
+
+* Strong Password ব্যবহার করুন।
+* Multi-Factor Authentication (MFA) চালু করুন।
+* Software নিয়মিত Update করুন।
+* Antivirus ব্যবহার করুন।
+* Firewall চালু রাখুন।
+* সন্দেহজনক Link বা Email এড়িয়ে চলুন।
+* গুরুত্বপূর্ণ Data নিয়মিত Backup রাখুন।
+
+```text id="ct16"
+Protection
+|
+├── Strong Password
+├── MFA
+├── Antivirus
+├── Firewall
+├── Updates
+└── Backup
+```
+
+## Real-Life Example
+
+ধরো একটি বাড়ি।
+
+```text id="ct17"
+House
+|
+├── Thief
+├── Fake Visitor
+├── Broken Lock
+└── Security Guard
+```
+
+এখানে:
+
+* Thief = Hacker
+* Fake Visitor = Phishing
+* Broken Lock = Vulnerability
+* Security Guard = Firewall/Antivirus
+
+যেভাবে একটি বাড়ি বিভিন্ন ধরনের বিপদের সম্মুখীন হতে পারে, ঠিক তেমনি একটি Computer System-ও বিভিন্ন ধরনের Cyber Threat-এর সম্মুখীন হতে পারে।
+
+## Importance of Understanding Cyber Threats
+
+Cyber Threat সম্পর্কে জানা:
+
+* নিরাপদ Internet ব্যবহার করতে সাহায্য করে।
+* Cyber Attack প্রতিরোধ সহজ করে।
+* ব্যক্তিগত ও ব্যবসায়িক তথ্য সুরক্ষিত রাখে।
+* Cybersecurity-এর ভিত্তি শক্তিশালী করে।
+
+## Summary
+
+Cyber Threats হলো এমন বিভিন্ন আক্রমণ বা ঝুঁকি, যা Computer, Network এবং Data-এর ক্ষতি করতে পারে। Malware, Virus, Worm, Trojan, Ransomware, Phishing, Social Engineering, DoS, DDoS, SQL Injection, XSS, MitM এবং Insider Threat হলো সবচেয়ে পরিচিত Threat। এসব Threat সম্পর্কে সচেতন থাকা এবং সঠিক নিরাপত্তা ব্যবস্থা গ্রহণ করা Cybersecurity-এর অন্যতম গুরুত্বপূর্ণ অংশ।
+
+
+
+
+
+
+# > (3) Protection Tools
+
+Protection Tools হলো এমন Hardware, Software এবং Security Technologies, যেগুলো Computer, Network, Server, Mobile Device এবং Data-কে Cyber Threat, Malware, Unauthorized Access এবং বিভিন্ন ধরনের Cyber Attack থেকে সুরক্ষিত রাখে।
+
+সহজ ভাষায়:
+
+Protection Tools হলো Cybersecurity-এর নিরাপত্তা ব্যবস্থা, যা Digital System-কে আক্রমণ থেকে রক্ষা করে।
+
+## What are Protection Tools?
+
+Protection Tools হলো বিভিন্ন Security Software, Hardware এবং Mechanism-এর সমষ্টি, যা Cyber Attack শনাক্ত (Detect), প্রতিরোধ (Prevent) এবং প্রতিক্রিয়া (Respond) জানাতে সাহায্য করে।
+
+Basic Concept:
+
+```text id="pt01"
+Cyber Threat
+      |
+Protection Tool
+      |
+Secure System
+```
+
+## Why Do We Need Protection Tools?
+
+Protection Tools ব্যবহারের প্রধান কারণ:
+
+* Virus ও Malware প্রতিরোধ করা
+* Hacker-এর অনুপ্রবেশ ঠেকানো
+* Data নিরাপদ রাখা
+* Network সুরক্ষিত রাখা
+* Privacy রক্ষা করা
+* Cyber Attack শনাক্ত করা
+
+বর্তমান Digital World-এ Protection Tools ছাড়া নিরাপদভাবে Computer বা Internet ব্যবহার করা কঠিন।
+
+## Main Types of Protection Tools
+
+```text id="pt02"
+Protection Tools
+|
+├── Antivirus
+├── Firewall
+├── Anti-Malware
+├── VPN
+├── Encryption
+├── Password Manager
+├── Multi-Factor Authentication (MFA)
+├── IDS
+├── IPS
+└── Backup Tools
+```
+
+## 1. Antivirus
+
+Antivirus এমন একটি Software, যা Virus এবং অন্যান্য ক্ষতিকর Program শনাক্ত, Block এবং Remove করে।
+
+কাজ:
+
+* Virus Scan করা
+* Infected File শনাক্ত করা
+* Malware Remove করা
+* Real-Time Protection প্রদান করা
+
+```text id="pt03"
+Files
+   |
+Antivirus Scan
+   |
+Safe / Infected
+```
+
+## 2. Firewall
+
+Firewall হলো একটি Network Security Tool, যা Network Traffic পরীক্ষা করে এবং অননুমোদিত (Unauthorized) Access Block করে।
+
+কাজ:
+
+* Incoming Traffic Filter করা
+* Outgoing Traffic নিয়ন্ত্রণ করা
+* Hacker-এর অনুপ্রবেশ প্রতিরোধ করা
+
+```text id="pt04"
+Internet
+    |
+Firewall
+    |
+Computer
+```
+
+Firewall-কে Network-এর নিরাপত্তা প্রহরী (Security Guard) বলা হয়।
+
+## 3. Anti-Malware
+
+Anti-Malware সব ধরনের Malware শনাক্ত ও অপসারণ করতে ব্যবহৃত হয়।
+
+এটি Virus-এর পাশাপাশি Trojan, Worm, Spyware, Adware এবং Ransomware-এর বিরুদ্ধেও কাজ করে।
+
+## 4. VPN (Virtual Private Network)
+
+VPN Internet Connection Encrypt করে একটি নিরাপদ Communication Tunnel তৈরি করে।
+
+```text id="pt05"
+User
+   |
+Encrypted Tunnel
+   |
+Internet
+```
+
+সুবিধা:
+
+* Secure Browsing
+* Privacy Protection
+* Public Wi-Fi নিরাপদ ব্যবহার
+
+## 5. Encryption
+
+Encryption Data-কে এমনভাবে পরিবর্তন করে, যাতে অনুমতি ছাড়া কেউ তা পড়তে না পারে।
+
+```text id="pt06"
+Original Data
+      |
+Encryption
+      |
+Encrypted Data
+```
+
+শুধুমাত্র সঠিক Key ব্যবহার করেই Data পুনরায় পড়া যায়।
+
+## 6. Password Manager
+
+Password Manager শক্তিশালী Password তৈরি, সংরক্ষণ এবং প্রয়োজনে স্বয়ংক্রিয়ভাবে ব্যবহার করতে সাহায্য করে।
+
+সুবিধা:
+
+* Strong Password তৈরি
+* Password নিরাপদে সংরক্ষণ
+* একাধিক Account পরিচালনা সহজ
+
+## 7. Multi-Factor Authentication (MFA)
+
+MFA Login-এর সময় Password-এর পাশাপাশি অতিরিক্ত যাচাইকরণ (Verification) ব্যবহার করে।
+
+উদাহরণ:
+
+```text id="pt07"
+Password
+    +
+OTP
+```
+
+অথবা
+
+```text id="pt08"
+Password
+    +
+Fingerprint
+```
+
+এতে Account Security অনেক বৃদ্ধি পায়।
+
+## 8. IDS (Intrusion Detection System)
+
+IDS Network বা System পর্যবেক্ষণ করে সন্দেহজনক কার্যকলাপ শনাক্ত করে।
+
+কাজ:
+
+* Network Monitor করা
+* Suspicious Activity Detect করা
+* Security Alert প্রদান করা
+
+```text id="pt09"
+Network
+    |
+IDS
+    |
+Alert
+```
+
+IDS Attack শনাক্ত করে, কিন্তু নিজে থেকে সাধারণত Block করে না।
+
+## 9. IPS (Intrusion Prevention System)
+
+IPS Attack শনাক্ত করার পাশাপাশি তা প্রতিরোধ (Prevent) করে।
+
+```text id="pt10"
+Network
+    |
+IPS
+    |
+Block Attack
+```
+
+IPS অনেক ক্ষেত্রে IDS-এর উন্নত সংস্করণ হিসেবে বিবেচিত হয়।
+
+## IDS vs IPS
+
+| Feature         | IDS   | IPS                        |
+| --------------- | ----- | -------------------------- |
+| Attack Detect   | ✔     | ✔                          |
+| Alert           | ✔     | ✔                          |
+| Attack Block    | ✘     | ✔                          |
+| Traffic Control | সীমিত | সক্রিয়ভাবে নিয়ন্ত্রণ করে |
+
+## 10. Backup Tools
+
+Backup Tool গুরুত্বপূর্ণ Data-এর অতিরিক্ত Copy সংরক্ষণ করে।
+
+```text id="pt11"
+Original Data
+      |
+Backup
+      |
+Recovery
+```
+
+Ransomware বা Hardware Failure-এর ক্ষেত্রে Backup অত্যন্ত গুরুত্বপূর্ণ।
+
+## How Protection Tools Work Together
+
+```text id="pt12"
+Internet
+    |
+Firewall
+    |
+IPS
+    |
+Antivirus
+    |
+Computer
+    |
+Backup
+```
+
+সবগুলো Tool একসাথে ব্যবহার করলে Security আরও শক্তিশালী হয়।
+
+## Protection Tools vs Threats
+
+| Threat            | Protection Tool       |
+| ----------------- | --------------------- |
+| Virus             | Antivirus             |
+| Malware           | Anti-Malware          |
+| Hacking           | Firewall, IPS         |
+| Data Theft        | Encryption            |
+| Password Attack   | Password Manager, MFA |
+| Ransomware        | Backup, Antivirus     |
+| Public Wi-Fi Risk | VPN                   |
+
+## Best Security Practices
+
+Protection Tools-এর পাশাপাশি:
+
+* Strong Password ব্যবহার করুন।
+* MFA চালু রাখুন।
+* Software নিয়মিত Update করুন।
+* Antivirus Update রাখুন।
+* Firewall চালু রাখুন।
+* নিয়মিত Backup নিন।
+* সন্দেহজনক Email ও Link এড়িয়ে চলুন।
+
+```text id="pt13"
+Good Security
+|
+├── Updates
+├── Firewall
+├── Antivirus
+├── MFA
+├── Backup
+└── Safe Browsing
+```
+
+## Real-Life Example
+
+ধরো একটি ব্যাংক।
+
+```text id="pt14"
+Bank
+|
+├── Security Guard
+├── CCTV
+├── Vault
+├── Alarm
+└── Backup Records
+```
+
+এখানে:
+
+* Security Guard = Firewall
+* CCTV = IDS
+* Alarm + Security Team = IPS
+* Vault = Encryption
+* Backup Records = Backup Tool
+
+যেভাবে একটি ব্যাংককে নিরাপদ রাখতে একাধিক নিরাপত্তা ব্যবস্থা একসাথে কাজ করে, ঠিক তেমনি Computer System-কে সুরক্ষিত রাখতে একাধিক Protection Tool ব্যবহৃত হয়।
+
+## Importance of Protection Tools
+
+Protection Tools:
+
+* Cyber Attack প্রতিরোধ করে।
+* Data নিরাপদ রাখে।
+* Network সুরক্ষিত রাখে।
+* Privacy নিশ্চিত করে।
+* Business Continuity বজায় রাখতে সাহায্য করে।
+* Cybersecurity-এর মূল প্রতিরক্ষা ব্যবস্থা হিসেবে কাজ করে।
+
+## Summary
+
+Protection Tools হলো Cybersecurity-এর বিভিন্ন Hardware, Software এবং Security Mechanism-এর সমষ্টি, যা Computer, Network এবং Data-কে বিভিন্ন Cyber Threat থেকে রক্ষা করে। Antivirus, Firewall, Anti-Malware, VPN, Encryption, Password Manager, Multi-Factor Authentication (MFA), IDS, IPS এবং Backup Tools আধুনিক Cybersecurity-এর গুরুত্বপূর্ণ Protection Tools। একাধিক Protection Tool একসাথে ব্যবহার করলে সবচেয়ে কার্যকর নিরাপত্তা নিশ্চিত করা যায়।
+
+
+
+
+
+
+# > (4) Safe Practices
+
+Safe Practices হলো এমন কিছু নিরাপদ অভ্যাস (Security Best Practices), নীতি (Guidelines) এবং পদক্ষেপ (Measures), যা অনুসরণ করলে Computer, Mobile Device, Network, Online Account এবং ব্যক্তিগত Data বিভিন্ন Cyber Threat থেকে সুরক্ষিত থাকে।
+
+সহজ ভাষায়:
+
+Safe Practices হলো Internet এবং Computer নিরাপদভাবে ব্যবহার করার নিয়ম, যা Cyber Attack, Data Theft এবং Online Fraud-এর ঝুঁকি কমায়।
+
+## What are Safe Practices?
+
+Safe Practices হলো দৈনন্দিন Digital Security বজায় রাখার জন্য অনুসরণযোগ্য নিয়ম ও অভ্যাস।
+
+Basic Concept:
+
+```text id="sp01"
+User
+   |
+Safe Practices
+   |
+Secure System
+```
+
+সঠিক নিরাপত্তা অভ্যাস অনেক Cyber Attack হওয়ার আগেই তা প্রতিরোধ করতে সাহায্য করে।
+
+## Why Are Safe Practices Important?
+
+Safe Practices অনুসরণ করলে:
+
+* ব্যক্তিগত তথ্য নিরাপদ থাকে।
+* Account Hack হওয়ার ঝুঁকি কমে।
+* Malware সংক্রমণের সম্ভাবনা কমে।
+* Online Fraud থেকে সুরক্ষা পাওয়া যায়।
+* গুরুত্বপূর্ণ Data নিরাপদ থাকে।
+
+## Main Safe Practices
+
+```text id="sp02"
+Safe Practices
+|
+├── Strong Password
+├── Multi-Factor Authentication (MFA)
+├── Regular Software Updates
+├── Antivirus Protection
+├── Firewall
+├── Safe Browsing
+├── Safe Email Usage
+├── Secure Downloads
+├── Data Backup
+├── Public Wi-Fi Safety
+├── Device Security
+└── Privacy Protection
+```
+
+## 1. Strong Password
+
+সব Account-এর জন্য শক্তিশালী এবং আলাদা Password ব্যবহার করুন।
+
+একটি ভালো Password-এর বৈশিষ্ট্য:
+
+* কমপক্ষে 12–16 অক্ষর
+* বড় ও ছোট হাতের অক্ষর
+* সংখ্যা
+* বিশেষ চিহ্ন (Special Characters)
+
+উদাহরণ:
+
+```text id="sp03"
+A9#mP2!xQ7@L
+```
+
+একই Password একাধিক Account-এ ব্যবহার করা উচিত নয়।
+
+## 2. Multi-Factor Authentication (MFA)
+
+Password-এর পাশাপাশি অতিরিক্ত Verification ব্যবহার করুন।
+
+উদাহরণ:
+
+```text id="sp04"
+Password
+   +
+OTP
+```
+
+অথবা
+
+```text id="sp05"
+Password
+   +
+Fingerprint
+```
+
+MFA Account Security উল্লেখযোগ্যভাবে বাড়ায়।
+
+## 3. Regular Software Updates
+
+Operating System, Browser, Antivirus এবং অন্যান্য Software নিয়মিত Update করুন।
+
+```text id="sp06"
+Old Version
+      |
+Update
+      |
+Secure Version
+```
+
+Update-এর মাধ্যমে Security Vulnerability ঠিক করা হয়।
+
+## 4. Antivirus Protection
+
+বিশ্বস্ত Antivirus ব্যবহার করুন এবং নিয়মিত Virus Scan করুন।
+
+* Real-Time Protection চালু রাখুন।
+* Virus Definition Update করুন।
+
+## 5. Firewall
+
+Firewall সবসময় চালু রাখুন।
+
+```text id="sp07"
+Internet
+    |
+Firewall
+    |
+Computer
+```
+
+এটি অননুমোদিত Network Access প্রতিরোধ করে।
+
+## 6. Safe Browsing
+
+Internet ব্যবহারের সময়:
+
+* শুধুমাত্র বিশ্বস্ত Website ব্যবহার করুন।
+* Address Bar-এ HTTPS আছে কি না দেখুন।
+* সন্দেহজনক Link-এ ক্লিক করবেন না।
+
+```text id="sp08"
+HTTPS
+   |
+Secure Website
+```
+
+## 7. Safe Email Usage
+
+Email ব্যবহার করার সময়:
+
+* অজানা Sender-এর Email সতর্কতার সাথে দেখুন।
+* সন্দেহজনক Attachment খুলবেন না।
+* ভুয়া Login Link-এ ক্লিক করবেন না।
+
+এতে Phishing Attack-এর ঝুঁকি কমে।
+
+## 8. Secure Downloads
+
+Software Download করার সময়:
+
+* Official Website ব্যবহার করুন।
+* Pirated Software এড়িয়ে চলুন।
+* Download করা File Scan করুন।
+
+## 9. Data Backup
+
+গুরুত্বপূর্ণ Data-এর নিয়মিত Backup রাখুন।
+
+```text id="sp09"
+Original Data
+      |
+Backup
+      |
+Recovery
+```
+
+Backup থাকলে Hardware Failure বা Ransomware-এর পরেও Data পুনরুদ্ধার করা সম্ভব।
+
+## 10. Public Wi-Fi Safety
+
+Public Wi-Fi ব্যবহারের সময়:
+
+* VPN ব্যবহার করুন।
+* Banking বা গুরুত্বপূর্ণ কাজ এড়িয়ে চলুন।
+* Auto Connect বন্ধ রাখুন।
+
+```text id="sp10"
+Public Wi-Fi
+      |
+VPN
+      |
+Secure Connection
+```
+
+## 11. Device Security
+
+নিজের Device নিরাপদ রাখুন।
+
+* Screen Lock ব্যবহার করুন।
+* Fingerprint বা Face Unlock ব্যবহার করুন।
+* Device হারিয়ে গেলে Remote Lock বা Remote Wipe সুবিধা ব্যবহার করুন।
+
+## 12. Privacy Protection
+
+Online-এ অপ্রয়োজনীয় ব্যক্তিগত তথ্য শেয়ার করবেন না।
+
+উদাহরণ:
+
+* Password
+* OTP
+* National ID
+* Banking Information
+
+এসব তথ্য কখনোই অপরিচিত ব্যক্তির সাথে শেয়ার করা উচিত নয়।
+
+## Common Mistakes to Avoid
+
+```text id="sp11"
+Avoid
+|
+├── Weak Password
+├── Reusing Passwords
+├── Clicking Unknown Links
+├── Opening Unknown Attachments
+├── Ignoring Updates
+├── Downloading Pirated Software
+└── Sharing Personal Information
+```
+
+## Daily Cybersecurity Checklist
+
+```text id="sp12"
+Daily Security
+|
+├── Strong Password
+├── MFA Enabled
+├── Software Updated
+├── Antivirus Updated
+├── Firewall Enabled
+├── Backup Available
+└── Safe Browsing
+```
+
+## Real-Life Example
+
+ধরো তুমি একটি বাড়ি রক্ষা করছ।
+
+```text id="sp13"
+House
+|
+├── Strong Door Lock
+├── CCTV
+├── Security Guard
+├── Alarm System
+└── Backup Key
+```
+
+এখানে:
+
+* Strong Door Lock = Strong Password
+* CCTV = Monitoring
+* Security Guard = Firewall
+* Alarm System = Antivirus / IDS
+* Backup Key = Data Backup
+
+যেভাবে একটি বাড়ির নিরাপত্তার জন্য একাধিক নিরাপত্তা ব্যবস্থা ব্যবহার করা হয়, ঠিক তেমনি Digital নিরাপত্তার জন্য Safe Practices অনুসরণ করা প্রয়োজন।
+
+## Importance of Safe Practices
+
+Safe Practices:
+
+* Cyber Attack-এর ঝুঁকি কমায়।
+* ব্যক্তিগত ও ব্যবসায়িক Data সুরক্ষিত রাখে।
+* Online Privacy রক্ষা করে।
+* Malware সংক্রমণ প্রতিরোধ করে।
+* নিরাপদ Digital জীবন নিশ্চিত করতে সাহায্য করে।
+
+Cybersecurity-এর সবচেয়ে শক্তিশালী অংশ শুধু Software নয়, বরং সচেতন User।
+
+## Summary
+
+Safe Practices হলো Computer, Mobile Device, Network এবং Online Account নিরাপদ রাখার জন্য অনুসরণযোগ্য নিরাপত্তা অভ্যাস। Strong Password, Multi-Factor Authentication (MFA), Software Update, Antivirus, Firewall, Safe Browsing, Secure Download, Data Backup, Public Wi-Fi-তে VPN ব্যবহার এবং Privacy Protection আধুনিক Cybersecurity-এর গুরুত্বপূর্ণ Safe Practices। নিয়মিত এসব অভ্যাস অনুসরণ করলে অধিকাংশ Cyber Threat-এর ঝুঁকি উল্লেখযোগ্যভাবে কমানো যায়।

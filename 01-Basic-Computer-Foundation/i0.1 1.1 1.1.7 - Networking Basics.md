@@ -1,0 +1,2846 @@
+# > (1) What is Network?
+
+Network হলো দুই বা ততোধিক Computer, Device বা System-এর এমন একটি সংযোগ ব্যবস্থা, যার মাধ্যমে তারা একে অপরের সাথে Data, Information এবং Resources আদান-প্রদান করতে পারে।
+
+সহজ ভাষায়:
+
+Network হলো একাধিক Device-কে একসাথে যুক্ত করে যোগাযোগ (Communication) এবং তথ্য বিনিময়ের ব্যবস্থা।
+
+## What is a Computer Network?
+
+Computer Network হলো Interconnected Devices-এর একটি Group, যেখানে Devices একে অপরের সাথে যোগাযোগ করতে পারে।
+
+উদাহরণ:
+
+```text id="net01"
+Computer A
+     |
+     |
+Computer B
+```
+
+এখানে দুইটি Computer পরস্পরের সাথে সংযুক্ত, তাই এটি একটি Network।
+
+আরও বড় উদাহরণ:
+
+```text id="net02"
+Computer
+    |
+Laptop
+    |
+Router
+    |
+Printer
+    |
+Mobile
+```
+
+সব Device একে অপরের সাথে সংযুক্ত থাকলে এটি একটি Network গঠন করে।
+
+## Why Do We Need a Network?
+
+Network ব্যবহারের প্রধান কারণ:
+
+* Data Sharing
+* Resource Sharing
+* Communication
+* Internet Access
+* Collaboration
+
+Network ছাড়া প্রতিটি Device আলাদা হয়ে থাকত এবং Data আদান-প্রদান করা কঠিন হতো।
+
+## Basic Network Concept
+
+```text id="net03"
+Device
+   |
+Connection
+   |
+Another Device
+```
+
+Network-এর মূল উদ্দেশ্য হলো Device-এর মধ্যে Communication তৈরি করা।
+
+## Components of a Network
+
+```text id="net04"
+Network
+|
+├── Devices
+├── Transmission Media
+├── Network Devices
+└── Protocols
+```
+
+## 1. Devices
+
+Network-এ সংযুক্ত Computer বা অন্যান্য Electronic Device।
+
+উদাহরণ:
+
+* Desktop Computer
+* Laptop
+* Smartphone
+* Tablet
+* Printer
+* Server
+
+## 2. Transmission Media
+
+Data যে পথ দিয়ে চলাচল করে।
+
+ধরন:
+
+### Wired Media
+
+```text id="net05"
+Ethernet Cable
+Fiber Optic Cable
+```
+
+### Wireless Media
+
+```text id="net06"
+Wi-Fi
+Bluetooth
+Radio Waves
+```
+
+## 3. Network Devices
+
+Network পরিচালনার জন্য ব্যবহৃত Hardware।
+
+উদাহরণ:
+
+* Router
+* Switch
+* Modem
+* Access Point
+
+## 4. Protocols
+
+Communication-এর নিয়ম।
+
+উদাহরণ:
+
+* TCP/IP
+* HTTP
+* HTTPS
+* FTP
+
+Protocol ছাড়া Device একে অপরকে বুঝতে পারবে না।
+
+## How a Network Works
+
+ধরো Computer A একটি Message পাঠাচ্ছে।
+
+```text id="net07"
+Computer A
+     |
+     v
+Network
+     |
+     v
+Computer B
+```
+
+ধাপসমূহ:
+
+1. Computer A Data তৈরি করে।
+2. Data Network-এর মাধ্যমে পাঠানো হয়।
+3. Computer B Data গ্রহণ করে।
+4. Communication সম্পন্ন হয়।
+
+## Types of Networks
+
+```text id="net08"
+Networks
+|
+├── PAN
+├── LAN
+├── MAN
+└── WAN
+```
+
+## PAN (Personal Area Network)
+
+খুব ছোট এলাকার Network।
+
+উদাহরণ:
+
+```text id="net09"
+Mobile
+  |
+Bluetooth
+  |
+Earbuds
+```
+
+## LAN (Local Area Network)
+
+একটি Room, Office বা Building-এর Network।
+
+উদাহরণ:
+
+```text id="net10"
+Office
+|
+├── PC 1
+├── PC 2
+├── PC 3
+└── Printer
+```
+
+## MAN (Metropolitan Area Network)
+
+একটি শহরজুড়ে বিস্তৃত Network।
+
+উদাহরণ:
+
+একটি শহরের বিভিন্ন অফিস Branch সংযুক্ত Network।
+
+## WAN (Wide Area Network)
+
+বৃহৎ ভৌগোলিক এলাকার Network।
+
+উদাহরণ:
+
+```text id="net11"
+Country A
+    |
+Internet
+    |
+Country B
+```
+
+Internet হলো বিশ্বের সবচেয়ে বড় WAN।
+
+## Advantages of Networking
+
+### Resource Sharing
+
+Printer, Storage এবং Internet Share করা যায়।
+
+### Fast Communication
+
+দ্রুত Message এবং Data আদান-প্রদান করা যায়।
+
+### Collaboration
+
+একাধিক User একসাথে কাজ করতে পারে।
+
+### Centralized Management
+
+Network Admin সহজে System পরিচালনা করতে পারে।
+
+### Cost Reduction
+
+একই Resource অনেক User ব্যবহার করতে পারে।
+
+## Disadvantages of Networking
+
+### Security Risks
+
+Hack বা Malware ছড়াতে পারে।
+
+### Maintenance Cost
+
+Network পরিচালনা করতে খরচ হয়।
+
+### Dependency
+
+Network নষ্ট হলে কাজ বন্ধ হতে পারে।
+
+### Performance Issues
+
+অনেক User ব্যবহার করলে গতি কমতে পারে।
+
+## Real-Life Example
+
+ধরো একটি রাস্তার ব্যবস্থা।
+
+```text id="net12"
+House A
+   |
+Road
+   |
+House B
+```
+
+যেভাবে রাস্তা ব্যবহার করে মানুষ এক স্থান থেকে অন্য স্থানে যায়, ঠিক তেমনি Network ব্যবহার করে Data এক Device থেকে অন্য Device-এ যায়।
+
+## Network vs Internet
+
+| Feature | Network             | Internet          |
+| ------- | ------------------- | ----------------- |
+| Scope   | ছোট বা বড় হতে পারে | বিশ্বব্যাপী       |
+| Purpose | Device সংযোগ        | Networks-এর সংযোগ |
+| Example | Office LAN          | Global Internet   |
+
+উদাহরণ:
+
+```text id="net13"
+LAN
+  |
+Internet
+  |
+Other LAN
+```
+
+Internet আসলে অসংখ্য Network-এর সমষ্টি।
+
+## Importance of Networks
+
+Network:
+
+* Modern Communication-এর ভিত্তি
+* Internet ব্যবহারের মাধ্যম
+* Business পরিচালনায় অপরিহার্য
+* Cloud Services ব্যবহারে সহায়ক
+* Data Sharing সহজ করে
+
+বর্তমান Digital World-এ Network ছাড়া আধুনিক Computing কল্পনা করা যায় না।
+
+## Summary
+
+Network হলো দুই বা ততোধিক Device-এর সংযোগ ব্যবস্থা, যার মাধ্যমে তারা Data এবং Resources আদান-প্রদান করতে পারে। Computer, Smartphone, Printer, Router এবং Server Network-এর অংশ হতে পারে। LAN, MAN এবং WAN হলো Network-এর প্রধান ধরন। Network Communication, Resource Sharing এবং Internet Access-এর ভিত্তি হিসেবে কাজ করে।
+
+
+
+
+
+
+# > (2) Types of Network
+
+Types of Network বলতে Network-কে তার Coverage Area (ভৌগোলিক বিস্তৃতি), ব্যবহার এবং উদ্দেশ্যের ভিত্তিতে বিভিন্ন শ্রেণিতে ভাগ করাকে বোঝায়।
+
+সহজ ভাষায়:
+
+একটি Network কত বড় এলাকা জুড়ে কাজ করে এবং কী কাজে ব্যবহৃত হয়, তার উপর ভিত্তি করে Network-এর বিভিন্ন ধরন রয়েছে।
+
+## Why Are Networks Classified?
+
+সব Network একই আকার বা উদ্দেশ্যের নয়।
+
+উদাহরণ:
+
+* একটি Mobile এবং Earbuds-এর সংযোগ
+* একটি অফিসের Computer Network
+* একটি শহরের Network
+* পুরো Internet
+
+এসব Network-এর আকার ও কাজ আলাদা, তাই এগুলোকে বিভিন্ন শ্রেণিতে ভাগ করা হয়।
+
+## Main Types of Networks
+
+```text id="tn01"
+Types of Network
+|
+├── PAN
+├── LAN
+├── CAN
+├── MAN
+├── WAN
+└── GAN
+```
+
+## 1. PAN (Personal Area Network)
+
+PAN হলো Personal Area Network।
+
+এটি সবচেয়ে ছোট ধরনের Network।
+
+Coverage Area:
+
+```text id="tn02"
+1 - 10 Meters
+```
+
+ব্যবহার:
+
+* Bluetooth Devices
+* Smart Watch
+* Wireless Earbuds
+* Smartphone Connection
+
+উদাহরণ:
+
+```text id="tn03"
+Mobile
+   |
+Bluetooth
+   |
+Earbuds
+```
+
+বৈশিষ্ট্য:
+
+* ছোট এলাকা
+* ব্যক্তিগত ব্যবহার
+* কম খরচ
+
+## 2. LAN (Local Area Network)
+
+LAN হলো Local Area Network।
+
+এটি একটি Room, Home, Lab, Office বা Building-এর মধ্যে ব্যবহৃত হয়।
+
+Coverage Area:
+
+```text id="tn04"
+Room to Building
+```
+
+উদাহরণ:
+
+```text id="tn05"
+Office
+|
+├── PC 1
+├── PC 2
+├── PC 3
+└── Printer
+```
+
+বৈশিষ্ট্য:
+
+* দ্রুত Data Transfer
+* সহজ Management
+* কম Latency
+
+ব্যবহার:
+
+* Home Network
+* School Lab
+* Office Network
+
+## 3. CAN (Campus Area Network)
+
+CAN হলো Campus Area Network।
+
+একাধিক Building বা Campus-এর LAN-কে সংযুক্ত করে।
+
+Coverage Area:
+
+```text id="tn06"
+Campus
+University
+Industrial Area
+```
+
+উদাহরণ:
+
+```text id="tn07"
+University
+|
+├── Building A
+├── Building B
+├── Library
+└── Lab
+```
+
+বৈশিষ্ট্য:
+
+* LAN-এর চেয়ে বড়
+* একটি প্রতিষ্ঠানের জন্য ব্যবহৃত
+
+## 4. MAN (Metropolitan Area Network)
+
+MAN হলো Metropolitan Area Network।
+
+এটি একটি শহর বা বড় নগর এলাকার Network।
+
+Coverage Area:
+
+```text id="tn08"
+Entire City
+```
+
+উদাহরণ:
+
+```text id="tn09"
+Office Branch A
+        |
+     City Network
+        |
+Office Branch B
+```
+
+ব্যবহার:
+
+* City-Wide Networks
+* ISP Infrastructure
+
+বৈশিষ্ট্য:
+
+* উচ্চ গতি
+* শহরজুড়ে সংযোগ
+
+## 5. WAN (Wide Area Network)
+
+WAN হলো Wide Area Network।
+
+এটি বিভিন্ন শহর, দেশ বা মহাদেশকে সংযুক্ত করে।
+
+Coverage Area:
+
+```text id="tn10"
+Country to World
+```
+
+উদাহরণ:
+
+```text id="tn11"
+Bangladesh
+     |
+Internet
+     |
+Italy
+```
+
+বৈশিষ্ট্য:
+
+* বিশাল Coverage
+* Long Distance Communication
+* Multiple Networks-এর সংযোগ
+
+ব্যবহার:
+
+* International Companies
+* Global Communication
+
+## 6. GAN (Global Area Network)
+
+GAN হলো Global Area Network।
+
+এটি পুরো পৃথিবীজুড়ে বিস্তৃত Network।
+
+Coverage Area:
+
+```text id="tn12"
+Worldwide
+```
+
+উদাহরণ:
+
+```text id="tn13"
+World
+  |
+Global Network
+```
+
+সবচেয়ে বড় উদাহরণ:
+
+```text id="tn14"
+Internet
+```
+
+Internet হলো বাস্তব বিশ্বের সবচেয়ে বড় GAN।
+
+## Network Types by Coverage Area
+
+```text id="tn15"
+PAN
+ |
+LAN
+ |
+CAN
+ |
+MAN
+ |
+WAN
+ |
+GAN
+```
+
+Coverage Area ধীরে ধীরে বৃদ্ধি পায়।
+
+## Comparison of Network Types
+
+| Network | Full Form                 | Coverage Area     |
+| ------- | ------------------------- | ----------------- |
+| PAN     | Personal Area Network     | কয়েক মিটার       |
+| LAN     | Local Area Network        | Room/Building     |
+| CAN     | Campus Area Network       | Campus            |
+| MAN     | Metropolitan Area Network | City              |
+| WAN     | Wide Area Network         | Country/Continent |
+| GAN     | Global Area Network       | Worldwide         |
+
+## Example Hierarchy
+
+```text id="tn16"
+PAN
+ |
+LAN
+ |
+CAN
+ |
+MAN
+ |
+WAN
+ |
+Internet (GAN)
+```
+
+## Network Types by Connection Method
+
+Network-কে সংযোগ পদ্ধতির ভিত্তিতেও ভাগ করা যায়।
+
+```text id="tn17"
+Network
+|
+├── Wired Network
+└── Wireless Network
+```
+
+### Wired Network
+
+Cable ব্যবহার করে।
+
+উদাহরণ:
+
+```text id="tn18"
+Computer
+   |
+Ethernet Cable
+   |
+Router
+```
+
+### Wireless Network
+
+Radio Signal ব্যবহার করে।
+
+উদাহরণ:
+
+```text id="tn19"
+Laptop
+   |
+Wi-Fi
+   |
+Router
+```
+
+## Real-Life Example
+
+ধরো রাস্তার ব্যবস্থা।
+
+```text id="tn20"
+Room Path     = PAN
+Building Road = LAN
+Campus Road   = CAN
+City Road     = MAN
+Highway       = WAN
+World Routes  = GAN
+```
+
+যেভাবে ছোট রাস্তা থেকে শুরু করে বিশ্বব্যাপী রাস্তার নেটওয়ার্ক তৈরি হয়, ঠিক তেমনি PAN থেকে GAN পর্যন্ত Network-এর বিস্তৃতি বৃদ্ধি পায়।
+
+## Importance of Network Types
+
+Network Types বোঝার মাধ্যমে:
+
+* সঠিক Network Design করা যায়
+* Infrastructure পরিকল্পনা করা যায়
+* Security ও Performance উন্নত করা যায়
+* Business এবং Organization-এর প্রয়োজন অনুযায়ী Network নির্বাচন করা যায়
+
+## Summary
+
+Network-এর প্রধান ধরন হলো PAN, LAN, CAN, MAN, WAN এবং GAN। PAN সবচেয়ে ছোট এবং GAN সবচেয়ে বড় Network। LAN Home ও Office-এ ব্যবহৃত হয়, MAN শহরজুড়ে ব্যবহৃত হয় এবং WAN বিভিন্ন দেশ ও মহাদেশকে সংযুক্ত করে। Internet হলো বিশ্বের বৃহত্তম Global Area Network (GAN)।
+
+
+
+
+
+
+# > (3) Networking Elements
+
+Networking Elements হলো একটি Network গঠন, পরিচালনা এবং যোগাযোগ (Communication) সম্পন্ন করার জন্য প্রয়োজনীয় মৌলিক উপাদানসমূহ।
+
+সহজ ভাষায়:
+
+Network তৈরি করতে যে Hardware, Software, Protocol এবং Communication Components একসাথে কাজ করে, সেগুলোই Networking Elements।
+
+## What are Networking Elements?
+
+Networking Elements হলো সেই সমস্ত উপাদান, যেগুলোর সমন্বয়ে একটি Network তৈরি হয় এবং Data এক Device থেকে অন্য Device-এ পৌঁছায়।
+
+Basic Concept:
+
+```text id="ne01"
+Sender
+   |
+Network Elements
+   |
+Receiver
+```
+
+Network Elements ছাড়া কোনো Network কার্যকরভাবে কাজ করতে পারে না।
+
+## Main Networking Elements
+
+```text id="ne02"
+Networking Elements
+|
+├── End Devices
+├── Network Interface Card (NIC)
+├── Transmission Media
+├── Network Devices
+├── Protocols
+├── IP Address
+├── Ports
+└── Network Services
+```
+
+## 1. End Devices
+
+Network-এর শেষ প্রান্তে থাকা Devices, যেগুলো Data পাঠায় বা গ্রহণ করে।
+
+উদাহরণ:
+
+* Desktop Computer
+* Laptop
+* Smartphone
+* Tablet
+* Printer
+* Server
+
+```text id="ne03"
+Computer
+   |
+Network
+   |
+Printer
+```
+
+এগুলোকে Host-ও বলা হয়।
+
+## 2. Network Interface Card (NIC)
+
+NIC (Network Interface Card) হলো Hardware Component, যা Device-কে Network-এর সাথে সংযুক্ত করে।
+
+উদাহরণ:
+
+```text id="ne04"
+Computer
+   |
+NIC
+   |
+Network Cable
+```
+
+NIC-এর কাজ:
+
+* Network Connection প্রদান করা
+* Data পাঠানো ও গ্রহণ করা
+* MAC Address ধারণ করা
+
+ধরন:
+
+```text id="ne05"
+NIC
+|
+├── Wired NIC
+└── Wireless NIC
+```
+
+## 3. Transmission Media
+
+Data যে পথ দিয়ে চলাচল করে তাকে Transmission Media বলে।
+
+```text id="ne06"
+Transmission Media
+|
+├── Wired
+└── Wireless
+```
+
+### Wired Media
+
+উদাহরণ:
+
+* Ethernet Cable
+* Fiber Optic Cable
+* Coaxial Cable
+
+### Wireless Media
+
+উদাহরণ:
+
+* Wi-Fi
+* Bluetooth
+* Radio Waves
+* Infrared
+
+## 4. Network Devices
+
+Network পরিচালনা এবং Data Forward করার জন্য ব্যবহৃত Hardware।
+
+```text id="ne07"
+Network Devices
+|
+├── Hub
+├── Switch
+├── Router
+├── Modem
+└── Access Point
+```
+
+### Hub
+
+সব Device-এ Data Broadcast করে।
+
+### Switch
+
+সঠিক Device-এ Data পাঠায়।
+
+### Router
+
+এক Network থেকে অন্য Network-এ Data পাঠায়।
+
+### Modem
+
+Internet Service Provider (ISP)-এর সাথে সংযোগ স্থাপন করে।
+
+### Access Point
+
+Wireless Network প্রদান করে।
+
+## 5. Protocols
+
+Protocol হলো Communication Rules।
+
+Device-গুলো কীভাবে Data আদান-প্রদান করবে তা Protocol নির্ধারণ করে।
+
+উদাহরণ:
+
+```text id="ne08"
+Protocols
+|
+├── TCP
+├── IP
+├── HTTP
+├── HTTPS
+├── FTP
+└── SMTP
+```
+
+### TCP
+
+বিশ্বস্ত Data Transfer নিশ্চিত করে।
+
+### IP
+
+Device Addressing করে।
+
+### HTTP
+
+Web Page Transfer করে।
+
+### HTTPS
+
+Secure Web Communication প্রদান করে।
+
+## 6. IP Address
+
+Network-এ প্রতিটি Device-এর একটি Unique Address থাকে।
+
+উদাহরণ:
+
+```text id="ne09"
+192.168.1.10
+```
+
+IP Address-এর মাধ্যমে Device শনাক্ত করা হয়।
+
+Flow:
+
+```text id="ne10"
+Sender
+  |
+IP Address
+  |
+Receiver
+```
+
+## 7. Ports
+
+Port হলো Software Communication Endpoint।
+
+একটি Device-এ একাধিক Service চলতে পারে, Port সেগুলো আলাদা করে।
+
+উদাহরণ:
+
+```text id="ne11"
+80   = HTTP
+443  = HTTPS
+21   = FTP
+25   = SMTP
+```
+
+## 8. Network Services
+
+Network-এর মাধ্যমে প্রদত্ত Services।
+
+উদাহরণ:
+
+```text id="ne12"
+Network Services
+|
+├── Web Service
+├── Email Service
+├── File Sharing
+├── DNS
+└── Cloud Service
+```
+
+## Data Communication Elements
+
+Data Communication-এর জন্য চারটি মৌলিক উপাদান প্রয়োজন।
+
+```text id="ne13"
+Communication Elements
+|
+├── Sender
+├── Message
+├── Medium
+└── Receiver
+```
+
+### Sender
+
+Data পাঠায়।
+
+### Message
+
+Data বা Information।
+
+### Medium
+
+Data চলাচলের পথ।
+
+### Receiver
+
+Data গ্রহণ করে।
+
+## Networking Workflow
+
+```text id="ne14"
+Computer A
+     |
+NIC
+     |
+Switch
+     |
+Router
+     |
+Internet
+     |
+Router
+     |
+Computer B
+```
+
+এভাবেই Data Network-এর মাধ্যমে ভ্রমণ করে।
+
+## OSI Layer and Networking Elements
+
+Networking Elements বিভিন্ন OSI Layer-এ কাজ করে।
+
+```text id="ne15"
+Application
+Transport
+Network
+Data Link
+Physical
+```
+
+উদাহরণ:
+
+* Protocol → Application/Transport Layer
+* IP → Network Layer
+* NIC → Data Link Layer
+* Cable → Physical Layer
+
+## Real-Life Example
+
+ধরো একটি ডাক ব্যবস্থা।
+
+```text id="ne16"
+Sender
+   |
+Letter
+   |
+Road
+   |
+Post Office
+   |
+Receiver
+```
+
+এখানে:
+
+* Sender = Computer
+* Letter = Data
+* Road = Transmission Media
+* Post Office = Router/Switch
+* Receiver = Destination Device
+
+যেভাবে ডাক ব্যবস্থা তথ্য পৌঁছে দেয়, ঠিক তেমনি Networking Elements Data পৌঁছে দেয়।
+
+## Importance of Networking Elements
+
+Networking Elements:
+
+* Communication নিশ্চিত করে
+* Internet Access প্রদান করে
+* Resource Sharing সম্ভব করে
+* Network Management সহজ করে
+* Modern Digital Infrastructure-এর ভিত্তি তৈরি করে
+
+## Summary
+
+Networking Elements হলো Network-এর মৌলিক উপাদানসমূহ, যেমন End Devices, NIC, Transmission Media, Network Devices, Protocols, IP Address, Ports এবং Network Services। এদের সমন্বয়ে Data এক Device থেকে অন্য Device-এ নিরাপদ ও কার্যকরভাবে পৌঁছায় এবং সম্পূর্ণ Network পরিচালিত হয়।
+
+
+
+
+
+
+# > (4) Internet vs Intranet
+
+Internet এবং Intranet উভয়ই Network-ভিত্তিক Communication System, কিন্তু তাদের Scope, Access Control এবং ব্যবহারের উদ্দেশ্য ভিন্ন।
+
+সহজ ভাষায়:
+
+* Internet = সবার জন্য উন্মুক্ত বিশ্বব্যাপী Network
+* Intranet = একটি প্রতিষ্ঠানের নিজস্ব ব্যক্তিগত Network
+
+## What is the Internet?
+
+Internet হলো বিশ্বের অসংখ্য Network-এর সমন্বয়ে গঠিত একটি Global Network।
+
+এটি পৃথিবীর বিভিন্ন Computer, Server এবং Network-কে সংযুক্ত করে।
+
+Basic Concept:
+
+```text id="ii01"
+Network
+   |
+Network
+   |
+Network
+   |
+Internet
+```
+
+Internet ব্যবহার করে:
+
+* Website Browsing
+* Email
+* Social Media
+* Online Learning
+* Cloud Services
+
+করা যায়।
+
+## Characteristics of the Internet
+
+```text id="ii02"
+Internet
+|
+├── Global
+├── Public
+├── Open Access
+├── Huge Scale
+└── Worldwide Communication
+```
+
+### Global Network
+
+সারা পৃথিবীজুড়ে বিস্তৃত।
+
+### Public Access
+
+যে কেউ Internet ব্যবহার করতে পারে।
+
+### Open Communication
+
+বিভিন্ন দেশ ও প্রতিষ্ঠানের মধ্যে যোগাযোগ সম্ভব।
+
+## Examples of Internet Usage
+
+উদাহরণ:
+
+* Website Browsing
+* Video Streaming
+* Online Shopping
+* Online Banking
+* Email Communication
+
+Flow:
+
+```text id="ii03"
+User
+  |
+Internet
+  |
+Website
+```
+
+## What is an Intranet?
+
+Intranet হলো একটি প্রতিষ্ঠানের অভ্যন্তরীণ (Private) Network।
+
+এটি শুধুমাত্র অনুমোদিত (Authorized) User-দের জন্য ব্যবহৃত হয়।
+
+Basic Concept:
+
+```text id="ii04"
+Employees
+     |
+Intranet
+     |
+Company Server
+```
+
+বাইরের সাধারণ মানুষ Intranet Access করতে পারে না।
+
+## Characteristics of an Intranet
+
+```text id="ii05"
+Intranet
+|
+├── Private
+├── Secure
+├── Internal Use
+├── Restricted Access
+└── Organization Controlled
+```
+
+### Private Network
+
+নির্দিষ্ট প্রতিষ্ঠানের জন্য।
+
+### Restricted Access
+
+শুধুমাত্র অনুমোদিত User ব্যবহার করতে পারে।
+
+### Controlled Environment
+
+প্রতিষ্ঠান নিজেই Network নিয়ন্ত্রণ করে।
+
+## Examples of Intranet Usage
+
+উদাহরণ:
+
+* Employee Portal
+* Internal Email System
+* Company Documents
+* HR Management System
+* Internal Communication
+
+Flow:
+
+```text id="ii06"
+Employee
+    |
+Intranet
+    |
+Company Resources
+```
+
+## Internet vs Intranet Architecture
+
+### Internet
+
+```text id="ii07"
+User
+ |
+ISP
+ |
+Internet
+ |
+Web Server
+```
+
+### Intranet
+
+```text id="ii08"
+Employee
+    |
+Company Network
+    |
+Internal Server
+```
+
+## Key Differences
+
+| Feature   | Internet                 | Intranet                   |
+| --------- | ------------------------ | -------------------------- |
+| Scope     | Global                   | Organization               |
+| Access    | Public                   | Private                    |
+| Users     | Everyone                 | Authorized Users           |
+| Ownership | No Single Owner          | Single Organization        |
+| Security  | Public Security Measures | Internal Security Controls |
+| Purpose   | Global Communication     | Internal Communication     |
+
+## Access Control
+
+### Internet
+
+```text id="ii09"
+Anyone
+   |
+Access
+```
+
+যে কেউ Website দেখতে পারে (যদি Website Public হয়)।
+
+### Intranet
+
+```text id="ii10"
+Authorized User
+      |
+      v
+Access Granted
+```
+
+অননুমোদিত User Access করতে পারে না।
+
+## Security Comparison
+
+### Internet Security
+
+Internet-এ ব্যবহৃত হয়:
+
+* HTTPS
+* Firewall
+* VPN
+* Authentication
+
+কারণ এটি Public Network।
+
+### Intranet Security
+
+Intranet-এ ব্যবহৃত হয়:
+
+* User Authentication
+* Internal Firewall
+* Access Control Lists
+* Role-Based Access
+
+কারণ এখানে Company Data থাকে।
+
+## Advantages of Internet
+
+### Global Communication
+
+বিশ্বব্যাপী যোগাযোগ সম্ভব।
+
+### Unlimited Information
+
+বিশাল তথ্যভান্ডার।
+
+### Online Services
+
+বিভিন্ন Online Service ব্যবহার করা যায়।
+
+### Collaboration
+
+বিশ্বের বিভিন্ন মানুষের সাথে কাজ করা যায়।
+
+## Advantages of Intranet
+
+### Better Security
+
+তথ্য প্রতিষ্ঠানের ভেতরে সীমাবদ্ধ থাকে।
+
+### Faster Internal Communication
+
+কর্মীদের মধ্যে দ্রুত যোগাযোগ সম্ভব।
+
+### Centralized Resources
+
+সব Resource এক জায়গায় রাখা যায়।
+
+### Improved Productivity
+
+কাজের গতি বৃদ্ধি পায়।
+
+## Disadvantages of Internet
+
+### Security Risks
+
+* Malware
+* Phishing
+* Hacking
+
+### Privacy Concerns
+
+ব্যক্তিগত তথ্য ফাঁস হতে পারে।
+
+## Disadvantages of Intranet
+
+### Limited Access
+
+বাইরের User ব্যবহার করতে পারে না।
+
+### Setup Cost
+
+Infrastructure তৈরি করতে খরচ হয়।
+
+### Maintenance Required
+
+নিয়মিত পরিচালনা করতে হয়।
+
+## Real-Life Example
+
+ধরো:
+
+```text id="ii11"
+Internet = Public Highway
+Intranet = Private Company Road
+```
+
+Public Highway:
+
+* সবাই ব্যবহার করতে পারে।
+
+Private Company Road:
+
+* শুধুমাত্র কোম্পানির কর্মীরা ব্যবহার করতে পারে।
+
+ঠিক একইভাবে:
+
+* Internet সবার জন্য।
+* Intranet শুধুমাত্র নির্দিষ্ট প্রতিষ্ঠানের জন্য।
+
+## Can Intranet Use Internet?
+
+হ্যাঁ।
+
+অনেক Intranet Internet ব্যবহার করে চললেও Access সীমাবদ্ধ থাকে।
+
+উদাহরণ:
+
+```text id="ii12"
+Employee
+    |
+Intranet
+    |
+Internet Connection
+    |
+Company Server
+```
+
+## Importance of Internet and Intranet
+
+Internet:
+
+* Global Connectivity
+* Information Access
+* Worldwide Communication
+
+Intranet:
+
+* Internal Communication
+* Secure Resource Sharing
+* Organizational Collaboration
+
+উভয়ই আধুনিক Information Technology-এর গুরুত্বপূর্ণ অংশ।
+
+## Summary
+
+Internet হলো বিশ্বের বৃহত্তম Public Network, যেখানে যে কেউ তথ্য আদান-প্রদান এবং Online Service ব্যবহার করতে পারে। Intranet হলো একটি প্রতিষ্ঠানের Private Network, যা শুধুমাত্র অনুমোদিত User-দের জন্য ব্যবহৃত হয়। Internet Global Communication-এর জন্য ব্যবহৃত হয়, আর Intranet Internal Communication এবং Resource Sharing-এর জন্য ব্যবহৃত হয়।
+
+
+
+
+
+
+# > (5) Network Devices
+
+Network Devices হলো এমন Hardware Components, যেগুলো Network-এর মধ্যে Data আদান-প্রদান, Communication, Connection Management এবং Traffic Control-এর কাজ করে।
+
+সহজ ভাষায়:
+
+Network Devices হলো Network পরিচালনার জন্য ব্যবহৃত বিশেষ যন্ত্র, যা বিভিন্ন Device-কে সংযুক্ত করে এবং Data সঠিক গন্তব্যে পৌঁছে দেয়।
+
+## What are Network Devices?
+
+Network Devices হলো Network Infrastructure-এর গুরুত্বপূর্ণ অংশ, যা Computer, Server, Printer এবং অন্যান্য Device-এর মধ্যে যোগাযোগ নিশ্চিত করে।
+
+Basic Concept:
+
+```text id="nd01"
+Computer A
+     |
+Network Device
+     |
+Computer B
+```
+
+Network Device ছাড়া অধিকাংশ Network কার্যকরভাবে কাজ করতে পারে না।
+
+## Why are Network Devices Needed?
+
+Network Devices-এর প্রধান কাজ:
+
+* Device Connection
+* Data Forwarding
+* Network Management
+* Internet Access
+* Traffic Control
+* Security
+
+## Main Types of Network Devices
+
+```text id="nd02"
+Network Devices
+|
+├── NIC
+├── Hub
+├── Switch
+├── Router
+├── Modem
+├── Access Point
+├── Repeater
+├── Bridge
+├── Gateway
+└── Firewall
+```
+
+## 1. Network Interface Card (NIC)
+
+NIC (Network Interface Card) একটি Hardware Component, যা Device-কে Network-এর সাথে সংযুক্ত করে।
+
+উদাহরণ:
+
+```text id="nd03"
+Computer
+   |
+NIC
+   |
+Network
+```
+
+কাজ:
+
+* Data Send করা
+* Data Receive করা
+* MAC Address ধারণ করা
+
+ধরন:
+
+```text id="nd04"
+NIC
+|
+├── Wired NIC
+└── Wireless NIC
+```
+
+## 2. Hub
+
+Hub একটি Basic Networking Device।
+
+কাজ:
+
+এক Device থেকে Data পেয়ে Network-এর সব Device-এ পাঠিয়ে দেয়।
+
+উদাহরণ:
+
+```text id="nd05"
+      PC1
+       |
+PC2 -- Hub -- PC3
+       |
+      PC4
+```
+
+বৈশিষ্ট্য:
+
+* Intelligent নয়
+* Broadcast Communication ব্যবহার করে
+
+অসুবিধা:
+
+* Network Traffic বেশি হয়
+
+## 3. Switch
+
+Switch আধুনিক LAN-এর সবচেয়ে গুরুত্বপূর্ণ Device।
+
+কাজ:
+
+Data শুধুমাত্র নির্দিষ্ট Destination Device-এ পাঠায়।
+
+উদাহরণ:
+
+```text id="nd06"
+PC1
+ |
+Switch
+ |
+PC2
+```
+
+Switch MAC Address ব্যবহার করে।
+
+সুবিধা:
+
+* Fast Communication
+* Reduced Traffic
+* Better Performance
+
+## 4. Router
+
+Router বিভিন্ন Network-কে সংযুক্ত করে।
+
+কাজ:
+
+এক Network থেকে অন্য Network-এ Data পাঠানো।
+
+উদাহরণ:
+
+```text id="nd07"
+Home Network
+      |
+Router
+      |
+Internet
+```
+
+Router IP Address ব্যবহার করে Routing করে।
+
+সুবিধা:
+
+* Internet Access
+* Network Separation
+* Traffic Management
+
+## 5. Modem
+
+Modem Internet Service Provider (ISP)-এর সাথে সংযোগ স্থাপন করে।
+
+Modem শব্দের অর্থ:
+
+```text id="nd08"
+Modulator + Demodulator
+```
+
+কাজ:
+
+* Digital Signal ↔ Analog Signal রূপান্তর
+
+উদাহরণ:
+
+```text id="nd09"
+ISP
+ |
+Modem
+ |
+Router
+```
+
+## 6. Access Point (AP)
+
+Access Point Wireless Network প্রদান করে।
+
+উদাহরণ:
+
+```text id="nd10"
+Wi-Fi Devices
+      |
+Access Point
+      |
+Network
+```
+
+ব্যবহার:
+
+* Wi-Fi Connectivity
+* Wireless LAN
+
+## 7. Repeater
+
+Repeater Signal শক্তিশালী করে।
+
+উদাহরণ:
+
+```text id="nd11"
+Weak Signal
+      |
+Repeater
+      |
+Strong Signal
+```
+
+ব্যবহার:
+
+* Long Distance Network
+
+## 8. Bridge
+
+Bridge দুইটি Network Segment-কে সংযুক্ত করে।
+
+উদাহরণ:
+
+```text id="nd12"
+LAN A
+  |
+Bridge
+  |
+LAN B
+```
+
+কাজ:
+
+* Traffic Filtering
+* Segment Connection
+
+## 9. Gateway
+
+Gateway বিভিন্ন ধরনের Network বা Protocol-এর মধ্যে যোগাযোগ তৈরি করে।
+
+উদাহরণ:
+
+```text id="nd13"
+Network A
+     |
+Gateway
+     |
+Network B
+```
+
+Gateway-কে অনেক সময় "Network Translator" বলা হয়।
+
+## 10. Firewall
+
+Firewall Network Security Device।
+
+কাজ:
+
+Network Traffic পরীক্ষা করা এবং নিয়ন্ত্রণ করা।
+
+উদাহরণ:
+
+```text id="nd14"
+Internet
+    |
+Firewall
+    |
+Internal Network
+```
+
+সুবিধা:
+
+* Security
+* Threat Prevention
+* Access Control
+
+## Network Device Hierarchy
+
+```text id="nd15"
+Internet
+   |
+Modem
+   |
+Router
+   |
+Switch
+   |
+Computers
+```
+
+বাস্তব Network-এ এই কাঠামো সাধারণত দেখা যায়।
+
+## OSI Layer and Network Devices
+
+```text id="nd16"
+Network Devices
+|
+├── Hub        → Physical Layer
+├── Repeater   → Physical Layer
+├── Bridge     → Data Link Layer
+├── Switch     → Data Link Layer
+├── Router     → Network Layer
+├── Gateway    → Multiple Layers
+└── Firewall   → Multiple Layers
+```
+
+## Network Communication Example
+
+```text id="nd17"
+Computer
+    |
+NIC
+    |
+Switch
+    |
+Router
+    |
+Internet
+    |
+Destination Server
+```
+
+এই Device-গুলো একসাথে কাজ করে Data পৌঁছে দেয়।
+
+## Advantages of Network Devices
+
+### Connectivity
+
+Device সংযুক্ত করে।
+
+### Resource Sharing
+
+Printer, Internet এবং Files Share করা যায়।
+
+### Traffic Management
+
+Network Traffic নিয়ন্ত্রণ করে।
+
+### Security
+
+Firewall এবং Router Security প্রদান করে।
+
+### Scalability
+
+Network বড় করা সহজ হয়।
+
+## Real-Life Example
+
+ধরো একটি ডাক ব্যবস্থা।
+
+```text id="nd18"
+Person
+   |
+Post Office
+   |
+Sorting Center
+   |
+Delivery Office
+   |
+Receiver
+```
+
+এখানে:
+
+* Switch = Sorting Center
+* Router = Delivery Route Manager
+* Gateway = Translator
+* Firewall = Security Checkpoint
+
+যেভাবে ডাক ব্যবস্থা চিঠি সঠিক স্থানে পৌঁছে দেয়, ঠিক তেমনি Network Devices Data সঠিক গন্তব্যে পৌঁছে দেয়।
+
+## Importance of Network Devices
+
+Network Devices:
+
+* Network-এর মেরুদণ্ড (Backbone)
+* Internet Communication নিশ্চিত করে
+* Security প্রদান করে
+* Data Transfer নিয়ন্ত্রণ করে
+* Modern Networking সম্ভব করে
+
+Network Devices ছাড়া আধুনিক Network এবং Internet কার্যকরভাবে পরিচালনা করা সম্ভব নয়।
+
+## Summary
+
+Network Devices হলো Network পরিচালনা ও Data Communication-এর জন্য ব্যবহৃত Hardware Components। NIC, Hub, Switch, Router, Modem, Access Point, Repeater, Bridge, Gateway এবং Firewall হলো প্রধান Network Devices। এরা একসাথে কাজ করে Device সংযোগ, Data Routing, Internet Access, Traffic Management এবং Security নিশ্চিত করে।
+
+
+
+
+
+
+# > (6) Web Concepts
+
+Web Concepts হলো World Wide Web (WWW), Website, Web Page, URL, Domain, Server, Client এবং Web Communication-এর মৌলিক ধারণাসমূহ।
+
+সহজ ভাষায়:
+
+Web Concepts হলো Internet-এ Website কীভাবে কাজ করে, Web Page কীভাবে দেখা যায় এবং Browser ও Server কীভাবে যোগাযোগ করে তার ভিত্তিগত জ্ঞান।
+
+## What is the Web?
+
+Web বা World Wide Web (WWW) হলো Internet-এর উপর নির্মিত একটি Information System, যেখানে Website এবং Web Pages সংরক্ষিত থাকে।
+
+Basic Concept:
+
+```text id="wc01"
+User
+  |
+Browser
+  |
+Internet
+  |
+Website
+```
+
+Web-এর মাধ্যমে আমরা:
+
+* Website দেখি
+* তথ্য খুঁজি
+* Online Services ব্যবহার করি
+* Web Applications চালাই
+
+## Web vs Internet
+
+অনেকেই Web এবং Internet-কে একই মনে করে, কিন্তু তারা আলাদা।
+
+### Internet
+
+Internet হলো বিশ্বব্যাপী Network-এর সমষ্টি।
+
+### Web
+
+Web হলো Internet-এর উপর চলা একটি Service।
+
+উদাহরণ:
+
+```text id="wc02"
+Internet
+|
+├── Web
+├── Email
+├── FTP
+└── Other Services
+```
+
+অর্থাৎ, Web হলো Internet-এর একটি অংশ।
+
+## Main Web Concepts
+
+```text id="wc03"
+Web Concepts
+|
+├── Website
+├── Web Page
+├── URL
+├── Domain
+├── Client
+├── Server
+├── HTTP/HTTPS
+└── DNS
+```
+
+## 1. Website
+
+Website হলো সম্পর্কিত Web Pages-এর একটি সংগ্রহ।
+
+উদাহরণ:
+
+```text id="wc04"
+Website
+|
+├── Home Page
+├── About Page
+├── Contact Page
+└── Blog Page
+```
+
+একটি Website-এ অনেকগুলো Page থাকতে পারে।
+
+## 2. Web Page
+
+Web Page হলো Website-এর একটি একক Page।
+
+উদাহরণ:
+
+```text id="wc05"
+Home Page
+```
+
+বা
+
+```text id="wc06"
+Contact Page
+```
+
+Web Page সাধারণত HTML দিয়ে তৈরি হয়।
+
+## Website vs Web Page
+
+| Feature    | Website             | Web Page    |
+| ---------- | ------------------- | ----------- |
+| Definition | অনেক Page-এর সমষ্টি | একটি Page   |
+| Example    | Entire Site         | Home Page   |
+| Quantity   | Multiple Pages      | Single Page |
+
+## 3. URL (Uniform Resource Locator)
+
+URL হলো Web Resource-এর Address।
+
+উদাহরণ:
+
+```text id="wc07"
+https://www.example.com
+```
+
+Browser URL ব্যবহার করে Website খুঁজে বের করে।
+
+URL Structure:
+
+```text id="wc08"
+Protocol
+   |
+Domain
+   |
+Path
+```
+
+উদাহরণ:
+
+```text id="wc09"
+https://example.com/about
+```
+
+## 4. Domain Name
+
+Domain হলো Website-এর Human-Friendly Name।
+
+উদাহরণ:
+
+```text id="wc10"
+example.com
+```
+
+মানুষ Domain ব্যবহার করে Website মনে রাখে।
+
+Computer আসলে IP Address ব্যবহার করে।
+
+উদাহরণ:
+
+```text id="wc11"
+192.168.1.1
+```
+
+## 5. Client
+
+Client হলো সেই Device বা Software, যা Request পাঠায়।
+
+উদাহরণ:
+
+* Browser
+* Mobile App
+
+```text id="wc12"
+Client
+   |
+Request
+```
+
+## 6. Server
+
+Server হলো সেই Computer বা System, যা Request-এর Response দেয়।
+
+```text id="wc13"
+Server
+   |
+Response
+```
+
+Server Website-এর Files সংরক্ষণ করে।
+
+## Client-Server Model
+
+```text id="wc14"
+Client
+   |
+Request
+   |
+Server
+   |
+Response
+   |
+Client
+```
+
+Web-এর মূল ভিত্তি হলো Client-Server Architecture।
+
+## 7. HTTP
+
+HTTP = HyperText Transfer Protocol
+
+এটি Browser এবং Server-এর মধ্যে Communication Rule।
+
+উদাহরণ:
+
+```text id="wc15"
+Browser
+   |
+HTTP
+   |
+Server
+```
+
+HTTP Web Data Transfer করে।
+
+## 8. HTTPS
+
+HTTPS = HTTP Secure
+
+এটি HTTP-এর Secure Version।
+
+উদাহরণ:
+
+```text id="wc16"
+Browser
+   |
+Encrypted HTTPS
+   |
+Server
+```
+
+সুবিধা:
+
+* Security
+* Privacy
+* Data Protection
+
+## 9. DNS (Domain Name System)
+
+DNS Domain Name-কে IP Address-এ রূপান্তর করে।
+
+উদাহরণ:
+
+```text id="wc17"
+example.com
+     |
+DNS
+     |
+192.168.1.10
+```
+
+DNS-কে Internet-এর Phone Book বলা হয়।
+
+## How a Website Loads
+
+যখন User URL লেখে:
+
+```text id="wc18"
+https://example.com
+```
+
+তখন:
+
+```text id="wc19"
+User
+ |
+Browser
+ |
+DNS
+ |
+Server
+ |
+HTML/CSS/JS
+ |
+Browser
+ |
+Web Page
+```
+
+ধাপসমূহ:
+
+1. Browser URL গ্রহণ করে।
+2. DNS IP Address খুঁজে দেয়।
+3. Browser Server-এ Request পাঠায়।
+4. Server Response পাঠায়।
+5. Browser Page Render করে।
+
+## Static and Dynamic Websites
+
+### Static Website
+
+স্থির Content।
+
+উদাহরণ:
+
+```text id="wc20"
+HTML Only
+```
+
+সব User একই Content দেখে।
+
+### Dynamic Website
+
+Content পরিবর্তন হতে পারে।
+
+উদাহরণ:
+
+* Social Media
+* E-commerce Site
+
+```text id="wc21"
+Database
+   |
+Server
+   |
+Dynamic Content
+```
+
+## Web Technologies
+
+Web-এর প্রধান প্রযুক্তি:
+
+```text id="wc22"
+Web Technologies
+|
+├── HTML
+├── CSS
+└── JavaScript
+```
+
+### HTML
+
+Structure তৈরি করে।
+
+### CSS
+
+Design তৈরি করে।
+
+### JavaScript
+
+Interactivity যোগ করে।
+
+## Web Architecture
+
+```text id="wc23"
+User
+ |
+Browser
+ |
+Internet
+ |
+Web Server
+ |
+Database
+```
+
+এভাবেই আধুনিক Web Application কাজ করে।
+
+## Common Web Resources
+
+উদাহরণ:
+
+* HTML Files
+* CSS Files
+* JavaScript Files
+* Images
+* Videos
+* APIs
+
+```text id="wc24"
+Web Resources
+|
+├── HTML
+├── CSS
+├── JS
+├── Images
+└── Videos
+```
+
+## Real-Life Example
+
+ধরো একটি Restaurant।
+
+```text id="wc25"
+Customer
+   |
+Waiter
+   |
+Kitchen
+   |
+Food
+```
+
+এখানে:
+
+* Customer = Client
+* Waiter = HTTP Request
+* Kitchen = Server
+* Food = Web Page
+
+যেভাবে Customer খাবার অর্ডার করে এবং খাবার পায়, ঠিক তেমনি Browser Server থেকে Web Page সংগ্রহ করে।
+
+## Importance of Web Concepts
+
+Web Concepts:
+
+* Web Development শেখার ভিত্তি
+* Internet Communication বোঝার ভিত্তি
+* Website কীভাবে কাজ করে তা বুঝতে সাহায্য করে
+* Modern Web Applications বোঝার জন্য অপরিহার্য
+
+## Summary
+
+Web Concepts হলো World Wide Web-এর মৌলিক ধারণাসমূহ। Website, Web Page, URL, Domain, Client, Server, HTTP, HTTPS এবং DNS Web-এর প্রধান উপাদান। Browser Client হিসেবে Server-এ Request পাঠায় এবং Server Response হিসেবে Web Content পাঠায়। HTML, CSS এবং JavaScript ব্যবহার করে Web Pages তৈরি ও প্রদর্শন করা হয়।
+
+
+
+
+
+
+# > (7) IP Address
+
+IP Address (Internet Protocol Address) হলো Network-এ সংযুক্ত প্রতিটি Device-এর একটি অনন্য (Unique) পরিচয় সংখ্যা, যা ব্যবহার করে Device-গুলো একে অপরকে খুঁজে পায় এবং Data আদান-প্রদান করে।
+
+সহজ ভাষায়:
+
+IP Address হলো Network-এ একটি Device-এর ঠিকানা (Address), যেমন মানুষের একটি বাসার ঠিকানা থাকে।
+
+## What is an IP Address?
+
+IP Address হলো একটি Logical Address, যা Network-এর প্রতিটি Device-কে শনাক্ত (Identify) করার জন্য ব্যবহৃত হয়।
+
+উদাহরণ:
+
+```text id="ip01"
+192.168.1.10
+```
+
+অথবা
+
+```text id="ip02"
+8.8.8.8
+```
+
+Network-এ Data পাঠানোর সময় Source এবং Destination Device-এর IP Address ব্যবহার করা হয়।
+
+## Why Do We Need an IP Address?
+
+IP Address ছাড়া:
+
+* Device শনাক্ত করা সম্ভব নয়
+* Data কোথায় যাবে তা জানা যাবে না
+* Network Communication সম্ভব হবে না
+
+উদাহরণ:
+
+```text id="ip03"
+Computer A
+     |
+IP Address
+     |
+Computer B
+```
+
+IP Address Data-কে সঠিক গন্তব্যে পৌঁছাতে সাহায্য করে।
+
+## Real-Life Example
+
+ধরো তুমি একটি চিঠি পাঠাবে।
+
+চিঠি পাঠানোর জন্য প্রয়োজন:
+
+```text id="ip04"
+Sender Address
+Receiver Address
+```
+
+ঠিক একইভাবে Network-এ Data পাঠানোর জন্য:
+
+```text id="ip05"
+Source IP
+Destination IP
+```
+
+ব্যবহার করা হয়।
+
+## Structure of an IPv4 Address
+
+IPv4 Address 32-bit-এর হয়।
+
+উদাহরণ:
+
+```text id="ip06"
+192.168.1.10
+```
+
+এটি চারটি অংশে বিভক্ত।
+
+```text id="ip07"
+192 . 168 . 1 . 10
+```
+
+প্রতিটি অংশকে Octet বলা হয়।
+
+Range:
+
+```text id="ip08"
+0 - 255
+```
+
+প্রতি Octet-এর মান 0 থেকে 255 পর্যন্ত হতে পারে।
+
+## IPv4 Example
+
+```text id="ip09"
+10.0.0.1
+172.16.1.5
+192.168.1.100
+8.8.8.8
+```
+
+এসব IPv4 Address-এর উদাহরণ।
+
+## Structure of an IPv6 Address
+
+IPv6 Address 128-bit-এর হয়।
+
+উদাহরণ:
+
+```text id="ip10"
+2001:0db8:85a3:0000:0000:8a2e:0370:7334
+```
+
+IPv6 তৈরি করা হয়েছে IPv4 Address-এর সীমাবদ্ধতা দূর করার জন্য।
+
+## IPv4 vs IPv6
+
+| Feature   | IPv4        | IPv6         |
+| --------- | ----------- | ------------ |
+| Length    | 32-bit      | 128-bit      |
+| Format    | Decimal     | Hexadecimal  |
+| Example   | 192.168.1.1 | 2001:db8::1  |
+| Addresses | সীমিত       | অত্যন্ত বেশি |
+
+## Types of IP Addresses
+
+```text id="ip11"
+IP Address
+|
+├── Public IP
+├── Private IP
+├── Static IP
+└── Dynamic IP
+```
+
+## 1. Public IP Address
+
+Public IP Internet-এ দৃশ্যমান হয়।
+
+উদাহরণ:
+
+```text id="ip12"
+203.76.120.5
+```
+
+ISP (Internet Service Provider) Public IP প্রদান করে।
+
+ব্যবহার:
+
+* Internet Communication
+* Public Services
+
+## 2. Private IP Address
+
+Private IP Local Network-এর জন্য ব্যবহৃত হয়।
+
+উদাহরণ:
+
+```text id="ip13"
+192.168.1.10
+```
+
+Private IP Internet-এ সরাসরি দৃশ্যমান নয়।
+
+Common Private Ranges:
+
+```text id="ip14"
+10.0.0.0 – 10.255.255.255
+
+172.16.0.0 – 172.31.255.255
+
+192.168.0.0 – 192.168.255.255
+```
+
+## 3. Static IP Address
+
+স্থায়ী IP Address।
+
+```text id="ip15"
+Same IP Every Time
+```
+
+ব্যবহার:
+
+* Servers
+* Network Devices
+
+## 4. Dynamic IP Address
+
+স্বয়ংক্রিয়ভাবে পরিবর্তনশীল IP।
+
+```text id="ip16"
+Different IP Over Time
+```
+
+DHCP Server সাধারণত Dynamic IP প্রদান করে।
+
+## Public vs Private IP
+
+| Feature         | Public IP | Private IP    |
+| --------------- | --------- | ------------- |
+| Internet Access | Direct    | Indirect      |
+| Visibility      | Global    | Local Network |
+| Assigned By     | ISP       | Router        |
+| Example         | 8.8.8.8   | 192.168.1.5   |
+
+## How IP Address Works
+
+ধরো তুমি একটি Website খুলছো।
+
+```text id="ip17"
+Browser
+   |
+Domain Name
+   |
+DNS
+   |
+IP Address
+   |
+Server
+```
+
+উদাহরণ:
+
+```text id="ip18"
+google.com
+     |
+DNS
+     |
+142.x.x.x
+```
+
+Browser শেষ পর্যন্ত IP Address ব্যবহার করেই Server-এর সাথে যোগাযোগ করে।
+
+## IP Address and Data Communication
+
+```text id="ip19"
+Source Device
+      |
+Source IP
+      |
+Network
+      |
+Destination IP
+      |
+Destination Device
+```
+
+Data Packet-এর মধ্যে Source এবং Destination IP থাকে।
+
+## IP Address Classes (IPv4)
+
+ঐতিহাসিকভাবে IPv4 Address কয়েকটি Class-এ ভাগ করা হয়েছিল।
+
+```text id="ip20"
+Class A
+Class B
+Class C
+Class D
+Class E
+```
+
+বর্তমানে CIDR বেশি ব্যবহৃত হলেও Class সম্পর্কে জানা গুরুত্বপূর্ণ।
+
+### Class A
+
+```text id="ip21"
+1.0.0.0 – 126.255.255.255
+```
+
+### Class B
+
+```text id="ip22"
+128.0.0.0 – 191.255.255.255
+```
+
+### Class C
+
+```text id="ip23"
+192.0.0.0 – 223.255.255.255
+```
+
+## Special IP Addresses
+
+### Loopback Address
+
+নিজের Device-কে নির্দেশ করে।
+
+```text id="ip24"
+127.0.0.1
+```
+
+### Localhost
+
+```text id="ip25"
+localhost
+```
+
+Localhost সাধারণত 127.0.0.1-কে নির্দেশ করে।
+
+## Finding Your IP
+
+Windows-এ:
+
+```cmd id="ip26"
+ipconfig
+```
+
+Linux/macOS-এ:
+
+```bash id="ip27"
+ifconfig
+```
+
+অথবা
+
+```bash id="ip28"
+ip addr
+```
+
+## Importance of IP Address
+
+IP Address:
+
+* Device শনাক্ত করে
+* Data Routing সম্ভব করে
+* Internet Communication চালায়
+* Network Management সহজ করে
+* Client-Server Communication নিশ্চিত করে
+
+IP Address ছাড়া আধুনিক Network এবং Internet কাজ করতে পারবে না।
+
+## Summary
+
+IP Address হলো Network-এর প্রতিটি Device-এর একটি অনন্য ঠিকানা। এটি Device শনাক্ত করতে এবং Data সঠিক গন্তব্যে পৌঁছাতে ব্যবহৃত হয়। IPv4 এবং IPv6 হলো IP Address-এর প্রধান দুই সংস্করণ। Public, Private, Static এবং Dynamic IP Address বিভিন্ন প্রয়োজন অনুযায়ী ব্যবহৃত হয়। Internet এবং Network Communication-এর ভিত্তি হলো IP Address।
+
+
+
+
+
+
+# > (8) Client & Server
+
+Client এবং Server হলো আধুনিক Web এবং Network Communication-এর সবচেয়ে গুরুত্বপূর্ণ ধারণা। এই মডেলকে বলা হয় Client–Server Architecture।
+
+সহজ ভাষায়:
+
+* Client = যে Request পাঠায়
+* Server = যে Request গ্রহণ করে Response দেয়
+
+## What is a Client?
+
+Client হলো এমন একটি Device বা Software, যা Server-এর কাছে কোনো তথ্য বা সেবা চেয়ে Request পাঠায়।
+
+উদাহরণ:
+
+* Web Browser (Chrome, Firefox)
+* Mobile App
+* Computer Software
+
+Basic Concept:
+
+```text id="cs01"
+Client
+  |
+  | Request
+  v
+Server
+```
+
+Client নিজে Data রাখে না, বরং Server থেকে Data নিয়ে ব্যবহার করে।
+
+## What is a Server?
+
+Server হলো একটি শক্তিশালী Computer বা System, যা Client-এর Request গ্রহণ করে এবং Response পাঠায়।
+
+উদাহরণ:
+
+* Website Server
+* Database Server
+* Email Server
+
+```text id="cs02"
+Server
+  |
+  | Response
+  v
+Client
+```
+
+Server সাধারণত 24/7 চালু থাকে।
+
+## Client–Server Model
+
+```text id="cs03"
+Client  <---- Request ----
+Client  ---- Response ---->  Server
+```
+
+Full Flow:
+
+```text id="cs04"
+User
+ |
+Client (Browser)
+ |
+Internet
+ |
+Server
+ |
+Response (Web Page)
+```
+
+## How Client and Server Work
+
+ধরো তুমি Google-এ কিছু সার্চ করছো:
+
+```text id="cs05"
+1. User search করে
+2. Client request পাঠায়
+3. Server request গ্রহণ করে
+4. Server result তৈরি করে
+5. Server response পাঠায়
+6. Client result দেখায়
+```
+
+## Example Flow
+
+```text id="cs06"
+Browser (Client)
+      |
+      v
+google.com Server
+      |
+      v
+Search Results
+```
+
+## Types of Clients
+
+```text id="cs07"
+Client Types
+|
+├── Thin Client
+└── Thick Client
+```
+
+### Thin Client
+
+* কম Processing করে
+* Server-এর উপর বেশি নির্ভর করে
+
+উদাহরণ:
+
+* Web Browser
+
+### Thick Client
+
+* নিজের Device-এ বেশি Processing করে
+* কিছু কাজ Offline-এ করতে পারে
+
+উদাহরণ:
+
+* Games
+* Desktop Applications
+
+## Types of Servers
+
+```text id="cs08"
+Servers
+|
+├── Web Server
+├── Database Server
+├── File Server
+├── Email Server
+└── Application Server
+```
+
+### Web Server
+
+Website Host করে।
+
+### Database Server
+
+Data সংরক্ষণ ও পরিচালনা করে।
+
+### File Server
+
+Files Share করে।
+
+### Email Server
+
+Email পাঠানো ও গ্রহণ করে।
+
+## Client vs Server Comparison
+
+| Feature  | Client         | Server          |
+| -------- | -------------- | --------------- |
+| Role     | Request পাঠায় | Response দেয়   |
+| Power    | কম শক্তিশালী   | বেশি শক্তিশালী  |
+| Function | User Interface | Data Processing |
+| Example  | Browser        | Website Server  |
+
+## Real-Life Example
+
+ধরো একটি Restaurant:
+
+```text id="cs09"
+Customer = Client
+Waiter = Request Handler
+Kitchen = Server
+Food = Response
+```
+
+Flow:
+
+```text id="cs10"
+Customer
+   |
+   v
+Waiter
+   |
+   v
+Kitchen
+   |
+   v
+Food Delivery
+```
+
+## Client–Server Communication
+
+```text id="cs11"
+Client
+  |
+  | HTTP Request
+  v
+Server
+  |
+  | HTTP Response
+  v
+Client
+```
+
+Communication সাধারণত HTTP/HTTPS Protocol ব্যবহার করে হয়।
+
+## Example: Website Open
+
+```text id="cs12"
+1. User enters URL
+2. Browser (Client) sends request
+3. DNS finds IP
+4. Server receives request
+5. Server sends HTML/CSS/JS
+6. Browser displays page
+```
+
+## Role of IP in Client–Server
+
+```text id="cs13"
+Client IP  --->  Server IP
+```
+
+IP Address ব্যবহার করে Client এবং Server একে অপরকে খুঁজে পায়।
+
+## Stateless Communication
+
+HTTP সাধারণত Stateless।
+
+অর্থাৎ:
+
+```text id="cs14"
+Request 1 → Independent
+Request 2 → Independent
+```
+
+Server আগের Request মনে রাখে না (Cookies ছাড়া)।
+
+## Persistent Communication (Advanced)
+
+WebSockets ব্যবহার করলে:
+
+```text id="cs15"
+Client <==== Continuous Connection ====> Server
+```
+
+Realtime Chat, Games-এ ব্যবহৃত হয়।
+
+## Advantages of Client–Server Model
+
+### Centralized Control
+
+সব Data Server-এ থাকে।
+
+### Easy Management
+
+System পরিচালনা সহজ।
+
+### Security
+
+Data Server-এ সুরক্ষিত থাকে।
+
+### Scalability
+
+অনেক Client support করা যায়।
+
+## Disadvantages
+
+### Server Dependency
+
+Server down হলে সব বন্ধ।
+
+### Cost
+
+Server maintain করা খরচ সাপেক্ষ।
+
+### Internet Requirement
+
+অনেক ক্ষেত্রে Internet দরকার হয়।
+
+## Real Internet Example
+
+```text id="cs16"
+You (Client)
+   |
+Chrome Browser
+   |
+Internet
+   |
+YouTube Server
+   |
+Video Response
+```
+
+## Client–Server Architecture Diagram
+
+```text id="cs17"
+User
+ |
+Client Device
+ |
+Internet
+ |
+Server
+ |
+Database
+```
+
+## Importance of Client & Server
+
+Client–Server Model:
+
+* Web Applications চালায়
+* Internet Communication সম্ভব করে
+* Cloud Computing-এর ভিত্তি
+* Mobile Apps চালাতে সাহায্য করে
+* Modern Software Architecture-এর মূল ভিত্তি
+
+## Summary
+
+Client হলো সেই Device বা Software, যা Server-এর কাছে Request পাঠায়, এবং Server হলো সেই System, যা Request গ্রহণ করে Response পাঠায়। Client–Server Model আধুনিক Internet, Website, Mobile App এবং Cloud Service-এর ভিত্তি।

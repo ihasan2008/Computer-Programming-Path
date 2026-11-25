@@ -1,0 +1,2453 @@
+# > (1) Input Devices
+
+Input Device হলো এমন Hardware Device, যার মাধ্যমে ব্যবহারকারী Computer-এ Data, Information বা Instructions প্রদান করে।
+
+সহজ ভাষায়, Input Device হলো Computer-এর সাথে যোগাযোগ করার মাধ্যম। ব্যবহারকারী যা কিছু Computer-কে জানায় বা দেয়, তা Input Device-এর মাধ্যমে প্রবেশ করে।
+
+## What is an Input Device?
+
+Input Device এমন একটি Hardware Component যা ব্যবহারকারীর কাছ থেকে Data গ্রহণ করে এবং Computer-এর Processing Unit (CPU)-এ পাঠায়।
+
+Input Device Computer System-এর Input Unit-এর অংশ।
+
+Basic Flow:
+
+```text id="inp01"
+User
+  |
+  v
+Input Device
+  |
+  v
+Computer (CPU)
+```
+
+উদাহরণ:
+
+Keyboard দিয়ে "Hello" টাইপ করলে Keyboard সেই তথ্য Computer-এ পাঠায়।
+
+## Functions of Input Devices
+
+Input Device-এর প্রধান কাজগুলো হলো:
+
+* Data Input করা
+* Instructions প্রদান করা
+* User এবং Computer-এর মধ্যে যোগাযোগ স্থাপন করা
+* Data-কে Machine Readable Form-এ রূপান্তর করা
+
+## Types of Input Devices
+
+Input Device বিভিন্ন ধরনের হতে পারে।
+
+### 1. Keyboard
+
+Keyboard হলো সবচেয়ে বেশি ব্যবহৃত Input Device।
+
+এটি ব্যবহার করে Text, Number এবং Commands Input করা হয়।
+
+ব্যবহার:
+
+* Typing
+* Programming
+* Data Entry
+
+প্রধান Keys:
+
+* Alphabet Keys
+* Number Keys
+* Function Keys
+* Arrow Keys
+* Control Keys
+
+উদাহরণ:
+
+* A, B, C
+* 1, 2, 3
+* F1 - F12
+
+## 2. Mouse
+
+Mouse একটি Pointing Device।
+
+এটি Screen-এর বিভিন্ন Object নির্বাচন ও নিয়ন্ত্রণ করতে ব্যবহৃত হয়।
+
+ব্যবহার:
+
+* Click
+* Double Click
+* Drag and Drop
+* Scroll
+
+Mouse-এর অংশ:
+
+* Left Button
+* Right Button
+* Scroll Wheel
+
+## 3. Scanner
+
+Scanner কাগজে থাকা তথ্যকে Digital Data-তে রূপান্তর করে।
+
+ব্যবহার:
+
+* Document Scan
+* Photo Scan
+* Image Capture
+
+উদাহরণ:
+
+* Flatbed Scanner
+* Handheld Scanner
+
+## 4. Microphone
+
+Microphone শব্দ বা কণ্ঠস্বরকে Digital Signal-এ রূপান্তর করে।
+
+ব্যবহার:
+
+* Voice Recording
+* Online Meeting
+* Voice Commands
+
+উদাহরণ:
+
+* Podcast Recording
+* Video Conferencing
+
+## 5. Webcam
+
+Webcam ছবি এবং ভিডিও Capture করার জন্য ব্যবহৃত হয়।
+
+ব্যবহার:
+
+* Video Call
+* Online Classes
+* Live Streaming
+
+## 6. Touchscreen
+
+Touchscreen Input এবং Output উভয় Device হিসেবে কাজ করতে পারে।
+
+ব্যবহারকারী Screen স্পর্শ করে নির্দেশনা প্রদান করতে পারে।
+
+ব্যবহার:
+
+* Smartphone
+* Tablet
+* ATM Machine
+
+## 7. Touchpad
+
+Touchpad সাধারণত Laptop-এ ব্যবহৃত হয়।
+
+এটি Mouse-এর বিকল্প হিসেবে কাজ করে।
+
+ব্যবহার:
+
+* Cursor Control
+* Clicking
+* Scrolling
+
+## 8. Joystick
+
+Joystick মূলত Gaming এবং Simulation System-এ ব্যবহৃত হয়।
+
+ব্যবহার:
+
+* Flight Simulator
+* Racing Games
+* Gaming Consoles
+
+## 9. Light Pen
+
+Light Pen একটি Pen-এর মতো Input Device।
+
+Screen-এ সরাসরি Pointing এবং Drawing করার জন্য ব্যবহৃত হয়।
+
+## 10. Barcode Reader
+
+Barcode Reader Barcode পড়ে তথ্য Computer-এ পাঠায়।
+
+ব্যবহার:
+
+* Super Shop
+* Inventory Management
+* Product Tracking
+
+উদাহরণ:
+
+কোনো পণ্যের Barcode Scan করলে তার তথ্য Computer-এ চলে আসে।
+
+## 11. QR Code Scanner
+
+QR Code Scanner QR Code পড়ে তথ্য সংগ্রহ করে।
+
+ব্যবহার:
+
+* Mobile Payment
+* Website Access
+* Product Information
+
+## 12. Graphics Tablet
+
+Graphics Tablet ডিজিটাল Drawing এবং Designing-এর জন্য ব্যবহৃত হয়।
+
+ব্যবহার:
+
+* Digital Art
+* Animation
+* Graphic Design
+
+## 13. Biometric Devices
+
+Biometric Device মানুষের শারীরিক বৈশিষ্ট্য শনাক্ত করে Input প্রদান করে।
+
+প্রকারভেদ:
+
+### Fingerprint Scanner
+
+আঙুলের ছাপ শনাক্ত করে।
+
+### Iris Scanner
+
+চোখের Iris শনাক্ত করে।
+
+### Face Recognition Camera
+
+মুখ শনাক্ত করে।
+
+ব্যবহার:
+
+* Security Systems
+* Mobile Unlock
+* Attendance Systems
+
+## 14. Card Reader
+
+Card Reader বিভিন্ন ধরনের Card-এর তথ্য পড়ে।
+
+উদাহরণ:
+
+* ATM Card Reader
+* Smart Card Reader
+* Memory Card Reader
+
+## 15. Sensors
+
+Sensor পরিবেশ থেকে তথ্য সংগ্রহ করে Computer-এ পাঠায়।
+
+উদাহরণ:
+
+* Temperature Sensor
+* Motion Sensor
+* Pressure Sensor
+* Light Sensor
+
+## Classification of Input Devices
+
+### Manual Input Devices
+
+যেসব Device ব্যবহারকারী সরাসরি পরিচালনা করে।
+
+উদাহরণ:
+
+* Keyboard
+* Mouse
+* Touchscreen
+* Joystick
+
+### Direct Data Entry Devices
+
+যেসব Device স্বয়ংক্রিয়ভাবে Data সংগ্রহ করে।
+
+উদাহরণ:
+
+* Barcode Reader
+* QR Scanner
+* Biometric Scanner
+
+### Audio-Visual Input Devices
+
+শব্দ ও ছবি Input করে।
+
+উদাহরণ:
+
+* Microphone
+* Webcam
+* Camera
+
+## Common Input Devices Summary
+
+| Device              | Purpose                  |
+| ------------------- | ------------------------ |
+| Keyboard            | Text Input               |
+| Mouse               | Pointing and Selection   |
+| Scanner             | Document Input           |
+| Microphone          | Audio Input              |
+| Webcam              | Video Input              |
+| Touchscreen         | Touch Input              |
+| Joystick            | Gaming Control           |
+| Barcode Reader      | Barcode Reading          |
+| QR Scanner          | QR Code Reading          |
+| Fingerprint Scanner | Biometric Authentication |
+
+## Summary
+
+Input Devices হলো Computer Hardware-এর এমন অংশ, যা ব্যবহারকারীর কাছ থেকে Data এবং Instructions গ্রহণ করে Computer-এ পাঠায়। Keyboard, Mouse, Scanner, Microphone, Webcam, Touchscreen, Barcode Reader এবং Biometric Devices হলো সবচেয়ে পরিচিত Input Devices। Computer System-এ Input Devices User এবং Computer-এর মধ্যে যোগাযোগের প্রথম ধাপ হিসেবে কাজ করে।
+
+
+
+
+
+
+# > (2) Output Devices
+
+Output Device হলো এমন Hardware Device, যা Computer-এর Processing-এর ফলাফল (Output) ব্যবহারকারীর কাছে উপস্থাপন করে।
+
+সহজ ভাষায়, Computer যে তথ্য বা ফলাফল তৈরি করে, তা ব্যবহারকারীকে দেখানো, শোনানো বা প্রিন্ট করার কাজ করে Output Device।
+
+## What is an Output Device?
+
+Output Device হলো Computer System-এর এমন একটি অংশ, যা Computer-এর প্রক্রিয়াকৃত তথ্য (Processed Data) গ্রহণ করে সেটিকে মানুষের বোধগম্য (Human Readable) রূপে উপস্থাপন করে।
+
+Basic Flow:
+
+```text id="out01"
+User
+  |
+  v
+Input Device
+  |
+  v
+CPU
+  |
+  v
+Output Device
+  |
+  v
+Result
+```
+
+উদাহরণ:
+
+তুমি Calculator-এ 10 + 20 লিখলে CPU হিসাব করে 30 বের করবে এবং Monitor-এ 30 দেখাবে। এখানে Monitor হলো Output Device।
+
+## Functions of Output Devices
+
+Output Device-এর প্রধান কাজগুলো হলো:
+
+* Processed Data প্রদর্শন করা
+* ফলাফল ব্যবহারকারীর কাছে পৌঁছে দেওয়া
+* Digital Information-কে Human Readable Form-এ রূপান্তর করা
+* Visual, Audio অথবা Printed Output প্রদান করা
+
+## Types of Output Devices
+
+Output Device বিভিন্ন ধরনের হতে পারে।
+
+### 1. Monitor
+
+Monitor সবচেয়ে বেশি ব্যবহৃত Output Device।
+
+এটি Computer-এর তথ্য Screen-এ প্রদর্শন করে।
+
+ব্যবহার:
+
+* Text দেখা
+* Video দেখা
+* Software ব্যবহার
+* Web Browsing
+
+Monitor-এর প্রকারভেদ:
+
+#### CRT Monitor
+
+পুরনো প্রযুক্তির Monitor।
+
+বৈশিষ্ট্য:
+
+* আকারে বড়
+* বেশি বিদ্যুৎ ব্যবহার করে
+
+#### LCD Monitor
+
+Liquid Crystal Display ভিত্তিক Monitor।
+
+বৈশিষ্ট্য:
+
+* পাতলা
+* কম বিদ্যুৎ খরচ
+
+#### LED Monitor
+
+Light Emitting Diode ভিত্তিক Monitor।
+
+বৈশিষ্ট্য:
+
+* উজ্জ্বল Display
+* কম বিদ্যুৎ খরচ
+
+#### OLED Monitor
+
+উন্নত Display Technology।
+
+বৈশিষ্ট্য:
+
+* উন্নত Color Quality
+* উচ্চ Contrast Ratio
+
+## 2. Printer
+
+Printer Digital Information-কে কাগজে Print করে।
+
+ব্যবহার:
+
+* Document Printing
+* Photo Printing
+* Report Printing
+
+### Types of Printer
+
+#### Impact Printer
+
+কাগজে আঘাত করে Print করে।
+
+উদাহরণ:
+
+* Dot Matrix Printer
+
+#### Non-Impact Printer
+
+আঘাত ছাড়া Print করে।
+
+উদাহরণ:
+
+* Inkjet Printer
+* Laser Printer
+
+## 3. Speaker
+
+Speaker Audio Output প্রদান করে।
+
+ব্যবহার:
+
+* Music শোনা
+* Video Sound
+* Online Meeting
+* Gaming
+
+উদাহরণ:
+
+* Desktop Speaker
+* Bluetooth Speaker
+
+## 4. Headphones
+
+Headphones ব্যক্তিগতভাবে Audio শোনার জন্য ব্যবহৃত হয়।
+
+ব্যবহার:
+
+* Music
+* Gaming
+* Online Classes
+* Video Calls
+
+## 5. Projector
+
+Projector Computer-এর Display বড় পর্দায় প্রদর্শন করে।
+
+ব্যবহার:
+
+* Presentation
+* Classroom Teaching
+* Seminar
+* Conference
+
+## 6. Plotter
+
+Plotter বড় আকারের Graphics এবং Technical Drawing Print করার জন্য ব্যবহৃত হয়।
+
+ব্যবহার:
+
+* Engineering Design
+* Architectural Drawing
+* Maps
+
+## 7. 3D Printer
+
+3D Printer Digital Model থেকে বাস্তব ত্রিমাত্রিক (3D) বস্তু তৈরি করতে পারে।
+
+ব্যবহার:
+
+* Prototype Development
+* Medical Models
+* Manufacturing
+
+## 8. Smart Display
+
+Smart Display Screen-এর মাধ্যমে তথ্য প্রদর্শন করে।
+
+উদাহরণ:
+
+* Smart TV
+* Digital Signboard
+* Information Kiosk
+
+## Classification of Output Devices
+
+### Soft Copy Output Devices
+
+যেসব Output Screen বা Audio আকারে পাওয়া যায়।
+
+উদাহরণ:
+
+* Monitor
+* Speaker
+* Headphones
+* Projector
+
+বৈশিষ্ট্য:
+
+* স্থায়ী নয়
+* Digital Format-এ থাকে
+
+### Hard Copy Output Devices
+
+যেসব Output কাগজ বা বস্তু আকারে পাওয়া যায়।
+
+উদাহরণ:
+
+* Printer
+* Plotter
+* 3D Printer
+
+বৈশিষ্ট্য:
+
+* স্থায়ী
+* Physical Form-এ থাকে
+
+## Visual Output Devices
+
+যেসব Device ছবি বা লেখা প্রদর্শন করে।
+
+উদাহরণ:
+
+* Monitor
+* Projector
+* Smart Display
+
+## Audio Output Devices
+
+যেসব Device শব্দ প্রদান করে।
+
+উদাহরণ:
+
+* Speaker
+* Headphones
+
+## Printed Output Devices
+
+যেসব Device কাগজ বা বস্তুতে Output দেয়।
+
+উদাহরণ:
+
+* Printer
+* Plotter
+* 3D Printer
+
+## Common Output Devices Summary
+
+| Device     | Output Type            |
+| ---------- | ---------------------- |
+| Monitor    | Visual Output          |
+| Printer    | Printed Output         |
+| Speaker    | Audio Output           |
+| Headphones | Audio Output           |
+| Projector  | Visual Output          |
+| Plotter    | Large Graphics Output  |
+| 3D Printer | Physical Object Output |
+
+## Input vs Output Devices
+
+| Feature   | Input Device    | Output Device       |
+| --------- | --------------- | ------------------- |
+| Purpose   | Data Enter করা  | Result প্রদর্শন করা |
+| Data Flow | User → Computer | Computer → User     |
+| Example   | Keyboard, Mouse | Monitor, Printer    |
+
+## Summary
+
+Output Devices হলো Computer Hardware-এর এমন অংশ, যা Computer-এর প্রক্রিয়াকৃত ফলাফল ব্যবহারকারীর কাছে উপস্থাপন করে। Monitor, Printer, Speaker, Headphones, Projector, Plotter এবং 3D Printer হলো গুরুত্বপূর্ণ Output Devices। Computer System-এ Output Devices Processing-এর পরবর্তী ধাপে ফলাফলকে মানুষের জন্য বোধগম্য রূপে প্রদর্শন করে।
+
+
+
+
+
+
+# > (3) CPU (Central Processing Unit)
+
+CPU (Central Processing Unit) হলো কম্পিউটারের সবচেয়ে গুরুত্বপূর্ণ অংশ, যা সকল ধরনের Processing এবং Control-এর কাজ সম্পাদন করে।
+
+CPU-কে সাধারণত **"Brain of the Computer" (কম্পিউটারের মস্তিষ্ক)** বলা হয়, কারণ এটি কম্পিউটারের সমস্ত কার্যক্রম নিয়ন্ত্রণ ও পরিচালনা করে।
+
+## What is CPU?
+
+CPU হলো Computer Hardware-এর একটি প্রধান উপাদান, যা Input Device থেকে প্রাপ্ত Data এবং Instructions গ্রহণ করে, সেগুলো Process করে এবং Output তৈরি করে।
+
+সহজ ভাষায়:
+
+CPU হলো সেই অংশ, যা কম্পিউটারকে চিন্তা করতে, হিসাব করতে এবং সিদ্ধান্ত নিতে সাহায্য করে।
+
+Basic Flow:
+
+```text id="cpu01"
+Input
+  |
+  v
+ CPU
+  |
+  v
+Output
+```
+
+## Full Form of CPU
+
+CPU = Central Processing Unit
+
+* Central = কেন্দ্রীয়
+* Processing = প্রক্রিয়াকরণ
+* Unit = একক বা অংশ
+
+অর্থাৎ, CPU হলো কম্পিউটারের কেন্দ্রীয় প্রক্রিয়াকরণ ইউনিট।
+
+## Functions of CPU
+
+CPU-এর প্রধান কাজগুলো হলো:
+
+### 1. Processing Data
+
+Input Data প্রক্রিয়াকরণ করা।
+
+উদাহরণ:
+
+10 + 20 = 30
+
+### 2. Executing Instructions
+
+Program-এর নির্দেশনা কার্যকর করা।
+
+উদাহরণ:
+
+* Software চালানো
+* Game চালানো
+* Browser চালানো
+
+### 3. Controlling Hardware
+
+Computer-এর অন্যান্য Hardware Components নিয়ন্ত্রণ করা।
+
+উদাহরণ:
+
+* Keyboard
+* Mouse
+* Monitor
+* Printer
+
+### 4. Managing Data Flow
+
+Data কোথায় যাবে এবং কীভাবে ব্যবহার হবে তা নিয়ন্ত্রণ করা।
+
+## Main Components of CPU
+
+CPU সাধারণত তিনটি প্রধান অংশ নিয়ে গঠিত।
+
+### 1. Arithmetic Logic Unit (ALU)
+
+ALU (Arithmetic Logic Unit) গাণিতিক এবং যৌক্তিক কাজ সম্পাদন করে।
+
+কাজ:
+
+#### Arithmetic Operations
+
+* Addition (+)
+* Subtraction (-)
+* Multiplication (*)
+* Division (/)
+
+#### Logical Operations
+
+* Greater Than (>)
+* Less Than (<)
+* Equal To (=)
+* AND
+* OR
+* NOT
+
+উদাহরণ:
+
+```text id="cpu02"
+20 + 30 = 50
+```
+
+এই কাজ ALU সম্পন্ন করে।
+
+### 2. Control Unit (CU)
+
+Control Unit CPU-এর সকল কার্যক্রম নিয়ন্ত্রণ করে।
+
+কাজ:
+
+* নির্দেশনা সংগ্রহ করা
+* নির্দেশনা ব্যাখ্যা করা
+* Hardware সমন্বয় করা
+* Data Flow নিয়ন্ত্রণ করা
+
+সহজ উদাহরণ:
+
+একটি অফিসের ম্যানেজারের মতো Control Unit সকল অংশের কাজ সমন্বয় করে।
+
+### 3. Registers
+
+Registers হলো CPU-এর ভেতরে থাকা অত্যন্ত দ্রুতগতির ছোট Memory।
+
+কাজ:
+
+* সাময়িকভাবে Data সংরক্ষণ করা
+* Instruction সংরক্ষণ করা
+* Processing দ্রুত করা
+
+বৈশিষ্ট্য:
+
+* RAM-এর থেকেও দ্রুত
+* আকারে খুব ছোট
+
+## CPU Architecture
+
+```text id="cpu03"
++----------------------+
+|         CPU          |
+|                      |
+| +------------------+ |
+| |       ALU        | |
+| +------------------+ |
+|                      |
+| +------------------+ |
+| |  Control Unit    | |
+| +------------------+ |
+|                      |
+| +------------------+ |
+| |    Registers     | |
+| +------------------+ |
++----------------------+
+```
+
+## CPU Working Cycle
+
+CPU সাধারণত Fetch-Decode-Execute Cycle অনুসরণ করে।
+
+### 1. Fetch
+
+Memory থেকে Instruction সংগ্রহ করা।
+
+### 2. Decode
+
+Instruction-এর অর্থ বোঝা।
+
+### 3. Execute
+
+Instruction কার্যকর করা।
+
+Flow:
+
+```text id="cpu04"
+Fetch
+  |
+  v
+Decode
+  |
+  v
+Execute
+```
+
+## CPU Clock Speed
+
+Clock Speed নির্দেশ করে CPU কত দ্রুত কাজ করতে পারে।
+
+একক:
+
+* Hertz (Hz)
+* Megahertz (MHz)
+* Gigahertz (GHz)
+
+উদাহরণ:
+
+* 2.5 GHz
+* 3.2 GHz
+* 4.0 GHz
+
+সাধারণত Clock Speed যত বেশি হবে, CPU তত দ্রুত নির্দেশনা সম্পাদন করতে পারবে।
+
+## CPU Cores
+
+Core হলো CPU-এর Processing Unit।
+
+### Single-Core CPU
+
+একটি Core থাকে।
+
+### Dual-Core CPU
+
+দুটি Core থাকে।
+
+### Quad-Core CPU
+
+চারটি Core থাকে।
+
+### Hexa-Core CPU
+
+ছয়টি Core থাকে।
+
+### Octa-Core CPU
+
+আটটি Core থাকে।
+
+উদাহরণ:
+
+```text id="cpu05"
+Single Core = 1 Core
+Dual Core   = 2 Cores
+Quad Core   = 4 Cores
+Octa Core   = 8 Cores
+```
+
+বেশি Core মানে একই সময়ে বেশি কাজ করার ক্ষমতা।
+
+## CPU Cache Memory
+
+Cache Memory হলো CPU-এর নিকটবর্তী অত্যন্ত দ্রুত Memory।
+
+উদ্দেশ্য:
+
+* Processing Speed বৃদ্ধি করা
+* Frequently Used Data সংরক্ষণ করা
+
+প্রকারভেদ:
+
+### L1 Cache
+
+সবচেয়ে দ্রুত।
+
+### L2 Cache
+
+L1-এর তুলনায় বড়।
+
+### L3 Cache
+
+সবচেয়ে বড় কিন্তু তুলনামূলক ধীর।
+
+## CPU Manufacturers
+
+বর্তমানে সবচেয়ে জনপ্রিয় CPU নির্মাতা প্রতিষ্ঠান:
+
+### Desktop & Laptop
+
+* Intel
+* AMD
+
+### Mobile Devices
+
+* Qualcomm
+* Apple
+* MediaTek
+
+## Importance of CPU
+
+CPU ছাড়া Computer কাজ করতে পারে না।
+
+CPU:
+
+* Program চালায়
+* Data Process করে
+* Hardware নিয়ন্ত্রণ করে
+* Operating System পরিচালনা করে
+* Software Execute করে
+
+## Summary
+
+CPU (Central Processing Unit) হলো Computer-এর মস্তিষ্ক, যা সমস্ত Data Processing এবং Control-এর কাজ করে। CPU-এর প্রধান তিনটি অংশ হলো ALU, Control Unit (CU) এবং Registers। CPU Fetch-Decode-Execute Cycle অনুসরণ করে কাজ করে এবং Clock Speed, Core এবং Cache Memory এর কর্মক্ষমতা নির্ধারণ করে। Computer System-এর সবচেয়ে গুরুত্বপূর্ণ Hardware Component হলো CPU।
+
+
+
+
+
+
+# > (4) Memory Types
+
+Memory হলো Computer System-এর এমন একটি অংশ, যেখানে Data, Instructions এবং Processing-এর ফলাফল সংরক্ষণ করা হয়।
+
+Computer Memory CPU-কে প্রয়োজনীয় তথ্য সরবরাহ করে এবং Processing সম্পন্ন হওয়ার পর ফলাফল সংরক্ষণ করে।
+
+## What is Memory?
+
+Memory হলো Computer-এর Storage Area, যেখানে Data এবং Programs সংরক্ষিত থাকে।
+
+সহজ ভাষায়:
+
+Memory হলো Computer-এর স্মৃতিশক্তি, যেখানে তথ্য রাখা হয় এবং প্রয়োজন হলে পুনরায় ব্যবহার করা হয়।
+
+Basic Flow:
+
+```text id="mem01"
+Input
+  |
+  v
+Memory
+  |
+  v
+CPU
+  |
+  v
+Output
+```
+
+## Classification of Memory
+
+Computer Memory সাধারণত দুই ভাগে বিভক্ত:
+
+```text id="mem02"
+Computer Memory
+|
+├── Primary Memory
+|
+└── Secondary Memory
+```
+
+## 1. Primary Memory
+
+Primary Memory হলো Computer-এর Main Memory, যা CPU সরাসরি ব্যবহার করতে পারে।
+
+বৈশিষ্ট্য:
+
+* দ্রুতগতির
+* CPU সরাসরি Access করতে পারে
+* ধারণক্ষমতা তুলনামূলক কম
+* তুলনামূলক ব্যয়বহুল
+
+### Types of Primary Memory
+
+```text id="mem03"
+Primary Memory
+|
+├── RAM
+├── ROM
+└── Cache Memory
+```
+
+## 1.1 RAM (Random Access Memory)
+
+RAM হলো Volatile Memory।
+
+Volatile Memory মানে বিদ্যুৎ চলে গেলে ডাটা মুছে যায়।
+
+RAM-এ বর্তমানে ব্যবহৃত Data এবং Programs সংরক্ষিত থাকে।
+
+বৈশিষ্ট্য:
+
+* Read এবং Write করা যায়
+* দ্রুতগতির
+* Temporary Storage
+
+উদাহরণ:
+
+* Software চালানোর সময়
+* Browser ব্যবহার করার সময়
+* Game খেলার সময়
+
+### Types of RAM
+
+#### DRAM (Dynamic RAM)
+
+* বেশি ব্যবহৃত
+* তুলনামূলক সস্তা
+* নিয়মিত Refresh প্রয়োজন
+
+#### SRAM (Static RAM)
+
+* DRAM-এর চেয়ে দ্রুত
+* বেশি ব্যয়বহুল
+* Cache Memory হিসেবে ব্যবহৃত হয়
+
+## 1.2 ROM (Read Only Memory)
+
+ROM হলো Non-Volatile Memory।
+
+Non-Volatile Memory মানে বিদ্যুৎ চলে গেলেও Data মুছে যায় না।
+
+ROM-এ স্থায়ী নির্দেশনা সংরক্ষিত থাকে।
+
+বৈশিষ্ট্য:
+
+* সাধারণত শুধু Read করা যায়
+* Permanent Storage
+* System Boot-এর জন্য গুরুত্বপূর্ণ
+
+উদাহরণ:
+
+* BIOS
+* Firmware
+
+### Types of ROM
+
+#### PROM
+
+Programmable Read Only Memory
+
+একবার Program করা যায়।
+
+#### EPROM
+
+Erasable Programmable Read Only Memory
+
+UV Light ব্যবহার করে মুছে ফেলা যায়।
+
+#### EEPROM
+
+Electrically Erasable Programmable Read Only Memory
+
+বিদ্যুতের মাধ্যমে মুছে ফেলা যায়।
+
+## 1.3 Cache Memory
+
+Cache Memory CPU-এর নিকটবর্তী অত্যন্ত দ্রুত Memory।
+
+উদ্দেশ্য:
+
+* CPU-এর Processing Speed বৃদ্ধি করা
+* Frequently Used Data সংরক্ষণ করা
+
+বৈশিষ্ট্য:
+
+* সবচেয়ে দ্রুত Memory
+* ধারণক্ষমতা কম
+* দাম বেশি
+
+### Types of Cache
+
+#### L1 Cache
+
+* সবচেয়ে দ্রুত
+* CPU Core-এর ভেতরে থাকে
+
+#### L2 Cache
+
+* L1-এর তুলনায় বড়
+* কিছুটা ধীর
+
+#### L3 Cache
+
+* আরও বড়
+* একাধিক Core শেয়ার করতে পারে
+
+## 2. Secondary Memory
+
+Secondary Memory হলো দীর্ঘমেয়াদী Data Storage-এর জন্য ব্যবহৃত Memory।
+
+বৈশিষ্ট্য:
+
+* Non-Volatile
+* বিশাল ধারণক্ষমতা
+* Primary Memory-এর তুলনায় ধীর
+* সস্তা
+
+### Types of Secondary Memory
+
+```text id="mem04"
+Secondary Memory
+|
+├── Magnetic Storage
+├── Optical Storage
+└── Flash Storage
+```
+
+## 2.1 Magnetic Storage
+
+চৌম্বকীয় প্রযুক্তি ব্যবহার করে Data সংরক্ষণ করে।
+
+### Hard Disk Drive (HDD)
+
+বৈশিষ্ট্য:
+
+* বড় Storage Capacity
+* তুলনামূলক কম দাম
+* Mechanical Parts ব্যবহার করে
+
+উদাহরণ:
+
+* 500 GB HDD
+* 1 TB HDD
+* 2 TB HDD
+
+## 2.2 Optical Storage
+
+Laser ব্যবহার করে Data Read এবং Write করে।
+
+উদাহরণ:
+
+### CD
+
+Compact Disc
+
+ধারণক্ষমতা:
+
+* প্রায় 700 MB
+
+### DVD
+
+Digital Versatile Disc
+
+ধারণক্ষমতা:
+
+* 4.7 GB থেকে 8.5 GB
+
+### Blu-ray Disc
+
+ধারণক্ষমতা:
+
+* 25 GB বা তার বেশি
+
+## 2.3 Flash Storage
+
+Electronic Chips ব্যবহার করে Data সংরক্ষণ করে।
+
+### SSD (Solid State Drive)
+
+বৈশিষ্ট্য:
+
+* দ্রুতগতির
+* কোনো Moving Parts নেই
+* কম বিদ্যুৎ খরচ
+
+### USB Flash Drive
+
+বৈশিষ্ট্য:
+
+* বহনযোগ্য
+* Plug-and-Play
+
+### Memory Card
+
+উদাহরণ:
+
+* SD Card
+* microSD Card
+
+## Volatile vs Non-Volatile Memory
+
+| Feature   | Volatile Memory | Non-Volatile Memory |
+| --------- | --------------- | ------------------- |
+| Power Off | Data Lost       | Data Remains        |
+| Speed     | Faster          | Slower              |
+| Example   | RAM             | ROM, HDD, SSD       |
+
+## Memory Hierarchy
+
+Computer Memory সাধারণত নিচের Hierarchy অনুসরণ করে:
+
+```text id="mem05"
+Fastest
+|
+├── Registers
+├── Cache Memory
+├── RAM
+├── SSD
+├── HDD
+└── Optical Storage
+|
+Slowest
+```
+
+উপরের দিকে Speed বেশি কিন্তু Capacity কম।
+
+নিচের দিকে Capacity বেশি কিন্তু Speed কম।
+
+## Primary vs Secondary Memory
+
+| Feature  | Primary Memory    | Secondary Memory      |
+| -------- | ----------------- | --------------------- |
+| Access   | CPU Direct Access | CPU Direct Access নয় |
+| Speed    | Fast              | Slow                  |
+| Capacity | Less              | More                  |
+| Cost     | Expensive         | Cheaper               |
+| Examples | RAM, ROM, Cache   | HDD, SSD, DVD         |
+
+## Summary
+
+Computer Memory প্রধানত দুই ধরনের: Primary Memory এবং Secondary Memory। Primary Memory-এর মধ্যে RAM, ROM এবং Cache Memory রয়েছে, যা CPU সরাসরি ব্যবহার করে। Secondary Memory-এর মধ্যে HDD, SSD, CD, DVD এবং Flash Storage রয়েছে, যা দীর্ঘমেয়াদী Data Storage-এর জন্য ব্যবহৃত হয়। Memory Computer System-এর অন্যতম গুরুত্বপূর্ণ উপাদান, কারণ এটি Data, Programs এবং Instructions সংরক্ষণ ও পরিচালনা করে।
+
+
+
+
+
+
+# > (5) Storage Devices
+
+Storage Device হলো এমন Hardware Device, যা Data, Information, Software এবং Files সংরক্ষণ করার জন্য ব্যবহৃত হয়।
+
+Computer বন্ধ হয়ে যাওয়ার পরেও Storage Device-এ সংরক্ষিত Data সাধারণত থেকে যায়। তাই এগুলোকে Permanent Storage Device-ও বলা হয়।
+
+## What is a Storage Device?
+
+Storage Device হলো Computer Hardware-এর একটি অংশ, যা Data এবং Information দীর্ঘমেয়াদে সংরক্ষণ করে।
+
+সহজ ভাষায়:
+
+Storage Device হলো Computer-এর "গুদামঘর", যেখানে Files, Photos, Videos, Programs এবং Documents সংরক্ষণ করা হয়।
+
+## Why Storage Devices are Important?
+
+Storage Device-এর গুরুত্ব:
+
+* Data সংরক্ষণ করে
+* Operating System সংরক্ষণ করে
+* Software সংরক্ষণ করে
+* Backup রাখতে সাহায্য করে
+* দীর্ঘমেয়াদে তথ্য সংরক্ষণ করে
+
+## Storage Device Working Process
+
+```text id="sto01"
+Input Data
+    |
+    v
+Storage Device
+    |
+    v
+Stored Data
+    |
+    v
+Retrieved When Needed
+```
+
+## Types of Storage Devices
+
+Storage Device সাধারণত তিনটি প্রধান শ্রেণিতে বিভক্ত।
+
+```text id="sto02"
+Storage Devices
+|
+├── Magnetic Storage
+├── Optical Storage
+└── Solid-State Storage
+```
+
+## 1. Magnetic Storage Devices
+
+Magnetic Storage Device চৌম্বকীয় (Magnetic) প্রযুক্তি ব্যবহার করে Data সংরক্ষণ করে।
+
+### Hard Disk Drive (HDD)
+
+HDD হলো সবচেয়ে পরিচিত Magnetic Storage Device।
+
+বৈশিষ্ট্য:
+
+* Magnetic Disk ব্যবহার করে
+* বড় Storage Capacity
+* তুলনামূলক কম দাম
+* Mechanical Parts থাকে
+
+ধারণক্ষমতা:
+
+* 500 GB
+* 1 TB
+* 2 TB
+* 4 TB+
+
+ব্যবহার:
+
+* Desktop Computer
+* Laptop
+* Server
+
+### Magnetic Tape
+
+Magnetic Tape মূলত Backup এবং Archive-এর জন্য ব্যবহৃত হয়।
+
+বৈশিষ্ট্য:
+
+* খুব বড় Data সংরক্ষণ করতে পারে
+* কম খরচে Backup নেওয়া যায়
+
+ব্যবহার:
+
+* Data Centers
+* Enterprise Backup Systems
+
+## 2. Optical Storage Devices
+
+Optical Storage Device Laser Technology ব্যবহার করে Data Read এবং Write করে।
+
+### CD (Compact Disc)
+
+বৈশিষ্ট্য:
+
+* Optical Disc
+* Laser দ্বারা Read করা হয়
+
+ধারণক্ষমতা:
+
+* প্রায় 700 MB
+
+ব্যবহার:
+
+* Music
+* Software Distribution
+* Documents
+
+### DVD (Digital Versatile Disc)
+
+বৈশিষ্ট্য:
+
+* CD-এর তুলনায় বেশি Storage
+
+ধারণক্ষমতা:
+
+* 4.7 GB
+* 8.5 GB
+
+ব্যবহার:
+
+* Movies
+* Software Installation
+* Data Storage
+
+### Blu-ray Disc
+
+বৈশিষ্ট্য:
+
+* High Definition Data Storage
+
+ধারণক্ষমতা:
+
+* 25 GB
+* 50 GB
+* 100 GB+
+
+ব্যবহার:
+
+* HD Movies
+* Large Data Storage
+
+## 3. Solid-State Storage Devices
+
+Solid-State Storage Device Electronic Chips ব্যবহার করে Data সংরক্ষণ করে।
+
+এগুলোর কোনো Moving Parts থাকে না।
+
+### Solid State Drive (SSD)
+
+SSD বর্তমানে সবচেয়ে জনপ্রিয় Storage Device-গুলোর একটি।
+
+বৈশিষ্ট্য:
+
+* অত্যন্ত দ্রুত
+* Silent Operation
+* কম বিদ্যুৎ খরচ
+* Shock Resistant
+
+ধারণক্ষমতা:
+
+* 128 GB
+* 256 GB
+* 512 GB
+* 1 TB
+* 2 TB+
+
+ব্যবহার:
+
+* Laptop
+* Desktop
+* Gaming PC
+
+### USB Flash Drive
+
+USB Flash Drive বহনযোগ্য Storage Device।
+
+বৈশিষ্ট্য:
+
+* Plug and Play
+* ছোট আকার
+* Portable
+
+ধারণক্ষমতা:
+
+* 8 GB
+* 16 GB
+* 32 GB
+* 64 GB
+* 128 GB+
+
+ব্যবহার:
+
+* File Transfer
+* Backup
+* Portable Storage
+
+### Memory Card
+
+Memory Card ছোট আকারের Flash Storage Device।
+
+প্রকারভেদ:
+
+* SD Card
+* microSD Card
+* miniSD Card
+
+ব্যবহার:
+
+* Smartphone
+* Camera
+* Tablet
+
+## Internal vs External Storage
+
+### Internal Storage
+
+Computer-এর ভেতরে স্থাপন করা Storage।
+
+উদাহরণ:
+
+* HDD
+* SSD
+
+### External Storage
+
+Computer-এর বাইরে সংযুক্ত Storage।
+
+উদাহরণ:
+
+* External HDD
+* External SSD
+* USB Flash Drive
+* Memory Card
+
+## Primary Storage vs Secondary Storage
+
+| Feature    | Primary Storage  | Secondary Storage |
+| ---------- | ---------------- | ----------------- |
+| Example    | RAM              | HDD, SSD          |
+| Speed      | Faster           | Slower            |
+| Capacity   | Less             | More              |
+| Volatility | Usually Volatile | Non-Volatile      |
+
+## HDD vs SSD
+
+| Feature     | HDD           | SSD            |
+| ----------- | ------------- | -------------- |
+| Technology  | Magnetic Disk | Flash Memory   |
+| Speed       | Slower        | Faster         |
+| Noise       | More          | Silent         |
+| Power Usage | Higher        | Lower          |
+| Durability  | Lower         | Higher         |
+| Cost        | Cheaper       | More Expensive |
+
+## Advantages of Storage Devices
+
+### Large Capacity
+
+বিপুল পরিমাণ Data সংরক্ষণ করা যায়।
+
+### Long-Term Storage
+
+দীর্ঘ সময় Data সংরক্ষণ করা যায়।
+
+### Data Backup
+
+গুরুত্বপূর্ণ তথ্য Backup রাখা যায়।
+
+### Easy Data Sharing
+
+ফাইল সহজে স্থানান্তর করা যায়।
+
+## Common Storage Devices
+
+| Device          | Type                |
+| --------------- | ------------------- |
+| HDD             | Magnetic Storage    |
+| Magnetic Tape   | Magnetic Storage    |
+| CD              | Optical Storage     |
+| DVD             | Optical Storage     |
+| Blu-ray Disc    | Optical Storage     |
+| SSD             | Solid-State Storage |
+| USB Flash Drive | Solid-State Storage |
+| Memory Card     | Solid-State Storage |
+
+## Storage Hierarchy
+
+```text id="sto03"
+Registers
+   ↓
+Cache
+   ↓
+RAM
+   ↓
+SSD
+   ↓
+HDD
+   ↓
+Optical Disc
+```
+
+উপরে Speed বেশি কিন্তু Capacity কম।
+
+নিচে Capacity বেশি কিন্তু Speed কম।
+
+## Summary
+
+Storage Device হলো Computer Hardware-এর এমন অংশ, যা Data, Software এবং Information দীর্ঘমেয়াদে সংরক্ষণ করে। Storage Device-এর প্রধান তিনটি ধরন হলো Magnetic Storage, Optical Storage এবং Solid-State Storage। HDD, SSD, USB Flash Drive, Memory Card, CD, DVD এবং Blu-ray Disc হলো সবচেয়ে পরিচিত Storage Devices। আধুনিক Computer System-এ SSD এবং HDD সবচেয়ে বেশি ব্যবহৃত Storage Device।
+
+
+
+
+
+
+# > (6) Other Components
+
+Computer Hardware-এর প্রধান অংশগুলোর মধ্যে Input Devices, Output Devices, CPU, Memory এবং Storage Devices রয়েছে। তবে একটি সম্পূর্ণ Computer System সঠিকভাবে পরিচালনার জন্য আরও কিছু গুরুত্বপূর্ণ Hardware Components প্রয়োজন হয়।
+
+এই অতিরিক্ত Hardware Components-গুলোকেই সাধারণভাবে Other Components বলা হয়।
+
+## What are Other Components?
+
+Other Components হলো সেই Hardware Parts, যেগুলো Computer-এর বিভিন্ন অংশকে সংযুক্ত, নিয়ন্ত্রিত এবং কার্যকর রাখতে সাহায্য করে।
+
+এগুলো ছাড়া Computer System সম্পূর্ণভাবে কাজ করতে পারে না।
+
+## Main Other Components
+
+```text id="oth01"
+Other Components
+|
+├── Motherboard
+├── Power Supply Unit (PSU)
+├── Graphics Processing Unit (GPU)
+├── Cooling System
+├── Expansion Cards
+├── Network Interface Card (NIC)
+├── Ports and Connectors
+├── Computer Case
+└── CMOS Battery
+```
+
+## 1. Motherboard
+
+Motherboard হলো Computer-এর প্রধান Circuit Board।
+
+এটিকে Computer-এর Backbone বা Main Board বলা হয়।
+
+কাজ:
+
+* সকল Hardware Component সংযুক্ত করা
+* CPU, RAM এবং Storage-এর মধ্যে যোগাযোগ স্থাপন করা
+* Power Distribution করা
+
+Motherboard-এর সাথে সংযুক্ত থাকে:
+
+* CPU
+* RAM
+* SSD/HDD
+* GPU
+* Expansion Cards
+
+সহজ উদাহরণ:
+
+মানবদেহে যেমন স্নায়ুতন্ত্র (Nervous System) বিভিন্ন অঙ্গকে সংযুক্ত করে, Motherboard তেমনি Computer-এর সকল অংশকে সংযুক্ত করে।
+
+## 2. Power Supply Unit (PSU)
+
+PSU (Power Supply Unit) Computer-এর জন্য বিদ্যুৎ সরবরাহ করে।
+
+কাজ:
+
+* AC Power-কে DC Power-এ রূপান্তর করা
+* বিভিন্ন Component-এ বিদ্যুৎ সরবরাহ করা
+
+উদাহরণ:
+
+```text id="oth02"
+Wall Power (AC)
+        |
+        v
+       PSU
+        |
+        v
+Computer Components (DC)
+```
+
+## 3. Graphics Processing Unit (GPU)
+
+GPU (Graphics Processing Unit) Graphics Processing-এর জন্য বিশেষভাবে তৈরি Processor।
+
+কাজ:
+
+* Image Rendering
+* Video Processing
+* 3D Graphics
+* Gaming
+* AI Processing
+
+উদাহরণ:
+
+* NVIDIA Graphics Card
+* AMD Graphics Card
+* Integrated Graphics
+
+## 4. Cooling System
+
+Computer-এর Components কাজ করার সময় তাপ উৎপন্ন করে।
+
+Cooling System সেই তাপ কমায়।
+
+### Cooling Fan
+
+সবচেয়ে সাধারণ Cooling System।
+
+কাজ:
+
+* CPU Cooling
+* Case Cooling
+
+### Heat Sink
+
+তাপ শোষণ করে বাইরে ছড়িয়ে দেয়।
+
+### Liquid Cooling
+
+পানি বা বিশেষ তরল ব্যবহার করে Cooling করে।
+
+সাধারণত High Performance Computer-এ ব্যবহৃত হয়।
+
+## 5. Expansion Cards
+
+Expansion Card Motherboard-এর ক্ষমতা বাড়ানোর জন্য ব্যবহৃত হয়।
+
+উদাহরণ:
+
+### Sound Card
+
+Audio Processing উন্নত করে।
+
+### Graphics Card
+
+Graphics Performance বৃদ্ধি করে।
+
+### Capture Card
+
+Video Capture-এর জন্য ব্যবহৃত হয়।
+
+## 6. Network Interface Card (NIC)
+
+NIC (Network Interface Card) Computer-কে Network-এর সাথে সংযুক্ত করে।
+
+কাজ:
+
+* Internet Access
+* Local Area Network (LAN) Connection
+
+### Wired NIC
+
+Ethernet Cable ব্যবহার করে।
+
+### Wireless NIC
+
+Wi-Fi ব্যবহার করে।
+
+## 7. Ports and Connectors
+
+Ports এবং Connectors বিভিন্ন Device সংযুক্ত করার জন্য ব্যবহৃত হয়।
+
+### USB Port
+
+ব্যবহার:
+
+* Keyboard
+* Mouse
+* Flash Drive
+
+### HDMI Port
+
+ব্যবহার:
+
+* Monitor
+* TV
+* Projector
+
+### VGA Port
+
+পুরনো Display Connection-এর জন্য ব্যবহৃত হয়।
+
+### Ethernet Port
+
+Network Connection-এর জন্য ব্যবহৃত হয়।
+
+### Audio Jack
+
+Speaker এবং Headphone সংযোগের জন্য ব্যবহৃত হয়।
+
+## 8. Computer Case (System Unit)
+
+Computer Case হলো বাহ্যিক কাঠামো, যেখানে Internal Components স্থাপন করা হয়।
+
+কাজ:
+
+* Components সুরক্ষা প্রদান
+* Cooling Airflow বজায় রাখা
+* Hardware Organize করা
+
+Case-এর ভিতরে থাকে:
+
+* Motherboard
+* PSU
+* CPU
+* RAM
+* Storage Devices
+
+## 9. CMOS Battery
+
+CMOS Battery Motherboard-এ স্থাপিত একটি ছোট Battery।
+
+কাজ:
+
+* BIOS Settings সংরক্ষণ করা
+* System Date এবং Time সংরক্ষণ করা
+
+Computer বন্ধ থাকলেও CMOS Battery তথ্য ধরে রাখে।
+
+## Internal Hardware Layout
+
+```text id="oth03"
++-----------------------+
+|      Computer Case    |
+|                       |
+|  Motherboard          |
+|   |                   |
+|   +-- CPU             |
+|   +-- RAM             |
+|   +-- GPU             |
+|   +-- NIC             |
+|                       |
+|  SSD / HDD            |
+|  PSU                  |
+|  Cooling Fan          |
++-----------------------+
+```
+
+## Importance of Other Components
+
+এই Components-গুলো:
+
+* Computer চালু রাখতে সাহায্য করে
+* Hardware Components সংযুক্ত করে
+* Cooling নিশ্চিত করে
+* Graphics Processing করে
+* Network Connectivity প্রদান করে
+* Power Management পরিচালনা করে
+
+## Summary Table
+
+| Component      | Main Function                 |
+| -------------- | ----------------------------- |
+| Motherboard    | সকল Component সংযুক্ত করে     |
+| PSU            | বিদ্যুৎ সরবরাহ করে            |
+| GPU            | Graphics Processing করে       |
+| Cooling System | তাপ নিয়ন্ত্রণ করে            |
+| NIC            | Network Connection প্রদান করে |
+| Ports          | Device Connection প্রদান করে  |
+| Computer Case  | Hardware সুরক্ষা দেয়         |
+| CMOS Battery   | BIOS ও Time সংরক্ষণ করে       |
+
+## Summary
+
+Other Components হলো Computer Hardware-এর গুরুত্বপূর্ণ সহায়ক অংশ, যা Computer System-এর কার্যকারিতা নিশ্চিত করে। Motherboard সকল Hardware Component-কে সংযুক্ত করে, PSU বিদ্যুৎ সরবরাহ করে, GPU Graphics Processing করে, Cooling System তাপ নিয়ন্ত্রণ করে, NIC Network সংযোগ প্রদান করে এবং Computer Case সকল Hardware-কে সুরক্ষিত রাখে। একটি সম্পূর্ণ Computer System গঠনে এই Components-গুলোর ভূমিকা অত্যন্ত গুরুত্বপূর্ণ।
+
+
+
+
+
+
+# > (7) Ports & Connectors
+
+Ports এবং Connectors হলো Computer Hardware-এর গুরুত্বপূর্ণ অংশ, যা Computer এবং অন্যান্য Device-এর মধ্যে Data, Power এবং Signal আদান-প্রদান করতে সাহায্য করে।
+
+সহজ ভাষায়:
+
+* Port হলো Computer-এর সংযোগস্থল (Socket)
+* Connector হলো Cable বা Device-এর সংযোগকারী অংশ (Plug)
+
+## What is a Port?
+
+Port হলো Computer বা অন্য কোনো Electronic Device-এর এমন একটি Interface, যেখানে Connector সংযুক্ত করা হয়।
+
+উদাহরণ:
+
+* USB Port
+* HDMI Port
+* Ethernet Port
+
+সহজ উদাহরণ:
+
+দেয়ালের বৈদ্যুতিক সকেট (Socket) যেমন Port-এর মতো কাজ করে।
+
+## What is a Connector?
+
+Connector হলো Cable বা Device-এর সেই অংশ, যা Port-এর সাথে সংযুক্ত হয়।
+
+উদাহরণ:
+
+* USB Connector
+* HDMI Connector
+* Ethernet Connector
+
+সহজ উদাহরণ:
+
+বৈদ্যুতিক প্লাগ (Plug) হলো Connector-এর মতো।
+
+## Port vs Connector
+
+| Feature | Port                 | Connector                    |
+| ------- | -------------------- | ---------------------------- |
+| অবস্থান | Device-এর উপর থাকে   | Cable বা Device-এর শেষে থাকে |
+| কাজ     | Connection গ্রহণ করে | Port-এর সাথে সংযুক্ত হয়     |
+| উদাহরণ  | USB Port             | USB Connector                |
+
+## Why Ports and Connectors are Important?
+
+Ports এবং Connectors-এর গুরুত্ব:
+
+* Device Connection
+* Data Transfer
+* Power Supply
+* Audio/Video Transmission
+* Network Communication
+
+## Types of Ports and Connectors
+
+```text id="port01"
+Ports & Connectors
+|
+├── USB
+├── HDMI
+├── VGA
+├── DisplayPort
+├── Ethernet
+├── Audio Ports
+├── PS/2
+├── Serial Port
+├── Parallel Port
+├── Thunderbolt
+└── Power Connector
+```
+
+## 1. USB Port (Universal Serial Bus)
+
+USB সবচেয়ে বেশি ব্যবহৃত Port।
+
+ব্যবহার:
+
+* Keyboard
+* Mouse
+* Flash Drive
+* Printer
+* Smartphone
+
+### USB Types
+
+#### USB Type-A
+
+সবচেয়ে পরিচিত USB Connector।
+
+#### USB Type-B
+
+Printer এবং Scanner-এ ব্যবহৃত হয়।
+
+#### Mini USB
+
+পুরনো Portable Device-এ ব্যবহৃত হতো।
+
+#### Micro USB
+
+পুরনো Android Device-এ ব্যবহৃত হতো।
+
+#### USB Type-C
+
+আধুনিক Device-এ ব্যবহৃত হয়।
+
+বৈশিষ্ট্য:
+
+* Reversible Design
+* Fast Data Transfer
+* Power Delivery Support
+
+## 2. HDMI Port
+
+HDMI = High-Definition Multimedia Interface
+
+ব্যবহার:
+
+* Monitor
+* Television (TV)
+* Projector
+
+বৈশিষ্ট্য:
+
+* Audio এবং Video একসাথে পাঠাতে পারে
+* High Resolution Support
+
+উদাহরণ:
+
+```text id="port02"
+Computer
+   |
+ HDMI
+   |
+Monitor
+```
+
+## 3. VGA Port
+
+VGA = Video Graphics Array
+
+ব্যবহার:
+
+* পুরনো Monitor
+* Projector
+
+বৈশিষ্ট্য:
+
+* Analog Video Signal
+* Audio Support নেই
+
+## 4. DisplayPort
+
+DisplayPort আধুনিক Display Interface।
+
+বৈশিষ্ট্য:
+
+* High Resolution Support
+* High Refresh Rate Support
+
+ব্যবহার:
+
+* Gaming Monitor
+* Professional Workstation
+
+## 5. Ethernet Port
+
+Ethernet Port Network Connection-এর জন্য ব্যবহৃত হয়।
+
+Connector:
+
+RJ-45 Connector
+
+ব্যবহার:
+
+* Internet Connection
+* Local Area Network (LAN)
+
+উদাহরণ:
+
+```text id="port03"
+Router
+   |
+Ethernet Cable
+   |
+Computer
+```
+
+## 6. Audio Ports
+
+Audio Input এবং Output-এর জন্য ব্যবহৃত হয়।
+
+### Headphone Jack
+
+Audio Output প্রদান করে।
+
+### Microphone Jack
+
+Audio Input গ্রহণ করে।
+
+### Combo Jack
+
+Input এবং Output উভয় সমর্থন করে।
+
+সাধারণ আকার:
+
+* 3.5 mm Audio Jack
+
+## 7. PS/2 Port
+
+PS/2 Port পুরনো Keyboard এবং Mouse-এর জন্য ব্যবহৃত হতো।
+
+বৈশিষ্ট্য:
+
+* গোলাকার Connector
+* বর্তমানে খুব কম ব্যবহৃত
+
+রং:
+
+* বেগুনি = Keyboard
+* সবুজ = Mouse
+
+## 8. Serial Port
+
+Serial Port এক সময় Data Communication-এর জন্য ব্যাপকভাবে ব্যবহৃত হতো।
+
+Connector:
+
+* DB-9
+
+ব্যবহার:
+
+* Modem
+* Industrial Equipment
+
+## 9. Parallel Port
+
+Parallel Port একসাথে একাধিক Bit Data পাঠাতে পারে।
+
+Connector:
+
+* DB-25
+
+ব্যবহার:
+
+* পুরনো Printer
+* Scanner
+
+বর্তমানে প্রায় বিলুপ্ত।
+
+## 10. Thunderbolt Port
+
+Thunderbolt একটি উচ্চগতির Interface Technology।
+
+বৈশিষ্ট্য:
+
+* Data Transfer
+* Video Output
+* Power Delivery
+
+ব্যবহার:
+
+* High-Speed Storage
+* Docking Station
+* Professional Devices
+
+## 11. Power Connector
+
+Power Connector Computer-এ বিদ্যুৎ সরবরাহ করে।
+
+ব্যবহার:
+
+* Desktop Computer
+* Laptop
+* Monitor
+
+উদাহরণ:
+
+* AC Power Cable
+* Laptop Charger Connector
+
+## Common USB Connector Types
+
+```text id="port04"
+USB
+|
+├── Type-A
+├── Type-B
+├── Mini USB
+├── Micro USB
+└── Type-C
+```
+
+## Internal Connectors
+
+Computer-এর ভেতরেও বিভিন্ন Connector থাকে।
+
+### SATA Connector
+
+ব্যবহার:
+
+* HDD
+* SSD
+
+### Power Connector
+
+ব্যবহার:
+
+* Storage Device
+* Graphics Card
+
+### CPU Power Connector
+
+CPU-তে Power সরবরাহ করে।
+
+## Wireless Connectivity
+
+সব Connection Port-এর মাধ্যমে হয় না।
+
+কিছু Wireless Technology:
+
+### Wi-Fi
+
+Network Connection
+
+### Bluetooth
+
+Short Range Device Connection
+
+### NFC
+
+Near Field Communication
+
+## Common Ports Summary
+
+| Port        | Main Use                  |
+| ----------- | ------------------------- |
+| USB         | General Device Connection |
+| HDMI        | Audio + Video             |
+| VGA         | Video Only                |
+| DisplayPort | High-Resolution Display   |
+| Ethernet    | Network Connection        |
+| Audio Jack  | Sound Input/Output        |
+| PS/2        | Keyboard/Mouse            |
+| Thunderbolt | High-Speed Data Transfer  |
+
+## Summary
+
+Ports এবং Connectors Computer Hardware-এর গুরুত্বপূর্ণ Interface, যা বিভিন্ন Device-এর মধ্যে Data, Power এবং Signal আদান-প্রদান নিশ্চিত করে। USB, HDMI, Ethernet, Audio Port, DisplayPort এবং Thunderbolt আধুনিক Computer System-এর সবচেয়ে গুরুত্বপূর্ণ Ports। Port হলো সংযোগ গ্রহণকারী অংশ এবং Connector হলো সংযোগ প্রদানকারী অংশ।
+
+
+
+
+
+
+# > (8) Motherboard
+
+Motherboard হলো Computer-এর প্রধান Printed Circuit Board (PCB), যার উপর Computer-এর প্রায় সকল গুরুত্বপূর্ণ Hardware Components সংযুক্ত থাকে।
+
+এটিকে Computer-এর **Main Board**, **System Board** বা **Main Circuit Board**-ও বলা হয়।
+
+সহজ ভাষায়:
+
+Motherboard হলো Computer-এর মেরুদণ্ড (Backbone), যা CPU, RAM, Storage, GPU এবং অন্যান্য Components-কে একসাথে সংযুক্ত করে।
+
+## What is a Motherboard?
+
+Motherboard হলো Computer-এর কেন্দ্রীয় Circuit Board, যা সকল Hardware Components-এর মধ্যে যোগাযোগ (Communication) নিশ্চিত করে।
+
+Motherboard ছাড়া Computer-এর বিভিন্ন অংশ একে অপরের সাথে কাজ করতে পারে না।
+
+Basic Concept:
+
+```text id="mb01"
+CPU
+ |
+RAM
+ |
+Motherboard
+ |
+Storage
+ |
+GPU
+ |
+Input / Output Devices
+```
+
+## Functions of Motherboard
+
+Motherboard-এর প্রধান কাজগুলো হলো:
+
+### 1. Hardware Connection
+
+Computer-এর সকল Hardware Component সংযুক্ত করে।
+
+উদাহরণ:
+
+* CPU
+* RAM
+* SSD
+* HDD
+* GPU
+
+### 2. Communication
+
+বিভিন্ন Components-এর মধ্যে Data আদান-প্রদান নিশ্চিত করে।
+
+### 3. Power Distribution
+
+PSU থেকে পাওয়া Power বিভিন্ন Component-এ বিতরণ করে।
+
+### 4. Expansion Support
+
+নতুন Hardware যুক্ত করার সুবিধা প্রদান করে।
+
+## Main Components of a Motherboard
+
+```text id="mb02"
+Motherboard
+|
+├── CPU Socket
+├── RAM Slots
+├── Chipset
+├── Expansion Slots
+├── Storage Connectors
+├── Power Connectors
+├── BIOS/UEFI Chip
+├── CMOS Battery
+├── I/O Ports
+└── Internal Headers
+```
+
+## 1. CPU Socket
+
+CPU Socket হলো Motherboard-এর সেই অংশ, যেখানে Processor স্থাপন করা হয়।
+
+কাজ:
+
+* CPU ধারণ করা
+* CPU-এর সাথে Motherboard-এর যোগাযোগ নিশ্চিত করা
+
+উদাহরণ:
+
+* LGA1700
+* AM5
+
+## 2. RAM Slots
+
+RAM Module স্থাপনের জন্য ব্যবহৃত Slot।
+
+কাজ:
+
+* Main Memory সংযুক্ত করা
+
+উদাহরণ:
+
+* DDR4 Slot
+* DDR5 Slot
+
+সাধারণত:
+
+* 2 Slots
+* 4 Slots
+* 8 Slots
+
+থাকে।
+
+## 3. Chipset
+
+Chipset Motherboard-এর অন্যতম গুরুত্বপূর্ণ অংশ।
+
+কাজ:
+
+* CPU, RAM এবং অন্যান্য Components-এর মধ্যে যোগাযোগ নিয়ন্ত্রণ করা
+
+Chipset মূলত Motherboard-এর Traffic Controller হিসেবে কাজ করে।
+
+## 4. Expansion Slots
+
+নতুন Hardware Card সংযুক্ত করার জন্য ব্যবহৃত হয়।
+
+### PCI Express (PCIe)
+
+সবচেয়ে বেশি ব্যবহৃত Expansion Slot।
+
+ব্যবহার:
+
+* Graphics Card
+* Sound Card
+* Network Card
+* Capture Card
+
+## 5. Storage Connectors
+
+Storage Device সংযোগ করার জন্য ব্যবহৃত হয়।
+
+### SATA Port
+
+ব্যবহার:
+
+* HDD
+* SSD
+
+### M.2 Slot
+
+ব্যবহার:
+
+* NVMe SSD
+* M.2 SSD
+
+## 6. Power Connectors
+
+PSU থেকে Motherboard-এ Power সরবরাহ করে।
+
+### 24-Pin ATX Connector
+
+Motherboard-এর প্রধান Power Connector।
+
+### CPU Power Connector
+
+CPU-তে Power সরবরাহ করে।
+
+## 7. BIOS / UEFI Chip
+
+BIOS = Basic Input Output System
+
+UEFI = Unified Extensible Firmware Interface
+
+কাজ:
+
+* Computer Boot করা
+* Hardware Initialization
+* System Configuration
+
+Computer চালু হওয়ার সময় BIOS/UEFI প্রথম কাজ শুরু করে।
+
+## 8. CMOS Battery
+
+Motherboard-এর ছোট Battery।
+
+কাজ:
+
+* BIOS Settings সংরক্ষণ
+* System Date এবং Time সংরক্ষণ
+
+Computer বন্ধ থাকলেও CMOS Battery তথ্য ধরে রাখে।
+
+## 9. I/O Ports (Input/Output Ports)
+
+Motherboard-এর পিছনে বিভিন্ন Port থাকে।
+
+উদাহরণ:
+
+* USB Port
+* HDMI Port
+* Ethernet Port
+* Audio Jack
+* DisplayPort
+
+ব্যবহার:
+
+* External Device সংযুক্ত করা
+
+## 10. Internal Headers
+
+Computer Case-এর বিভিন্ন অংশ সংযুক্ত করার জন্য ব্যবহৃত হয়।
+
+উদাহরণ:
+
+* Front USB Header
+* Fan Header
+* RGB Header
+* Front Panel Header
+
+## Motherboard Form Factors
+
+Form Factor Motherboard-এর আকার ও Layout নির্দেশ করে।
+
+### ATX
+
+সবচেয়ে জনপ্রিয় Form Factor।
+
+বৈশিষ্ট্য:
+
+* বেশি Expansion Slot
+* বেশি Features
+
+### Micro-ATX
+
+ATX-এর ছোট সংস্করণ।
+
+বৈশিষ্ট্য:
+
+* কম Slot
+* কম জায়গা লাগে
+
+### Mini-ITX
+
+ছোট আকারের Motherboard।
+
+বৈশিষ্ট্য:
+
+* Compact Build
+* Small PC
+
+## Motherboard Layout
+
+```text id="mb03"
++--------------------------------+
+|           Motherboard          |
+|                                |
+|  CPU Socket                    |
+|                                |
+|  RAM Slots                     |
+|                                |
+|  PCIe Slots                    |
+|                                |
+|  M.2 Slot                      |
+|                                |
+|  SATA Ports                    |
+|                                |
+|  BIOS Chip                     |
+|  CMOS Battery                  |
++--------------------------------+
+```
+
+## Data Flow in Motherboard
+
+```text id="mb04"
+Input Device
+      |
+      v
+Motherboard
+      |
+      v
+CPU
+      |
+      v
+RAM
+      |
+      v
+Storage
+      |
+      v
+Output Device
+```
+
+Motherboard এই সমস্ত Component-এর মধ্যে Data আদান-প্রদান নিশ্চিত করে।
+
+## Importance of Motherboard
+
+Motherboard ছাড়া:
+
+* CPU কাজ করতে পারবে না
+* RAM সংযুক্ত করা যাবে না
+* Storage ব্যবহার করা যাবে না
+* Hardware Components যোগাযোগ করতে পারবে না
+
+অর্থাৎ, Motherboard ছাড়া Computer কার্যত অচল।
+
+## Summary Table
+
+| Component    | Function                     |
+| ------------ | ---------------------------- |
+| CPU Socket   | Processor সংযুক্ত করে        |
+| RAM Slot     | Memory সংযুক্ত করে           |
+| Chipset      | Communication নিয়ন্ত্রণ করে |
+| PCIe Slot    | Expansion Card সংযুক্ত করে   |
+| SATA Port    | HDD/SSD সংযুক্ত করে          |
+| BIOS/UEFI    | System Boot পরিচালনা করে     |
+| CMOS Battery | Settings সংরক্ষণ করে         |
+| I/O Ports    | External Device সংযুক্ত করে  |
+
+## Summary
+
+Motherboard হলো Computer-এর প্রধান Circuit Board, যা CPU, RAM, Storage Devices, GPU এবং অন্যান্য Hardware Components-কে সংযুক্ত ও নিয়ন্ত্রণ করে। এটি Power Distribution, Communication এবং Expansion Support প্রদান করে। CPU Socket, RAM Slots, Chipset, PCIe Slots, Storage Connectors, BIOS/UEFI এবং CMOS Battery Motherboard-এর প্রধান অংশ। একটি সম্পূর্ণ Computer System-এর ভিত্তি হলো Motherboard।
